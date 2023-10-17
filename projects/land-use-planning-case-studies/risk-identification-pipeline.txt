@@ -1,0 +1,49 @@
+input($development_zones, name: 'exposure')
+ ->
+select({ *, segment_by_grid(exposure, $grid_size_m, align-to: bookmark($flood)) as geom })
+ ->
+unnest(geom)
+ ->
+select({ merge(exposure, { geom as geometry }) as exposure })
+ ->
+select({ *, sample_one(exposure, to_coverage(bookmark($faults))).DESCR as sampled_fault })
+ ->
+select({ *, if_then_else(is_null(sampled_fault), 0, 1) as exposed_fault })
+ ->
+select({ *, sample_one(exposure, to_coverage(bookmark($evacuation_zone))).ZONETYPE as sampled_evacuation })
+ ->
+select({ *, if_then_else(is_null(sampled_evacuation), 0, 1) as exposed_evacuation_zone })
+ ->
+select({ *, is_not_null(sample_one(exposure, to_coverage(bookmark($observed_landslides)))) as sampled_observed_landslides })
+ ->
+select({ *, if_then_else(sampled_observed_landslides, 1, 0) as exposed_observed_landslides })
+ ->
+select({ *, sample(exposure, to_coverage(bookmark($liquefaction))) as sampled_liquefaction })
+ ->
+select({ *, max(map(sampled_liquefaction, h -> h.sampled.VALUE)) as sampled_liquefaction })
+ ->
+select({ *, if_then_else(sampled_liquefaction >= $liquefaction_threshold, 1, 0) as exposed_liquefaction })
+ ->
+select({ *, sample(exposure, to_coverage(bookmark($LSL))) as sampled_LSL })
+ ->
+select({ *, max(map(sampled_LSL, h -> h.sampled)) as sampled_LSL })
+ ->
+select({ *, if_then_else(sampled_LSL >= $LSL_threshold, 1, 0) as exposed_LSL })
+ ->
+select({ *, sample(exposure, to_coverage(bookmark($flood))) as sampled_flood })
+ ->
+select({ *, max(map(sampled_flood, h -> h.sampled)) as sampled_flood })
+ ->
+select({ *, if_then_else(sampled_flood >= $flood_threshold, 1, 0) as exposed_flood })
+ ->
+select({
+         *,
+         exposed_fault * $faults_weight +
+         exposed_evacuation_zone * $evacuation_zone_weight +
+         exposed_observed_landslides * $observed_landslides_weight +
+         exposed_liquefaction * $liquefaction_weight +
+         exposed_LSL * $LSL_weight +
+         exposed_flood * $flood_weight as Risk_Score
+       })
+ ->
+save('risk-exposure', format: 'geojson')

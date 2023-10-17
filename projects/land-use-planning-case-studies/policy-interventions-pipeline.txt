@@ -1,0 +1,336 @@
+# this is probabilistic data, so the input is a CSV where each row is a hazard .tif
+input($hazard_maps, name: 'event') as hazard_input
+ ->
+join_exposures_and_events.rhs
+
+hazard_input
+ ->
+filter(event.Return_Period = $flood_level_RP)
+ ->
+select({ event as flood_level })
+ ->
+join_exposures_and_flood_levels.rhs
+
+# these are the years we're interested in seeing the results for
+input(value: { $years as Year })
+ ->
+unnest(Year)
+ ->
+join_years_of_interest.rhs
+
+input($future_buildings, name: 'exposure') as input_future_buildings
+ ->
+# check in this future building falls in an area marked as no development/intensification or retreat
+select({
+         *,
+         sample_one(exposure, to_coverage(bookmark($no_intensification))) as no_intensification,
+         sample_one(exposure, to_coverage(bookmark($retreat))) as retreat,
+       })
+ ->
+select({
+         *,
+         # use percent=0 here if we don't want to develop, so no Construction_Year will be assigned
+         # and the building won't be built
+         if_then_else(is_null(no_intensification) and is_null(retreat),
+                      float($percent_future_buildings),
+                      0.0) as percent_future_buildings
+       })
+ ->
+# randomly assign a year that this building will be constructed (if at all)
+select({
+         {
+           exposure.*,
+           'new' as Building_Type,
+           assign_construction_year($random_seed, $max_year, percent_future_buildings) as Construction_Year,
+           # assume new builds won't be replaced at all
+           maxint() as Replacement_Year
+         } as exposure,
+       }) as future_buildings
+ ->
+group( { to_coverage(exposure) as future_building_coverage })
+ ->
+join_future_buildings.rhs
+
+# combine the current and future building datasets into one layer
+future_buildings -> select({*}) -> possible_building_combinations
+
+input($current_buildings, name: 'exposure') as input_buildings
+ ->
+join(on: true) as join_future_buildings
+ ->
+# work out when the current building will be replaced (if at all).
+# (As the future building footprints may have a different layout to the current buildings,
+# we use all-intersections sampling here to guarantee no overlaps)
+select({ *, sample(exposure, future_building_coverage) as replacements }) as sample_future_buildings
+ ->
+select({ *, min(map(replacements, h -> h.sampled.Construction_Year)) as replacement_year })
+ ->
+# retreat trumps new development - we need to remove any buildings that fall inside the 'retreat' polygons
+select({*, is_not_null(sample_one(exposure, to_coverage(bookmark($retreat)))) as Retreat })
+ ->
+# assign a retreat year using the same logic we assign construction years
+select({
+         *,
+         if_then_else(Retreat,
+                      assign_construction_year($random_seed, $retreat_by, 100),
+                      if_null(replacement_year, maxint())) as Replacement_Year
+       })
+ ->
+select({
+         {
+            exposure.*,
+            'existing' as Building_Type,
+            Replacement_Year,
+            Retreat
+         } as exposure
+       }) as calc_replacement_year
+ ->
+# combine the current and future building sets and work out which buildings
+# exist at any one time based on the Construction_Year/Replacement_Year
+union() as possible_building_combinations
+ ->
+# exclude any future buildings that won't be built at all
+filter(exposure.Construction_Year <= $max_year)
+ ->
+join(on: true) as join_exposures_and_flood_levels
+ ->
+select({ *, sample(exposure, flood_level.coverage) as hazards_RP })
+ ->
+select({ *, if_null(max(map(hazards_RP, h -> h.sampled)), 0.0) as flood_depth_RP })
+ ->
+select({ *, flood_depth_RP + $freeboard_mm / 1000.0 as freeboard_height })
+ ->
+# when $freeboard is not set, we want to ignore the flood_depth_RP completely.
+# By default, $freeboard is null so freeboard_height will end up as null too
+select({ *, if_null(freeboard_height, 0.0) as freeboard_height })
+ ->
+select({ *, max($min_floor_height_m, freeboard_height) as New_Floor_Height })
+ ->
+# work out whether to apply the mitigation to new or old buildings (or both)
+select({
+         *,
+         if_then_else($mitigate_buildings = exposure.Building_Type or $mitigate_buildings = 'all',
+                     # mitigated building: use the new floor height
+                     {
+                        New_Floor_Height as Floor_Height,
+                        New_Floor_Height - exposure.Floor_Height as Change_In_Floor_Height
+                     },
+                     # unmitigated building: keep floor height as is
+                     { exposure.Floor_Height, 0.0 as Change_In_Floor_Height }
+                     ) as Mitigation
+       })
+ ->
+# apply the mitigation (this will be a no-op for unmitigated buildings)
+select({ *, merge(exposure, Mitigation) as exposure }) as buildings_with_floor_height
+ ->
+# for each simulated year, find any future buildings that have been constructed by now,
+# but exclude any current buildings that have been replaced. That way we only have
+# *either* the current or future building at any one given point in time
+join(on: Year >= exposure.Construction_Year and Year < exposure.Replacement_Year) as join_years_of_interest
+ ->
+# sample all RPs
+join(on: true) as join_exposures_and_events
+ ->
+select({ *, sample(exposure, event.coverage) as hazards })
+ ->
+select({ *, if_null(max(map(hazards, h -> h.sampled)), 0.0) as flood_depth })
+ ->
+select({ *, flood_building_impact(exposure, max(0.0, flood_depth - exposure.Floor_Height)) as Impact }) as impacts
+ ->
+filter(flood_depth > 0)
+ ->
+# NB this assumes one hazard map per event (i.e. ARI + SLR combination)
+group(by: { Year, event.Return_Period, event.Exceedance_Probability },
+      select: {
+            *,
+            sum(Impact) as Total,
+            count(*) as Properties_Exposed,
+            count(flood_depth - exposure.Floor_Height > 0) as Properties_Impacted,
+            mean(flood_depth) as Average_Depth,
+      }) as event_impact
+ ->
+select({ *, round(Exceedance_Probability, 4) as Exceedance_Probability })
+ ->
+sort([Year, Return_Period])
+ ->
+save('event-impact-table', format: 'csv')
+
+#
+# AAL
+#
+event_impact
+ ->
+group(by: Year,
+      select: {
+          *,
+          ceil(
+            trapz(
+                  fit_curve(
+                      x-value: Exceedance_Probability,
+                      y-value: Total.Reinstatement_Cost,
+                  fitters: {'continuous'}
+                 ).function,
+                 a: 0.0,
+                 b: max(Exceedance_Probability),
+                 intervals: 10000
+                 )) as Reinstatement_Cost_AAL,
+
+          round(
+            trapz(
+                  fit_curve(
+                      x-value: Exceedance_Probability,
+                      y-value: Total.Life_Safety_Risk,
+                  fitters: {'continuous'}
+                 ).function,
+                 a: 0.0,
+                 b: max(Exceedance_Probability),
+                 intervals: 10000
+                 ), 7) as Life_Safety_Risk_AAL,
+
+          round(
+            trapz(
+                  fit_curve(
+                      x-value: Exceedance_Probability,
+                      y-value: Total.Displacement_Days,
+                  fitters: {'continuous'}
+                 ).function,
+                 a: 0.0,
+                 b: max(Exceedance_Probability),
+                 intervals: 10000
+                 ), 2) as Displacement_Days_AAL,
+#          max(Exposed_Value) as Exposed_Value
+      }) as calculate_AAL
+ ->
+sort(Year)
+ ->
+save('average-loss', format: 'csv')
+
+# summary of building development
+impacts
+ ->
+# buildings are unique for each SLR/Year, but events get duplicated for SLRs.
+# We're only interested in the buildings, so just use one arbitrary ARI
+filter(event.Return_Period = 1000)
+ ->
+group(by: Year,
+      select: {
+            *,
+            count(*) as Total_Buildings,
+            sum(exposure.Reinstatement_Cost) as Total_Value
+      })
+ ->
+sort(Year)
+ ->
+save('development-over-time', format: 'csv')
+
+#
+# Building-level output
+#
+impacts
+ ->
+filter(switch(Year,
+             default: false,
+             cases: [{ in: [$snapshot_year1, $snapshot_year2, $snapshot_year3, $snapshot_year4],
+                       return: true }]) or
+       # also filter by the first/last years that we'll use in the AAL-change output
+       Year = min($years) or Year = max($years))
+ ->
+# replace unexposed impacts with null so that they excluded from the
+# aggregation and don't skew the mean
+select({ *, if_then_else(Impact.Depth <= 0, null_of('floating'), round(Impact.Depth, 2)) as Depth })
+ ->
+select({
+         *,
+         if_then_else(is_null(Depth), null_of('integer'), round(Impact.Reinstatement_Cost)) as Reinstatement_Cost,
+         if_then_else(is_null(Depth), null_of('floating'), round(Impact.Life_Safety_Risk, 7)) as Life_Safety_Risk,
+         if_then_else(is_null(Depth), null_of('integer'), round(Impact.Displacement_Days)) as Displacement_Days,
+         if_then_else(is_null(Depth), null_of('integer'), event.Return_Period) as Return_Period
+       })
+ ->
+group(by: { exposure, Year },
+      select: {
+	*,
+        ceil(
+          trapz(
+            fit_curve(
+              x-value: event.Exceedance_Probability,
+              # trapz doesn't like it if there's only null data present
+              y-value: if_null(Impact.Reinstatement_Cost, 0),
+            fitters: {'continuous'}
+            ).function,
+            a: 0.0,
+            b: max(event.Exceedance_Probability),
+            intervals: 10000
+            )) as Reinstatement_Cost_AAL,
+        round(
+          trapz(
+            fit_curve(
+              x-value: event.Exceedance_Probability,
+              y-value: if_null(Impact.Life_Safety_Risk, 0.0),
+            fitters: {'continuous'}
+            ).function,
+            a: 0.0,
+            b: max(event.Exceedance_Probability),
+            intervals: 10000
+            ), 7) as Life_Safety_Risk_AAL,
+        round(
+          trapz(
+            fit_curve(
+                x-value: event.Exceedance_Probability,
+                y-value: if_null(Impact.Displacement_Days, 0),
+            fitters: {'continuous'}
+            ).function,
+            a: 0.0,
+            b: max(event.Exceedance_Probability),
+            intervals: 10000
+            ), 2) as Displacement_Days_AAL,
+        count(event.Return_Period) as Number_Events,
+        min(event.Return_Period) as First_ARI_Exposed,
+        min(Impact.Depth) as Min_Depth,
+        round(mean(Impact.Depth), 2) as Mean_Depth,
+        max(Impact.Depth) as Max_Depth,
+        min(Impact.Reinstatement_Cost) as Min_Reinstatement_Cost,
+        round(mean(Impact.Reinstatement_Cost)) as Mean_Reinstatement_Cost,
+        max(Impact.Reinstatement_Cost) as Max_Reinstatement_Cost,
+        min(Impact.Life_Safety_Risk) as Min_Life_Safety_Risk,
+        round(mean(Impact.Life_Safety_Risk), 7) as Mean_Life_Safety_Risk,
+        max(Impact.Life_Safety_Risk) as Max_Life_Safety_Risk,
+        min(Impact.Displacement_Days) as Min_Displacement_Days,
+        round(mean(Impact.Displacement_Days), 2) as Mean_Displacement_Days,
+        max(Impact.Displacement_Days) as Max_Displacement_Days
+      }) as building_snapshots
+
+building_snapshots -> filter(Year = $snapshot_year1) -> save('buildings-at-' + str($snapshot_year1), format: 'geojson')
+building_snapshots -> filter(Year = $snapshot_year2) -> save('buildings-at-' + str($snapshot_year2), format: 'geojson')
+building_snapshots -> filter(Year = $snapshot_year3) -> save('buildings-at-' + str($snapshot_year3), format: 'geojson')
+building_snapshots -> filter(Year = $snapshot_year4) -> save('buildings-at-' + str($snapshot_year4), format: 'geojson')
+
+#
+# Produce a summary of the change in AAL over time.
+# We use an aggregation layer here because the building footprints
+# may have changed over time
+building_snapshots
+ ->
+filter(Year = min($years) or Year = max($years))
+ ->
+select({ *, sample_one(exposure, to_coverage(bookmark($aggregation_layer))) as aggregated_shape }) as sample_aggregation
+ ->
+# bucket by year so we end up with a total AAL for each of the first and last years
+group(by: { aggregated_shape as aggregated },
+      select: {
+        *,
+        bucket(by: Year,
+               pick: b -> b = Year,
+               select: {
+                 sum(Reinstatement_Cost_AAL) as Reinstatement_Cost,
+                 sum(Life_Safety_Risk_AAL) as Life_Safety_Risk,
+                 sum(Displacement_Days_AAL) as Displacement_Days,
+                 sum(exposure.Reinstatement_Cost) as Total_Value_Exposed
+               },
+               buckets: { First_Year: min($years), Last_Year: max($years) }
+           ) as AAL
+      })
+ ->
+select({ *, (AAL.Last_Year - AAL.First_Year) as Change_In_AAL })
+ ->
+save('AAL-change', format: 'geojson')

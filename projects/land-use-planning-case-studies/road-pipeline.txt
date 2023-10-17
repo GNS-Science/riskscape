@@ -1,0 +1,218 @@
+# these are the years we're interested in seeing the results for
+# (we use the $cc_projection data to interpolate a SLR for each year of interest)
+input(value: { $years as Year })
+ ->
+unnest(Year)
+ ->
+join_years_of_interest.rhs
+
+# Load the climate change projections (this has the projected year that SLR takes effect)
+input($cc_projection)
+ ->
+select({ *, int(year) as Year, float($projected_SLR) as SLR })
+ ->
+# convert SLR from metres to cm so we're working in consistent units
+select({ *, round(SLR * 100) as SLR })
+ ->
+# we are only interested in one particular SLR scenario, and only the
+# projections up until the year we are modelling, e.g. 2120
+filter(scenario = $scenario and Year <= $max_year) as selected_years
+ ->
+# turn the projections into a lookup table, so we can find the SLR for any given year easily
+group(select: {
+        to_lookup_table(key: Year, value: SLR, options: { unique: true }) as SLR_table,
+        # work out the max SLR increment (i.e. hazard map) we'll need based on the projection data
+        ceil(max(SLR) / 10.0) * 10  as max_SLR_increment
+      }) as SLR_table
+ ->
+join_hazards_and_projections.rhs
+
+input($roads, name: 'exposure') as input_roads
+ ->
+# reprojecting to a metric CRS (e.g. NZTM) is going to make the sampling/measuring faster
+select({
+         {
+            exposure.*,
+            reproject(exposure.the_geom, $metric_crs) as the_geom
+         } as exposure
+       }) as reproject_roads
+ ->
+join_exposures_and_events
+
+# this is probabilistic hazard data, so the input is a CSV where each row is a flood .tif
+input($hazard_maps, name: 'event') as hazard_input
+ ->
+join(on: true) as join_hazards_and_projections
+ ->
+# only include the hazard maps for the SLRs that we'll actually use in the model
+# (we will sample *all* the .tifs, so this saves us some unnecessary work)
+filter(event.SLR <= max_SLR_increment)
+ ->
+# add in the exposure/road data
+join(on: true).rhs as join_exposures_and_events
+ ->
+# work out the hazard intensity for every SLR/ARI that the model needs to cover
+select({ *, sample(exposure, event.coverage) as sampled }) as sample_hazard
+ ->
+select({
+         *,
+         map(sampled, h -> h.sampled) as hazard,
+         map(sampled, h -> h.geometry) as exposed_geometry,
+         map(sampled, h -> measure(h.geometry)) as exposed_length
+       })
+ ->
+# Add the hazard mitigation. This just assumes the seawall follows the road exactly
+select({
+         *,
+         hazard as hazard_unmitigated,
+         if_null($aggregate_hazard, 0.0) as unmitigated_depth,
+         # we use null rather than zero here so that it doesn't affect the mean hazard intensity.
+         # E.g. if the seawall is 1m and the hazards are [90, 100, 110, 80], then the mean
+         # mitigated hazard depth is 105, rather than 95
+         map(hazard, depth -> if_then_else(depth <= $seawall_height, null_of('floating'), depth)) as hazard
+       }) as sampled
+ ->
+# aggregate the sampled hazard down to a single intensity and a total exposed road length (in km)
+select({
+         *,
+         if_null($aggregate_hazard, 0.0) as depth,
+         if_null(sum(exposed_length) / 1000, 0.0) as length   
+       })
+ ->
+select({ *, flood_road_impact({ depth, unmitigated_depth, length, $coastal_energy as coastal_energy }) as Impact })
+ ->
+# we have all the hazard data/losses that we potentially need now.
+# However, these SLR increments don't line up with the Year/SLRs that we're
+# interested in, so turn it into a lookup table we can use for interpolation
+group(by: { exposure, event.Return_Period, SLR_table },
+      select: {
+         *,
+         to_lookup_table(key: event.SLR, value: Impact, options: { unique: true }) as loss_table
+    })
+ ->
+# build a SLR=>loss curve for each ARI/return period.
+# (the lambda looks up the sampled hazard intensity from the previous steps)
+select({
+        *,
+        # this maps a given year to an interpolated SLR
+        create_continuous(
+            # the assumption here is we will have projected SLR data-points for all these hard-coded years
+            # in the cc_projection CSV file. We can then use them to interpolate to get the requested $years
+            [2005, 2020, 2030, 2040, 2050, 2060, 2070, 2080, 2090, 2100, 2110, 2120],
+            x -> lookup(SLR_table, int(x))
+        ) as SLR_curve,
+        # this maps a given SLR to an expected loss (for this particular return period)
+        create_continuous(
+            $SLRs,
+            x -> lookup(loss_table, int(x))
+        ) as loss_curve,
+       })
+ ->
+join(on: true) as join_years_of_interest
+ ->
+# the user-specified year might not exactly match the cc_projection data.
+# If that's the case we use interpolation to work out the SLR (rounded to nearest cm)
+select({ *, round(apply_continuous(SLR_curve, Year)) as SLR })
+ ->
+# use interpolation to work out the impact/loss based on the projected SLR
+select({ *, apply_continuous(loss_curve, SLR) as Impact })
+ ->
+# double-check the mitigation has been applied - the interpolation can somewhat bypass it.
+# E.g. if seawall=1.0m, Depth1=0.92m, loss1=$0, Depth2=1.02m, loss2=$10000 then
+# interpolation could produce Depth1.5=0.97m, loss=$5000, but really the loss should be
+# zero, because the depth is still below the seawall
+select({
+         *,
+         if_then_else(Impact.Depth > 0 and Impact.Unmitigated_Depth <= $seawall_height,
+                      # zero the loss if the inundation is still below the sewall height
+                      {
+                        0.0 as Fix_Time_Days, 0.0 as Fix_Cost, 0.0 as Damage_Ratio,
+                        0.0 as Disruption, 0.0 as Depth,
+                        if_null(Impact.Unmitigated_Depth, 0.0) as Unmitigated_Depth,
+                        0.0 as Exposed_Length
+                      },
+                      Impact) as Impact
+      }) as consequence_analysis
+ ->
+group(by: { Year, SLR, Return_Period },
+      select: {
+            *,
+            1 - exp(0 - (1/float(Return_Period))) as Exceedance_Probability,
+            round(sum(Impact.Exposed_Length), 4) as Exposed_Km,
+            round(max(Impact.Depth), 2) as Max_Depth,
+            round(max(Impact.Unmitigated_Depth), 2) as Max_Unmitigated_Depth,
+            round(mean(Impact.Damage_Ratio), 2) as Damage_Ratio,
+            round(sum(if_null(Impact.Fix_Cost, 0.0))) as Total_Fix_Cost,
+            round(sum(if_null(Impact.Fix_Time_Days, 0.0))) as Total_Fix_Time_Days,
+      }) as event_impact
+ ->
+select({ *, round(Exceedance_Probability, 4) as Exceedance_Probability })
+ ->
+sort([Year, SLR, Return_Period])
+ ->
+save('event-impact-table', format: 'csv')
+
+#
+# AAL
+#
+event_impact
+ ->
+group(by: { Year, SLR },
+      select: {
+          *,
+          ceil(  
+            trapz(
+                  fit_curve(
+                      x-value: Exceedance_Probability,
+                      y-value: Total_Fix_Cost,
+                  fitters: {'continuous'}
+                 ).function,
+                 a: min(Exceedance_Probability),
+                 b: max(Exceedance_Probability),
+                 intervals: 10000
+                 )) as Fix_Cost_AAL,
+
+          round(
+            trapz(
+                  fit_curve(
+                      x-value: Exceedance_Probability,
+                      y-value: Total_Fix_Time_Days,
+                  fitters: {'continuous'}
+                 ).function,
+                 a: min(Exceedance_Probability),
+                 b: max(Exceedance_Probability),
+                 intervals: 10000
+                 ), 2) as Fix_Time_Days_AAL,
+      })
+ ->
+sort(Year)
+ ->
+save('average-loss', format: 'csv')
+
+#
+# 'Heat map' of road sections impacted
+#
+sampled
+ ->
+unnest([exposed_geometry, hazard])
+ ->
+group(by: exposed_geometry,
+      select: {
+            *,
+            count(hazard > $min_depth) as Disruption_Count,
+            round(min(hazard), 2) as Min_Depth,
+            round(mean(hazard), 2) as Mean_Depth,
+            round(max(hazard), 2) as Max_Depth,
+            bucket(by: event.Return_Period,
+                   pick: b -> b = event.Return_Period,
+                   select: {
+                        min(if_then_else(hazard > $min_depth, event.SLR, null_of('integer'))) as SLR
+                   },
+                   buckets: { ARI2: 2, ARI5: 5, ARI10: 10,
+                              ARI20: 20, ARI50: 50, ARI100: 100,
+                              ARI200: 200, ARI500: 500, ARI1000: 1000
+                   }) as First_Impacted
+      })
+ ->
+save('road-section-impact', format: 'geojson')
+
