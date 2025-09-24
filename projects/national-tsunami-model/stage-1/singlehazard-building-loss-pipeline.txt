@@ -1,0 +1,15 @@
+input($portfolio, name: 'exposure') as exposure_input
+ -> select({exposure}) as exposures
+ -> join(on: true) as exposures_join_hazards
+ -> select({*, sample_one(geometry: exposure, coverage: hazard, buffer-distance: 25) as hazard})
+ -> select({*}) as sampled
+ -> select({*, hazard: map(hazard, hv -> hv.hmax)})
+ -> select({*, consequence: map(hazard, hv -> Tsunami_Building_Fragility(exposure, hv))})
+ -> select({*}) as raw_results
+ -> select({*}) as event_impact_table
+input(bookmark('tsunami_hazard', {location: $scenario_hazard_map_file}), name: 'hazard') as hazard_input
+ -> group({to_coverage(hazard) as hazard}) as hazards
+ -> exposures_join_hazards.rhs
+event_impact_table
+ -> select({*}) as "report_event-impact"
+ -> save(name: 'event-impact', format: 'csv') as "save_event-impact"

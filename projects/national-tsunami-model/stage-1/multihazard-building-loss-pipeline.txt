@@ -1,0 +1,59 @@
+input($hazard_maps_file)
+ ->
+select({ *, to_list(
+                bookmark(hazard_file, options: { format: 'csv' }, type: 'relation(struct(x: text, y: text, hmax: text))')
+            ) as csv_relation })
+ ->
+unnest(csv_relation)
+ ->
+# turn the lat,long coords into WKT
+select({hazard_file, float(csv_relation.hmax) as hmax, 'POINT(' + csv_relation.y + ' ' + csv_relation.x + ')' as WKT })
+ ->
+# turn the WKT into geometry
+select({hazard_file, hmax, geom_from_wkt(WKT, 'EPSG:4326') as geom })
+ ->
+# we have to reproject here because the Referenced type isn't returned properly in the above call
+select({ *, reproject(geom, 'EPSG:4326') as geom })
+ ->
+# turn the vector data into coverages, one for each .xyz file
+group(by: hazard_file,
+      select: {
+       event: {
+            hazard_file,
+            to_coverage(*) as coverage
+         }
+     })
+ ->
+# then join the coverages to the exposure-layer
+join(on: true).rhs as join_exposures_and_hazards
+input($portfolio, name: 'building') as exposure_input
+ -> join_exposures_and_hazards # this combines each building with each map
+ -> # each row is now a building and a hazard map, we can sample the depth (`hazard_intensity`) for each building
+select({
+    *,
+    hazard_intensity: sample_one(
+      geometry: building,
+      coverage: event.coverage,
+      # assume 35m grid between points in the XYZ input data
+      buffer-distance: 25.0
+    ).hmax
+})
+  ->
+# we can now compute a loss value for each building
+select({
+    event: event,
+    hazard_intensity: hazard_intensity,
+    exposure: building.Outline_id,
+    loss: Tsunami_Building_Fragility(building, hazard_intensity)
+})
+  ->
+# total the exposures by event - this is our event loss table
+group(
+  select: {
+    event.hazard_file,
+    sum(loss) as total_loss
+  },
+  by: event
+)
+  ->
+save('event-loss')
