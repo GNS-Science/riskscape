@@ -5,10 +5,12 @@
 The StatsNZ layers are accessed via WFS so require an API key to access the data.
 To setup your API key with RiskScape, copy paste the following:
 
-  [datafinder.stats.govt.nz]
-  framework = koordinates
-  hostname = datafinder.stats.govt.nz
-  api-key = TODO_YOUR_KEY_HERE
+```
+[datafinder.stats.govt.nz]
+framework = koordinates
+hostname = datafinder.stats.govt.nz
+api-key = TODO_YOUR_KEY_HERE
+```
 
 and add it to your secrets.ini file.
 Replace the `TODO_YOUR_KEY_HERE` with your datafinder.stats.govt.nz API key.

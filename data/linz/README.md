@@ -6,10 +6,12 @@ The Toitū Te Whenua Land Information New Zealand (LINZ) layers are
 accessed via WFS, and so require an API key to access the data.
 To setup your API key with RiskScape, copy paste the following:
 
-  [data.linz.govt.nz]
-  framework = koordinates
-  hostname = data.linz.govt.nz
-  api-key = TODO_YOUR_KEY_HERE
+```
+[data.linz.govt.nz]
+framework = koordinates
+hostname = data.linz.govt.nz
+api-key = TODO_YOUR_KEY_HERE
+```
 
 and add it to your secrets.ini file.
 Replace the `TODO_YOUR_KEY_HERE` with your https://data.linz.govt.nz API key.

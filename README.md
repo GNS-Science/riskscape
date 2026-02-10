@@ -43,7 +43,7 @@ The repository structure is broken up along the following lines:
     for electricity infrastructure-layers, such as transmission lines and sub-stations.
 - **functions**: Contains RiskScape functions that can be reused for modelling risk.
   Functions are organized by hazard-type.
-  - **[GEM](functions/gem/README.md)**: Functions for using the GEM
+  - **[GEM](functions/earthquake/gem/README.md)**: Functions for using the GEM
     [Global Vulnerability Model](https://github.com/gem/global_vulnerability_model) to measure damage to buildings.
   - **[volcano](functions/volcano/README.md)**: Risk functions for assessing volcanic impact on infrastructure.
 - **case-studies**: Fully worked model pipelines for various scenarios.
