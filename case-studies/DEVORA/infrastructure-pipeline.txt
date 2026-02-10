@@ -1,0 +1,31 @@
+# input the exposure layer
+subpipeline('input-exposures.txt', {
+    exposures: $exposures,
+    segment_m: $segment_m,
+    exposure_filter: $exposure_filter
+})
+ ->
+# add in the hazard event data
+subpipeline('hazard-scenario.txt', {
+    scenario: $scenario,
+    grid_resolution: $grid_resolution
+})
+ ->
+# spatially match the exposure against the combined volcanic hazard-layer
+# for each event in the eruption sequence
+select({ *, sample_values(exposure, hazard) as hazard })
+ ->
+# determine the impact state (and probabilities) for anywhere the asset intersects the hazard
+select({ *, map(hazard, hazard -> $function) as consequence })
+ -> 
+# for reporting, just use the maximum impact/hazard intensity seen over the entirety of the asset
+select({
+         *,
+         map_struct(consequence, impact -> max(impact)) as consequence,
+         map_struct(hazard, HIM -> max(HIM)) as hazard,
+       }) as event_impact
+ ->
+# save the model results
+subpipeline('report-results.txt', { impact_state_type: $impact_state_type }) as results
+
+

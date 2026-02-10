@@ -1,0 +1,33 @@
+in
+ ->
+# add in the hazard event data
+join(on: true) as join_exposures_and_hazards
+
+# input the eruption scenario hazard data
+input($scenario)
+ ->
+# use placeholder bookmarks to load the hazard filepaths read in from the CSV input.
+# The hazards are vector data, so we turn them into a 'coverage' that we can spatially sample
+select({
+         *, 
+         edifice: to_coverage(bookmark('Edifice', {location: edifice})),
+         pdc: to_coverage(bookmark('PDC', {location: pdc})),
+         tephra: to_coverage(bookmark('Tephra', {location: tephra})),
+         lava: to_coverage(bookmark('Lava', {location: lava})),
+         vbp: to_coverage(bookmark('VBP', {location: vbp}))
+})
+ ->
+# combine the coverages so we can sample a single 'combined' hazard layer in one go
+select({
+         {
+           time_sequence,
+           timeline,
+           description
+         } as event,
+         # note that sampling the combined coverage will prefix the sampled attributes with the
+         # coverage's name below. So the 'HIM' attribute in the 'tephra' layer will become 'tephra_HIM'
+         combine_coverages({ tephra, edifice, pdc, tephra, vbp, lava }, $grid_resolution) as hazard
+      })
+ ->
+join_exposures_and_hazards.rhs
+

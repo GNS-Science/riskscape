@@ -1,0 +1,34 @@
+# input the exposure layer
+input($exposures, name: 'exposure')
+ ->
+# filter by the area of interest before we do the cutting
+filter($exposure_filter) as filter_by_region
+ ->
+# cut the lines into smaller segments, if specified
+select({ *, if($segment_m > 0, () -> segment(exposure.geom, $segment_m), [exposure.geom]) as geom }) as cut_exposure
+ ->
+unnest(geom, index-key: 'SegmentID')
+ ->
+# generate a random-seed for each asset segment (use exposure.ID if present).
+# This ensures the asset will have the same random impact state across the eruption sequence,
+# i.e. if it was impacted in time-step 2, then it will also be impacted in time-step 3-5
+select({ *, get_attr(exposure, 'ID', default: random_uniform(0, 1)) + SegmentID * 10000000 as seed })
+ ->
+# "shuffle" the random-seed so we use an engine-generated seed instead of the raw exposure data.
+# This means that changing the `riskscape --random-seed` will change the behaviour of the model,
+# i.e. potentially assign a different impact state for each asset
+select({ *, random_uniform(0, 1, seed: seed) as seed  })
+ ->
+select({ merge(exposure, { geom, SegmentID, seed }) as exposure })
+ ->
+# change what we will report as 'exposed' for this asset based on whether we cut it or not
+select({
+         exposure,
+         if($segment_m > 0,
+            # For roads and other line-strings, report the exposed km
+            then: { 1 as Segments, round(measure_length(exposure) / 1000, 3) as Impacted_Km },
+            # for unsegmented assets, just report the exposed asset count
+            else: { 1 as Count }
+         ) as exposed
+    }) as out
+

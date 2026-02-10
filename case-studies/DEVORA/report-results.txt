@@ -1,0 +1,58 @@
+in
+ ->
+# convert null consequences (i.e. unexposed assets) to 'no impact' so we include them in the results
+select({ *, if_null(consequence.impact_state, 0) as impact_state })
+ ->
+# count the assets in each impact state for each event in the eruption sequence
+group(by: event,
+      select: {
+            *,
+            bucket(pick: b -> b = impact_state,
+                   select: {
+                        # this allows flexible naming of the metric that is exposed,
+                        # e.g. count, exposed_km, etc
+                        map_struct(exposed, x -> sum(x)) as Total
+                   },
+                   buckets: { IS0: 0, IS1: 1, IS2: 2, IS3: 3 }).*
+      })
+ ->
+# give the results slightly more meaningful column names than 'IS0'
+select({ 
+         event.*,
+         list_to_columns([IS0, IS1, IS2, IS3],
+                         { names: map([0,1,2,3], x -> Volcano_Impact_State_Str(x, $impact_state_type)) }
+                        ).*
+        })
+ ->
+sort(time_sequence)
+ ->
+save('event-impact')
+
+in
+ ->
+filter(is_not_null(hazard))
+ ->
+# cast to remove nulls (any null data should have been removed by the previous filter step)
+select({ *, cast(hazard, 'Volcanic_Hazard') as hazard, cast(consequence, 'Volcanic_Impact_State') as consequence })
+ ->
+# aggregate across the events so that we have one result per exposure
+group(by: exposure,
+      select: {
+            *,
+            count(*) as Exposed_Num_Events,
+            # the hazard/consequences should be culmulative, so report the max/final result
+            map_struct(consequence, x -> max(x)) as consequence,
+            map_struct(hazard, x -> max(x)) as hazard
+      })
+ ->
+select({
+         exposure.*,
+         Exposed_Num_Events,
+         consequence.*,
+         # convert impact state from number to a more meaningful text-string for the results
+         Volcano_Impact_State_Str(consequence.impact_state, $impact_state_type) as Impact_State_Str,
+         hazard.*
+       })
+ ->
+save('exposed-assets', format: 'geopackage')
+
