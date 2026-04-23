@@ -58,7 +58,7 @@ One way to do this is to clone the git repository, and then import your local co
 
 ```
 [project]
-import = https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/VERSION/subpipelines/project.ini
+import = https://raw.githubusercontent.com/GNS-Science/riskscape/refs/tags/VERSION/subpipelines/project.ini
 ```
 
 But replace `VERSION` with the version of RiskScape you are using, e.g. 1.13.0.
