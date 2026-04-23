@@ -50,6 +50,9 @@ The repository structure is broken up along the following lines:
   - **[DEVORA](case-studies/DEVORA/README.md)**: Combines volcano infrastructure functions, 
   exposure-layer bookmarks, and hazard data produced for the Determining Volcanic Risk in Auckland (DEVORA) research programme.
 - **projects**: contains various undocumented project files
+- **[subpipelines](subpipelines/README.md)**: Contains an _experimental_ subpipeline library. Subpipelines can act as 'building blocks'
+  to make it easier to write RiskScape pipeline models. The [examples project](subpipelines/examples/project.ini)
+  contains some working pipeline models that use the subpipeline library to build realistic models.
 
 ## License
 
