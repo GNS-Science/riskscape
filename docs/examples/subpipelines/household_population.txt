@@ -1,0 +1,40 @@
+# work out the average household population per region
+input($exposure, name: 'exposure')
+ ->
+# filter out just the residential buildings (or where the occupancy is unknown)
+filter(is_residential_building(exposure))
+ ->
+# match each building against the region polygon (containing the total population count for the region)
+select({ *, sample_closest(exposure, to_coverage(bookmark($regional_population)), $region_buffer_m) as region })
+ ->
+# work out the total (estimated) households and building floor area per region
+group(by: region,
+      select: {
+        *,
+        round(sum(measure(exposure))) as Residential_floor_area,
+        count(*) as Number_Households
+      })
+ ->
+# average the total regional population by the number of houses
+select({ region.*, Number_Households, Residential_floor_area })
+ ->
+# turn this data into a coverage that we can spatially query
+group({ to_coverage(*) as population_coverage })
+ ->
+join_HH_population.rhs
+
+# spatially each the building to the household population coverage produced in the above steps
+input($exposure, name: 'exposure')
+ ->
+join(on: true) as join_HH_population
+ ->
+select({ exposure, sample_closest(exposure, population_coverage, $region_buffer_m) as region })
+ ->
+# work out a weighting for the building, based on its size.
+# The assumption here is that a larger building would have more people residing in it
+select({ *, if(is_residential_building(exposure), measure(exposure) / region.Residential_floor_area, 0.0) as weighting })
+ ->
+# divide the regional population amongst the buildings using the relative-size-based weighting
+select({ *, weighting * region.Population as Est_HH_Population }) as out
+
+

@@ -1,0 +1,3905 @@
+ID,Cons_Frame,Use_Cat,area,storeys,REGION
+2,Masonry,Outbuilding,80.7,1,Falealili
+6,Masonry,Outbuilding,28.6,1,Lepa
+8,Masonry,Outbuilding,27.0,1,Falealili
+12,Masonry,Residential,95.2,1,Lepa
+24,Masonry,Outbuilding,13.2,1,Lepa
+26,Masonry,Outbuilding,135.6,1,Safata
+32,Masonry,Residential,102.5,1,Aleipata Itupa i Luga
+32,Masonry,Residential,98.9,1,Aleipata Itupa i Lalo
+33,Masonry,Hotel,61.9,3,Lepa
+49,Masonry,Outbuilding,32.9,1,Aleipata Itupa i Luga
+50,Masonry,Outbuilding,80.0,1,Siumu
+51,Timber,Outbuilding,38.5,1,Falealili
+60,Masonry,Outbuilding,109.7,1,Falealili
+65,Masonry,Hotel,63.1,1,Falealili
+65,Masonry,Outbuilding,108.6,1,Safata
+69,Masonry,Outbuilding,47.3,1,Falealili
+72,Masonry,Outbuilding,30.6,1,Vaa o Fonoti
+74,Masonry,Residential,41.4,1,Falealili
+83,Masonry,Outbuilding,59.6,1,Safata
+92,Masonry,Residential,137.2,1,Lepa
+95,Masonry,Outbuilding,24.0,1,Aleipata Itupa i Luga
+101,Masonry,Residential,203.1,1,Safata
+103,Masonry,Hotel,175.5,3,Lepa
+108,Masonry,Fale,65.1,1,Siumu
+119,Masonry,Outbuilding,54.6,1,Falealili
+132,Masonry,Residential,145.3,1,Falealili
+133,Masonry,Residential,189.6,1,Falealili
+148,Masonry,Residential,90.0,1,Falealili
+152,Timber,Tourist Fale,6.6,1,Siumu
+154,Masonry,Residential,163.5,1,Safata
+177,Masonry,Residential,138.9,1,Aleipata Itupa i Luga
+181,Masonry,Residential,194.6,1,Lepa
+188,Masonry,Residential,176.6,1,Vaa o Fonoti
+200,Masonry,Residential,104.6,1,Vaa o Fonoti
+210,Masonry,Residential,222.9,1,Aleipata Itupa i Luga
+219,Masonry,Residential,285.6,1,Falealili
+220,Masonry,Outbuilding,30.2,1,Lotofaga
+221,Masonry,Residential,80.8,1,Vaa o Fonoti
+223,Masonry,Residential,151.8,1,Falealili
+223,Masonry,Residential,87.3,1,Lepa
+224,Masonry,Residential,110.5,1,Siumu
+226,Masonry,Residential,173.6,1,Aleipata Itupa i Lalo
+239,Masonry,Residential,198.3,1,Vaa o Fonoti
+248,Masonry,Commercial,151.4,3,Siumu
+257,Masonry,Residential,194.4,1,Safata
+263,Masonry,Residential,235.6,1,Safata
+266,Masonry,Residential,76.4,1,Lotofaga
+268,Masonry,Outbuilding,39.0,1,Falealili
+268,Masonry,Residential,175.1,1,Falealili
+274,Masonry,Outbuilding,84.8,1,Siumu
+276,Masonry,Residential,95.7,1,Siumu
+291,Masonry,Residential,87.5,1,Vaa o Fonoti
+302,Masonry,Residential,145.4,1,Aleipata Itupa i Lalo
+308,Masonry,Residential,188.9,1,Vaa o Fonoti
+308,Masonry,Residential,244.4,1,Siumu
+308,Masonry,Residential,309.7,1,Safata
+310,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+314,Masonry,Outbuilding,14.0,1,Falealili
+316,Timber,Outbuilding,38.8,1,Aleipata Itupa i Lalo
+321,Timber,Outbuilding,17.2,1,Aleipata Itupa i Lalo
+322,Masonry,Outbuilding,38.7,1,Falealili
+327,Masonry,Outbuilding,74.0,1,Falealili
+330,Masonry,Outbuilding,87.9,1,Siumu
+333,Masonry,Outbuilding,77.1,1,Siumu
+339,Masonry,Residential,110.7,1,Aleipata Itupa i Lalo
+342,Masonry,Residential,191.4,1,Safata
+343,Masonry,Outbuilding,81.1,1,Aleipata Itupa i Lalo
+343,Masonry,Residential,123.5,1,Aleipata Itupa i Lalo
+349,Masonry,Outbuilding,45.2,1,Vaa o Fonoti
+356,Masonry,Residential,90.5,1,Aleipata Itupa i Lalo
+359,Masonry,Outbuilding,39.3,1,Aleipata Itupa i Lalo
+359,Masonry,Outbuilding,76.4,1,Siumu
+363,Masonry,Outbuilding,18.3,1,Aleipata Itupa i Lalo
+375,Masonry,Hotel,42.4,2,Lotofaga
+378,Masonry,Outbuilding,104.6,1,Siumu
+392,Masonry,Residential,186.9,1,Siumu
+393,Timber,Outbuilding,45.0,1,Aleipata Itupa i Lalo
+395,Masonry,Outbuilding,33.9,1,Siumu
+397,Masonry,Residential,97.8,1,Falealili
+403,Masonry,Residential,183.8,1,Siumu
+404,Masonry,Residential,181.5,1,Falealili
+418,Masonry,Residential,142.2,1,Falealili
+421,Masonry,Residential,211.1,1,Aleipata Itupa i Lalo
+424,Masonry,Fale,17.0,1,Aleipata Itupa i Luga
+442,Timber,Outbuilding,26.7,1,Falealili
+443,Reinforced Concrete,Religious,295.9,1,Vaa o Fonoti
+445,Masonry,Fale,29.9,1,Aleipata Itupa i Lalo
+446,Masonry,Hotel,63.0,3,Lotofaga
+447,Reinforced Concrete,Religious,736.4,1,Safata
+448,Masonry,Outbuilding,45.8,1,Falealili
+449,Timber,Tourist Fale,11.7,1,Siumu
+455,Masonry,Outbuilding,44.8,1,Safata
+456,Masonry,Outbuilding,30.0,1,Falealili
+457,Masonry,Outbuilding,39.7,1,Safata
+460,Masonry,Outbuilding,225.3,1,Falealili
+471,Masonry,Residential,264.6,1,Safata
+473,Timber,Fale,185.8,1,Aleipata Itupa i Luga
+479,Reinforced Concrete,Religious,627.8,1,Siumu
+493,Masonry,Residential,125.0,1,Safata
+495,Masonry,Outbuilding,36.1,1,Lepa
+501,Masonry,Hotel,54.9,2,Falealili
+501,Masonry,Outbuilding,43.0,1,Lepa
+504,Masonry,Outbuilding,156.5,1,Siumu
+507,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+511,Masonry,Residential,138.3,1,Safata
+513,Masonry,Residential,114.6,1,Falealili
+522,Masonry,Residential,101.5,1,Falealili
+526,Masonry,Residential,105.3,1,Aleipata Itupa i Luga
+527,Masonry,Residential,120.0,1,Lepa
+529,Masonry,Outbuilding,29.2,1,Aleipata Itupa i Luga
+533,Masonry,Residential,82.8,1,Falealili
+540,Masonry,Outbuilding,43.8,1,Aleipata Itupa i Luga
+544,Masonry,Residential,148.6,1,Safata
+566,Masonry,Outbuilding,29.1,1,Siumu
+572,Masonry,Outbuilding,95.7,1,Siumu
+573,Masonry,Residential,146.2,1,Falealili
+577,Timber,Tourist Fale,69.3,1,Siumu
+591,Masonry,Residential,76.1,1,Falealili
+595,Masonry,Outbuilding,23.1,1,Aleipata Itupa i Luga
+598,Masonry,Residential,208.5,1,Siumu
+606,Masonry,Outbuilding,229.7,1,Siumu
+607,Masonry,Residential,135.2,1,Lepa
+608,Masonry,Outbuilding,59.6,1,Anoamaa East
+611,Masonry,Outbuilding,28.8,1,Siumu
+615,Timber,Fale,27.8,1,Aleipata Itupa i Lalo
+616,Masonry,Residential,198.6,1,Aleipata Itupa i Lalo
+621,Timber,Tourist Fale,17.4,1,Aleipata Itupa i Luga
+625,Masonry,Outbuilding,56.4,1,Aleipata Itupa i Luga
+630,Masonry,Commercial,346.9,3,Aleipata Itupa i Luga
+630,Masonry,Outbuilding,48.7,1,Siumu
+633,Masonry,Residential,224.8,1,Siumu
+638,Masonry,Residential,88.8,1,Siumu
+649,Masonry,Residential,119.6,1,Falealili
+659,Masonry,Residential,106.6,1,Aleipata Itupa i Lalo
+668,Masonry,Residential,169.2,1,Falealili
+680,Masonry,Outbuilding,38.5,1,Safata
+682,Masonry,Residential,255.5,1,Aleipata Itupa i Luga
+683,Masonry,Residential,129.6,1,Falealili
+684,Masonry,Residential,133.1,1,Siumu
+689,Masonry,Hotel,89.8,2,Falealili
+689,Masonry,Residential,63.3,1,Aleipata Itupa i Luga
+690,Masonry,Outbuilding,82.3,1,Siumu
+692,Masonry,Outbuilding,48.2,1,Siumu
+694,Masonry,Residential,53.0,1,Falealili
+698,Masonry,Outbuilding,12.4,1,Falealili
+699,Masonry,Outbuilding,24.2,1,Falealili
+703,Masonry,Outbuilding,68.5,1,Safata
+710,Masonry,Residential,173.5,1,Siumu
+719,Masonry,Residential,115.0,1,Safata
+723,Timber,Hotel,50.4,2,Falealili
+724,Masonry,Residential,105.2,1,Siumu
+726,Masonry,Outbuilding,54.1,1,Siumu
+729,Masonry,Residential,561.2,1,Siumu
+731,Masonry,Outbuilding,40.5,1,Aleipata Itupa i Lalo
+731,Timber,Outbuilding,40.9,1,Aleipata Itupa i Lalo
+731,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+767,Masonry,Fale,20.4,1,Aleipata Itupa i Lalo
+777,Timber,Tourist Fale,18.3,1,Aleipata Itupa i Luga
+780,Masonry,Outbuilding,80.9,1,Siumu
+788,Masonry,Fale,17.0,1,Aleipata Itupa i Luga
+797,Masonry,Community,20.0,1,Aleipata Itupa i Luga
+797,Masonry,Outbuilding,66.0,1,Vaa o Fonoti
+799,Timber,Tourist Fale,19.9,1,Falealili
+804,Timber,Tourist Fale,21.9,1,Aleipata Itupa i Luga
+805,Masonry,Residential,115.9,1,Falealili
+806,Masonry,Residential,206.6,1,Aleipata Itupa i Lalo
+811,Masonry,Outbuilding,22.0,1,Vaa o Fonoti
+814,Masonry,Fale,73.5,1,Falealili
+815,Masonry,Outbuilding,89.9,1,Safata
+829,Masonry,Residential,124.0,1,Safata
+830,Masonry,Residential,180.3,1,Lepa
+832,Masonry,Residential,143.0,1,Lepa
+843,Timber,Outbuilding,40.8,1,Aleipata Itupa i Lalo
+844,Masonry,Outbuilding,93.8,1,Falealili
+848,Masonry,Outbuilding,37.6,1,Falealili
+849,Masonry,Outbuilding,27.2,1,Falealili
+857,Masonry,Hotel,75.9,3,Aleipata Itupa i Luga
+858,Timber,Outbuilding,38.4,1,Lepa
+866,Masonry,Outbuilding,95.9,1,Siumu
+868,Masonry,Outbuilding,101.2,1,Falealili
+875,Masonry,Residential,108.4,1,Vaa o Fonoti
+875,Masonry,Residential,134.3,1,Vaa o Fonoti
+892,Masonry,Outbuilding,81.3,1,Aleipata Itupa i Lalo
+901,Masonry,Outbuilding,60.2,1,Aleipata Itupa i Lalo
+903,Masonry,Residential,289.6,1,Siumu
+907,Masonry,Residential,207.0,1,Falealili
+909,Masonry,Outbuilding,41.3,1,Falealili
+915,Masonry,Residential,161.1,1,Safata
+915,Masonry,Residential,99.3,1,Aleipata Itupa i Luga
+919,Masonry,Residential,490.8,1,Falealili
+922,Masonry,Residential,159.7,1,Falealili
+928,Masonry,Residential,311.2,1,Siumu
+930,Timber,Outbuilding,22.8,1,Aleipata Itupa i Lalo
+945,Timber,Outbuilding,38.9,1,Falealili
+947,Masonry,Outbuilding,16.4,1,Vaa o Fonoti
+956,Masonry,Residential,118.4,1,Siumu
+957,Masonry,Residential,85.8,1,Siumu
+959,Masonry,Outbuilding,17.9,1,Vaa o Fonoti
+960,Masonry,Residential,188.8,1,Falealili
+966,Masonry,Outbuilding,89.0,1,Falealili
+975,Masonry,Outbuilding,67.1,1,Falealili
+976,Masonry,Residential,365.4,1,Safata
+976,Timber,Tourist Fale,17.3,1,Aleipata Itupa i Luga
+983,Masonry,Outbuilding,79.8,1,Safata
+993,Masonry,Residential,158.8,1,Aleipata Itupa i Luga
+996,Masonry,Hotel,71.6,3,Lepa
+1000,Masonry,Outbuilding,52.1,1,Safata
+1006,Masonry,Residential,115.8,1,Aleipata Itupa i Lalo
+1006,Timber,Tourist Fale,69.8,1,Siumu
+1021,Masonry,Outbuilding,74.2,1,Safata
+1022,Masonry,Residential,262.7,1,Aleipata Itupa i Lalo
+1038,Masonry,Residential,117.1,1,Falealili
+1041,Masonry,Residential,49.1,1,Falealili
+1055,Timber,Outbuilding,36.6,1,Aleipata Itupa i Lalo
+1067,Masonry,Outbuilding,74.3,1,Siumu
+1067,Masonry,Residential,223.8,1,Falealili
+1067,Masonry,Residential,60.6,1,Falealili
+1078,Masonry,Fale,240.7,1,Safata
+1080,Masonry,Community,445.9,1,Falealili
+1082,Timber,Outbuilding,40.8,1,Aleipata Itupa i Lalo
+1083,Timber,Outbuilding,55.4,1,Aleipata Itupa i Luga
+1085,Masonry,Outbuilding,51.7,1,Vaa o Fonoti
+1093,Masonry,Outbuilding,67.1,1,Siumu
+1096,Masonry,Residential,67.7,1,Anoamaa East
+1102,Timber,Hotel,80.2,1,
+1114,Masonry,Outbuilding,28.4,1,Siumu
+1117,Masonry,Hotel,186.4,2,Lotofaga
+1117,Masonry,Outbuilding,32.8,1,Falealili
+1130,Masonry,Outbuilding,32.1,1,Lotofaga
+1130,Timber,Residential,134.0,1,Aleipata Itupa i Lalo
+1133,Masonry,Residential,223.8,1,Lotofaga
+1140,Masonry,Outbuilding,100.8,1,Siumu
+1144,Masonry,Outbuilding,134.2,1,Safata
+1155,Masonry,Outbuilding,20.2,1,Falealili
+1155,Masonry,Residential,125.1,1,Siumu
+1155,Masonry,Residential,144.9,1,Falealili
+1164,Timber,Outbuilding,53.6,1,Aleipata Itupa i Lalo
+1165,Masonry,Outbuilding,46.5,1,Siumu
+1167,Masonry,Outbuilding,74.0,1,Siumu
+1171,Masonry,Residential,404.0,1,Falealili
+1177,Masonry,Outbuilding,31.5,1,Aleipata Itupa i Luga
+1178,Masonry,Residential,121.9,1,Aleipata Itupa i Lalo
+1195,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+1199,Timber,Hotel,57.6,3,Lepa
+1205,Masonry,Residential,102.1,1,Aleipata Itupa i Lalo
+1210,Masonry,Residential,159.7,1,Aleipata Itupa i Lalo
+1212,Masonry,Residential,164.2,1,Safata
+1212,Timber,Tourist Fale,17.3,1,Aleipata Itupa i Luga
+1216,Masonry,Residential,222.9,1,Aleipata Itupa i Lalo
+1235,Masonry,Residential,206.6,1,Falealili
+1250,Masonry,Residential,105.7,1,Lepa
+1257,Masonry,Fale,71.5,1,Aleipata Itupa i Luga
+1283,Masonry,Residential,134.5,1,Siumu
+1288,Timber,Community,70.1,1,Falealili
+1300,Masonry,Residential,237.9,1,Aleipata Itupa i Lalo
+1311,Masonry,Residential,93.0,1,Siumu
+1318,Masonry,Hotel,235.4,2,Aleipata Itupa i Luga
+1320,Timber,Outbuilding,70.6,1,Aleipata Itupa i Lalo
+1321,Masonry,Outbuilding,144.2,1,Lotofaga
+1338,Masonry,Residential,68.6,1,Falealili
+1357,Masonry,Outbuilding,97.1,1,Falealili
+1360,Masonry,Outbuilding,72.9,1,Safata
+1367,Masonry,Residential,224.1,1,Vaa o Fonoti
+1370,Masonry,Outbuilding,22.0,1,Lepa
+1370,Masonry,Residential,81.9,1,Aleipata Itupa i Lalo
+1374,Timber,Tourist Fale,19.9,1,Lepa
+1388,Masonry,Residential,244.2,1,Siumu
+1390,Masonry,Residential,131.3,1,Vaa o Fonoti
+1396,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+1399,Masonry,Outbuilding,37.1,1,Aleipata Itupa i Lalo
+1406,Masonry,Tourist Fale,18.8,1,Lepa
+1422,Masonry,Residential,154.0,1,Aleipata Itupa i Luga
+1425,Masonry,Residential,207.4,1,Aleipata Itupa i Lalo
+1428,Masonry,Residential,309.5,1,Vaa o Fonoti
+1435,Masonry,Residential,110.1,1,Aleipata Itupa i Lalo
+1441,Masonry,Outbuilding,57.2,1,Safata
+1446,Masonry,Residential,125.4,1,Aleipata Itupa i Luga
+1452,Timber,Tourist Fale,19.9,1,Lepa
+1456,Masonry,Hotel,318.1,2,Siumu
+1476,Masonry,Community,206.7,1,Safata
+1478,Masonry,Residential,81.4,1,Aleipata Itupa i Lalo
+1490,Masonry,Residential,246.9,1,Vaa o Fonoti
+1497,Masonry,Outbuilding,154.3,1,Siumu
+1510,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+1512,Timber,Outbuilding,18.5,1,Falealili
+1517,Masonry,Residential,253.2,1,Lepa
+1525,Masonry,Outbuilding,32.8,1,Vaa o Fonoti
+1525,Masonry,Residential,284.2,1,Aleipata Itupa i Lalo
+1537,Masonry,Residential,236.5,1,Vaa o Fonoti
+1551,Masonry,Outbuilding,159.6,1,Safata
+1558,Timber,Tourist Fale,19.9,1,Lepa
+1559,Masonry,Outbuilding,120.2,1,Safata
+1564,Masonry,Residential,49.8,1,Falealili
+1566,Masonry,Fale,40.0,1,Falealili
+1583,Masonry,Outbuilding,8.6,1,Falealili
+1584,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+1589,Masonry,Religious,534.2,1,Falealili
+1590,Masonry,Outbuilding,99.3,1,Falealili
+1590,Masonry,Residential,216.4,1,Falealili
+1591,Masonry,Residential,390.6,1,Safata
+1599,Masonry,Residential,93.0,1,Siumu
+1600,Masonry,Outbuilding,24.5,1,Falealili
+1604,Masonry,Outbuilding,35.8,1,Safata
+1612,Masonry,Outbuilding,33.6,1,Aleipata Itupa i Lalo
+1615,Masonry,Outbuilding,71.9,1,Siumu
+1617,Timber,Outbuilding,70.8,1,Aleipata Itupa i Luga
+1623,Masonry,Residential,486.4,1,Safata
+1624,Masonry,Outbuilding,32.0,1,Falealili
+1625,Masonry,Residential,441.4,1,Lotofaga
+1633,Masonry,Outbuilding,22.1,1,Lepa
+1643,Masonry,Outbuilding,50.4,1,Aleipata Itupa i Lalo
+1644,Masonry,Residential,110.7,1,Aleipata Itupa i Lalo
+1653,Masonry,Outbuilding,35.1,1,Siumu
+1670,Masonry,Residential,141.4,1,Falealili
+1681,Masonry,Residential,121.6,1,Vaa o Fonoti
+1687,Masonry,Outbuilding,13.2,1,Vaa o Fonoti
+1690,Masonry,Residential,94.1,1,Aleipata Itupa i Lalo
+1698,Masonry,Fale,18.4,1,Falealili
+1714,Masonry,Residential,152.5,1,Aleipata Itupa i Lalo
+1716,Masonry,Residential,154.0,1,Falealili
+1721,Masonry,Outbuilding,32.4,1,Anoamaa East
+1724,Timber,Outbuilding,73.7,1,Aleipata Itupa i Lalo
+1725,Masonry,Outbuilding,58.1,1,Safata
+1727,Timber,Fale,31.0,1,Aleipata Itupa i Lalo
+1736,Masonry,Residential,147.8,1,Siumu
+1748,Masonry,Residential,172.2,1,Safata
+1748,Masonry,Residential,283.7,1,Aleipata Itupa i Lalo
+1757,Masonry,Outbuilding,41.5,1,Falealili
+1759,Masonry,Residential,238.5,1,Falealili
+1765,Timber,Outbuilding,34.0,1,Lotofaga
+1766,Masonry,Fale,44.8,1,Falealili
+1766,Masonry,Residential,224.7,1,Safata
+1772,Masonry,Residential,131.6,1,Falealili
+1795,Masonry,Fale,87.9,1,Safata
+1809,Masonry,Outbuilding,46.2,1,Aleipata Itupa i Luga
+1813,Masonry,Residential,318.7,1,Safata
+1823,Masonry,Residential,97.0,1,Falealili
+1826,Masonry,Residential,188.4,1,Safata
+1863,Masonry,Residential,61.6,1,Anoamaa East
+1864,Masonry,Outbuilding,30.3,1,Vaa o Fonoti
+1870,Masonry,Residential,932.0,1,Falealili
+1873,Timber,Hotel,74.9,2,Aleipata Itupa i Luga
+1884,Timber,Outbuilding,22.1,1,Lotofaga
+1885,Reinforced Concrete,Religious,956.3,1,Safata
+1892,Masonry,Hotel,395.2,1,Siumu
+1895,Masonry,Fale,23.5,1,Aleipata Itupa i Lalo
+1898,Masonry,Residential,109.5,1,Falealili
+1903,Masonry,Residential,130.5,1,Aleipata Itupa i Luga
+1907,Masonry,Outbuilding,249.6,1,Siumu
+1911,Timber,Outbuilding,11.3,1,Falealili
+1922,Masonry,Outbuilding,31.4,1,Vaa o Fonoti
+1928,Masonry,Outbuilding,52.6,1,Falealili
+1929,Masonry,Education,462.3,1,Falealili
+1931,Masonry,Residential,140.6,1,Siumu
+1932,Masonry,Commercial,649.2,2,Aleipata Itupa i Lalo
+1937,Masonry,Outbuilding,25.7,1,Lepa
+1951,Masonry,Residential,145.8,1,Safata
+1955,Masonry,Residential,225.6,1,Siumu
+1957,Masonry,Outbuilding,43.9,1,Lotofaga
+1962,Masonry,Residential,212.3,1,Safata
+1964,Timber,Fale,23.2,1,Aleipata Itupa i Lalo
+1971,Masonry,Residential,193.0,1,Siumu
+1974,Masonry,Residential,0.9,1,Aleipata Itupa i Luga
+1982,Masonry,Residential,96.0,1,Safata
+1988,Masonry,Outbuilding,18.6,1,Anoamaa East
+1989,Masonry,Residential,300.5,1,Aleipata Itupa i Lalo
+1997,Reinforced_Concrete,Religious,522.7,1,Aleipata Itupa i Lalo
+2018,Masonry,Outbuilding,47.6,1,Falealili
+2022,Reinforced_Concrete,Religious,976.9,1,Falealili
+2030,Masonry,Residential,165.2,1,Vaa o Fonoti
+2031,Masonry,Residential,73.3,1,Aleipata Itupa i Luga
+2037,Timber,Tourist Fale,171.6,1,Siumu
+2046,Masonry,Residential,129.0,1,Safata
+2049,Masonry,Residential,191.5,1,Safata
+2050,Masonry,Outbuilding,36.8,1,Safata
+2062,Timber,Tourist Fale,184.3,1,Siumu
+2063,Timber,Outbuilding,22.8,1,Falealili
+2071,Masonry,Hotel,58.2,2,Lotofaga
+2071,Masonry,Residential,20.5,1,Falealili
+2073,Masonry,Residential,171.2,1,Siumu
+2085,Masonry,Outbuilding,93.4,1,Falealili
+2087,Masonry,Residential,122.2,1,Safata
+2089,Masonry,Residential,92.6,1,Aleipata Itupa i Lalo
+2100,Timber,Hotel,50.4,2,Falealili
+2102,Masonry,Outbuilding,55.2,1,Safata
+2104,Masonry,Hotel,121.2,2,Lotofaga
+2108,Masonry,Residential,249.7,1,Aleipata Itupa i Lalo
+2109,Masonry,Outbuilding,22.1,1,Falealili
+2117,Masonry,Outbuilding,35.2,1,Falealili
+2118,Masonry,Outbuilding,41.4,1,Siumu
+2131,Masonry,Outbuilding,78.2,1,Safata
+2138,Masonry,Commercial,26.5,2,Siumu
+2144,Timber,Tourist Fale,17.2,1,Aleipata Itupa i Luga
+2150,Timber,Outbuilding,23.7,1,Lepa
+2151,Masonry,Outbuilding,31.4,1,Aleipata Itupa i Luga
+2158,Masonry,Residential,130.9,1,Aleipata Itupa i Lalo
+2165,Masonry,Outbuilding,24.5,1,Anoamaa East
+2171,Masonry,Residential,86.2,1,Falealili
+2179,Masonry,Residential,72.0,1,Falealili
+2182,Masonry,Commercial,143.1,2,Siumu
+2184,Masonry,Outbuilding,60.1,1,Siumu
+2214,Timber,Fale,15.9,1,Aleipata Itupa i Luga
+2221,Masonry,Tourist Fale,38.7,1,Safata
+2224,Masonry,Residential,143.5,1,Aleipata Itupa i Lalo
+2229,Masonry,Outbuilding,98.2,1,Safata
+2234,Masonry,Outbuilding,94.0,1,Safata
+2245,Masonry,Residential,87.9,1,Aleipata Itupa i Lalo
+2246,Timber,Outbuilding,37.9,1,Aleipata Itupa i Lalo
+2253,Masonry,Residential,146.2,1,Siumu
+2261,Masonry,Outbuilding,83.8,1,Siumu
+2263,Masonry,Residential,118.8,1,Falealili
+2267,Masonry,Outbuilding,101.2,1,Lotofaga
+2268,Masonry,Outbuilding,27.1,1,Aleipata Itupa i Luga
+2269,Masonry,Residential,299.8,1,Safata
+2275,Masonry,Outbuilding,78.8,1,Safata
+2279,Masonry,Residential,77.2,1,Lepa
+2283,Timber,Outbuilding,10.9,1,Aleipata Itupa i Lalo
+2288,Masonry,Residential,161.7,1,Aleipata Itupa i Lalo
+2291,Masonry,Outbuilding,47.9,1,Anoamaa East
+2298,Masonry,Fale,118.0,1,Falealili
+2305,Masonry,Outbuilding,56.1,1,Aleipata Itupa i Lalo
+2318,Timber,Tourist Fale,28.9,1,Lepa
+2319,Masonry,Outbuilding,69.8,1,Safata
+2323,Masonry,Residential,206.1,1,Aleipata Itupa i Luga
+2324,Masonry,Hotel,31.8,2,Aleipata Itupa i Luga
+2335,Masonry,Residential,194.1,1,Safata
+2337,Masonry,Residential,147.2,1,Aleipata Itupa i Luga
+2338,Masonry,Commercial,495.2,2,Lotofaga
+2338,Masonry,Outbuilding,47.3,1,Aleipata Itupa i Lalo
+2347,Timber,Hotel,76.8,1,Aleipata Itupa i Luga
+2348,Masonry,Outbuilding,39.0,1,Falealili
+2349,Masonry,Residential,175.7,1,Vaa o Fonoti
+2353,Masonry,Residential,757.0,1,Siumu
+2355,Masonry,Hotel,44.9,2,Lotofaga
+2360,Masonry,Outbuilding,73.5,1,Safata
+2365,Masonry,Residential,154.2,1,Vaa o Fonoti
+2367,Masonry,Outbuilding,115.4,1,Falealili
+2370,Masonry,Outbuilding,29.1,1,Vaa o Fonoti
+2374,Masonry,Residential,237.4,1,Safata
+2382,Masonry,Outbuilding,34.3,1,Aleipata Itupa i Lalo
+2382,Masonry,Residential,83.9,1,Falealili
+2383,Masonry,Residential,109.6,1,Siumu
+2385,Timber,Outbuilding,28.3,1,Aleipata Itupa i Lalo
+2386,Masonry,Residential,96.1,1,Falealili
+2389,Masonry,Residential,122.2,1,Falealili
+2400,Masonry,Residential,87.0,1,Safata
+2405,Masonry,Residential,144.0,1,Siumu
+2405,Masonry,Residential,148.5,1,Siumu
+2412,Masonry,Residential,123.5,1,Vaa o Fonoti
+2413,Masonry,Outbuilding,154.4,1,Safata
+2420,Masonry,Residential,83.2,1,Falealili
+2421,Timber,Hotel,38.1,3,Lepa
+2424,Masonry,Outbuilding,49.4,1,Vaa o Fonoti
+2433,Masonry,Residential,216.8,1,Siumu
+2438,Masonry,Residential,170.3,1,Aleipata Itupa i Lalo
+2439,Masonry,Tourist Fale,36.5,1,Safata
+2447,Masonry,Outbuilding,141.3,1,Siumu
+2451,Masonry,Fale,162.9,1,Lepa
+2453,Masonry,Outbuilding,20.6,1,Aleipata Itupa i Lalo
+2454,Masonry,Hotel,47.2,2,Aleipata Itupa i Luga
+2458,Timber,Outbuilding,23.1,1,Aleipata Itupa i Lalo
+2462,Masonry,Outbuilding,98.3,1,Safata
+2467,Masonry,Residential,154.2,1,Falealili
+2469,Timber,Hotel,18.8,1,Lepa
+2470,Masonry,Residential,1790.2,1,Siumu
+2474,Masonry,Residential,82.6,1,Vaa o Fonoti
+2476,Masonry,Outbuilding,65.9,1,Safata
+2480,Masonry,Residential,239.6,1,Siumu
+2481,Masonry,Residential,127.8,1,Safata
+2492,Masonry,Hotel,95.6,3,Lotofaga
+2493,Masonry,Outbuilding,45.7,1,Aleipata Itupa i Lalo
+2493,Masonry,Residential,38.1,1,Falealili
+2494,Masonry,Outbuilding,20.5,1,Falealili
+2499,Masonry,Outbuilding,96.3,1,Lotofaga
+2503,Masonry,Residential,210.8,1,Safata
+2504,Masonry,Residential,248.3,1,Safata
+2511,Masonry,Outbuilding,44.7,1,Aleipata Itupa i Lalo
+2513,Masonry,Outbuilding,14.3,1,Lepa
+2518,Masonry,Outbuilding,33.7,1,Aleipata Itupa i Lalo
+2531,Masonry,Residential,125.4,1,Safata
+2535,Timber,Outbuilding,26.2,1,Lepa
+2537,Masonry,Outbuilding,58.0,1,Falealili
+2540,Masonry,Fale,43.5,1,Aleipata Itupa i Lalo
+2540,Masonry,Hotel,59.8,3,Falealili
+2543,Masonry,Commercial,34.9,2,Siumu
+2543,Masonry,Outbuilding,45.1,1,Siumu
+2544,Masonry,Residential,248.0,1,Siumu
+2547,Masonry,Residential,194.0,1,Falealili
+2552,Masonry,Outbuilding,52.1,1,Siumu
+2554,Masonry,Outbuilding,12.8,1,Aleipata Itupa i Lalo
+2562,Masonry,Residential,208.5,1,Falealili
+2570,Masonry,Outbuilding,83.1,1,Siumu
+2578,Masonry,Residential,61.9,1,Vaa o Fonoti
+2584,Masonry,Residential,260.0,1,Falealili
+2611,Masonry,Residential,106.8,1,Aleipata Itupa i Lalo
+2614,Timber,Outbuilding,65.2,1,Aleipata Itupa i Luga
+2615,Masonry,Outbuilding,52.4,1,Safata
+2621,Timber,Community,108.3,1,Aleipata Itupa i Luga
+2623,Masonry,Outbuilding,78.9,1,Lotofaga
+2638,Masonry,Outbuilding,55.0,1,Aleipata Itupa i Lalo
+2638,Masonry,Residential,173.7,1,Aleipata Itupa i Lalo
+2641,Masonry,Residential,164.4,1,Lepa
+2648,Masonry,Residential,267.7,1,Lepa
+2658,Masonry,Residential,67.0,1,Anoamaa East
+2661,Masonry,Outbuilding,162.5,1,Siumu
+2661,Masonry,Outbuilding,39.4,1,Safata
+2671,Masonry,Community,195.0,1,Siumu
+2673,Masonry,Residential,113.0,1,Siumu
+2675,Masonry,Outbuilding,20.2,1,Lepa
+2676,Masonry,Residential,111.6,1,Falealili
+2679,Masonry,Residential,122.6,1,Falealili
+2681,Masonry,Outbuilding,166.4,1,Siumu
+2683,Masonry,Tourist Fale,18.8,1,Lepa
+2688,Masonry,Residential,253.4,1,Aleipata Itupa i Luga
+2690,Masonry,Residential,79.0,1,Falealili
+2694,Masonry,Residential,64.7,1,Anoamaa East
+2695,Masonry,Residential,202.1,1,Aleipata Itupa i Luga
+2706,Masonry,Residential,219.7,1,Falealili
+2706,Masonry,Residential,344.4,1,Siumu
+2710,Masonry,Outbuilding,25.4,1,Aleipata Itupa i Luga
+2710,Masonry,Residential,54.2,1,Falealili
+2718,Masonry,Residential,245.0,1,Falealili
+2720,Masonry,Residential,263.5,1,Lepa
+2747,Timber,Outbuilding,18.5,1,Aleipata Itupa i Lalo
+2757,Masonry,Hotel,110.0,2,Falealili
+2760,Masonry,Residential,115.5,1,Safata
+2760,Masonry,Residential,575.2,1,Falealili
+2761,Masonry,Residential,145.1,1,Siumu
+2762,Masonry,Outbuilding,49.7,1,Vaa o Fonoti
+2782,Masonry,Outbuilding,86.2,1,Siumu
+2783,Masonry,Residential,111.2,1,Anoamaa East
+2783,Masonry,Residential,151.6,1,Siumu
+2785,Masonry,Residential,182.5,1,Lepa
+2788,Timber,Hotel,50.4,2,Falealili
+2793,Masonry,Residential,116.5,1,Aleipata Itupa i Lalo
+2804,Masonry,Residential,94.0,1,Vaa o Fonoti
+2807,Masonry,Residential,257.9,1,Lepa
+2809,Masonry,Outbuilding,23.0,1,Falealili
+2809,Masonry,Residential,55.8,1,Anoamaa East
+2811,Timber,Outbuilding,69.4,1,Aleipata Itupa i Lalo
+2814,Masonry,Outbuilding,45.4,1,Aleipata Itupa i Luga
+2819,Masonry,Commercial,147.8,3,Aleipata Itupa i Luga
+2822,Timber,Outbuilding,27.1,1,Falealili
+2826,Masonry,Residential,83.9,1,Vaa o Fonoti
+2829,Masonry,Outbuilding,74.1,1,Falealili
+2831,Masonry,Religious,598.2,1,Safata
+2831,Masonry,Residential,10.8,1,Aleipata Itupa i Lalo
+2831,Timber,Outbuilding,27.5,1,Falealili
+2834,Masonry,Outbuilding,154.3,1,Siumu
+2834,Masonry,Residential,95.4,1,Aleipata Itupa i Lalo
+2841,Timber,Outbuilding,19.3,1,Aleipata Itupa i Lalo
+2843,Masonry,Outbuilding,37.4,1,Siumu
+2845,Masonry,Residential,148.4,1,Lepa
+2856,Masonry,Residential,130.5,1,Aleipata Itupa i Lalo
+2862,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+2867,Timber,Residential,220.0,1,Falealili
+2869,Masonry,Outbuilding,25.1,1,Falealili
+2897,Masonry,Fale,55.2,1,Siumu
+2912,Masonry,Hotel,143.3,2,Siumu
+2916,Masonry,Outbuilding,57.8,1,Aleipata Itupa i Luga
+2918,Masonry,Hotel,185.7,2,Lepa
+2934,Masonry,Outbuilding,31.0,1,Aleipata Itupa i Lalo
+2935,Masonry,Residential,212.6,1,Siumu
+2947,Masonry,Outbuilding,91.9,1,Siumu
+2952,Masonry,Residential,69.8,1,Vaa o Fonoti
+2953,Masonry,Outbuilding,57.3,1,Falealili
+2958,Masonry,Residential,99.1,1,Lotofaga
+2964,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+2969,Masonry,Outbuilding,39.1,1,Aleipata Itupa i Lalo
+2970,Masonry,Outbuilding,123.2,1,Safata
+2974,Masonry,Outbuilding,65.0,1,Safata
+2975,Masonry,Outbuilding,52.3,1,Lotofaga
+2977,Masonry,Outbuilding,54.5,1,Falealili
+2978,Masonry,Commercial,210.2,3,Siumu
+2979,Masonry,Outbuilding,33.5,1,Vaa o Fonoti
+2982,Masonry,Outbuilding,19.2,1,Aleipata Itupa i Lalo
+2984,Timber,Hotel,23.0,2,Falealili
+2985,Masonry,Outbuilding,72.2,1,Falealili
+2994,Masonry,Outbuilding,67.9,1,Safata
+3002,Masonry,Outbuilding,56.3,1,Safata
+3019,Masonry,Outbuilding,119.2,1,Safata
+3019,Timber,Outbuilding,16.7,1,Aleipata Itupa i Luga
+3034,Masonry,Outbuilding,11.8,1,Aleipata Itupa i Lalo
+3055,Masonry,Residential,197.9,1,Falealili
+3057,Masonry,Residential,233.7,1,Siumu
+3059,Masonry,Commercial,77.2,1,Falealili
+3059,Masonry,Residential,435.2,1,Siumu
+3060,Masonry,Outbuilding,83.4,1,Falealili
+3061,Timber,Outbuilding,44.1,1,Lepa
+3064,Masonry,Residential,39.2,1,Falealili
+3071,Masonry,Hotel,536.7,2,Lepa
+3072,Masonry,Outbuilding,10.7,1,Aleipata Itupa i Lalo
+3073,Masonry,Outbuilding,53.9,1,Falealili
+3075,Masonry,Residential,175.2,1,Falealili
+3078,Masonry,Residential,165.0,1,Safata
+3081,Masonry,Residential,168.2,1,Vaa o Fonoti
+3081,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+3087,Masonry,Fale,29.8,1,Vaa o Fonoti
+3088,Masonry,Residential,137.9,1,Aleipata Itupa i Luga
+3092,Masonry,Outbuilding,27.2,1,Aleipata Itupa i Lalo
+3092,Masonry,Outbuilding,59.7,1,Safata
+3094,Masonry,Outbuilding,13.0,1,Falealili
+3095,Masonry,Outbuilding,43.9,1,Siumu
+3098,Masonry,Residential,214.1,1,Siumu
+3105,Masonry,Commercial,51.9,3,Lepa
+3108,Masonry,Residential,228.7,1,Aleipata Itupa i Lalo
+3108,Timber,Hotel,35.4,2,Lepa
+3113,Masonry,Outbuilding,111.2,1,Safata
+3122,Masonry,Fale,82.4,1,Falealili
+3126,Masonry,Outbuilding,35.5,1,Siumu
+3127,Timber,Residential,131.1,1,Falealili
+3130,Masonry,Outbuilding,18.4,1,Vaa o Fonoti
+3132,Masonry,Outbuilding,35.2,1,Aleipata Itupa i Lalo
+3139,Masonry,Residential,83.0,1,Falealili
+3146,Masonry,Residential,112.0,1,Falealili
+3156,Masonry,Residential,175.1,1,Aleipata Itupa i Luga
+3158,Masonry,Outbuilding,27.2,1,Falealili
+3164,Masonry,Residential,505.0,1,Safata
+3174,Masonry,Outbuilding,71.5,1,Aleipata Itupa i Luga
+3174,Masonry,Residential,110.7,1,Falealili
+3181,Masonry,Outbuilding,45.2,1,Vaa o Fonoti
+3183,Masonry,Residential,140.1,1,Aleipata Itupa i Lalo
+3183,Masonry,Residential,236.3,1,Lepa
+3185,Timber,Fale,171.8,1,Aleipata Itupa i Lalo
+3191,Masonry,Tourist Fale,18.8,1,Lepa
+3196,Masonry,Residential,228.8,1,Safata
+3204,Masonry,Outbuilding,18.9,1,Falealili
+3218,Masonry,Residential,104.9,1,Falealili
+3224,Reinforced Concrete,Religious,618.3,1,Safata
+3227,Masonry,Commercial,73.6,2,Siumu
+3234,Masonry,Commercial,93.1,1,Siumu
+3234,Timber,Outbuilding,20.5,1,Aleipata Itupa i Lalo
+3235,Masonry,Residential,130.3,1,Lotofaga
+3243,Masonry,Residential,77.0,1,Aleipata Itupa i Lalo
+3258,Masonry,Residential,97.1,1,Aleipata Itupa i Luga
+3259,Masonry,Outbuilding,84.9,1,Falealili
+3262,Timber,Hotel,208.0,3,Siumu
+3267,Masonry,Outbuilding,47.4,1,Safata
+3276,Masonry,Residential,145.9,1,Safata
+3278,Masonry,Outbuilding,15.9,1,Aleipata Itupa i Lalo
+3278,Masonry,Residential,296.7,1,Siumu
+3284,Masonry,Residential,141.8,1,Aleipata Itupa i Lalo
+3299,Masonry,Residential,503.8,1,Safata
+3304,Masonry,Residential,223.0,1,Falealili
+3305,Masonry,Outbuilding,145.7,1,Safata
+3308,Masonry,Outbuilding,82.9,1,Falealili
+3314,Masonry,Residential,102.4,1,Aleipata Itupa i Luga
+3316,Masonry,Outbuilding,76.4,1,Safata
+3318,Masonry,Outbuilding,95.7,1,Falealili
+3320,Masonry,Outbuilding,80.3,1,Safata
+3334,Masonry,Residential,85.2,1,Falealili
+3336,Masonry,Hotel,58.3,2,Lotofaga
+3339,Masonry,Outbuilding,24.5,1,Falealili
+3348,Masonry,Outbuilding,83.8,1,Falealili
+3349,Masonry,Outbuilding,14.5,1,Vaa o Fonoti
+3352,Masonry,Residential,138.7,1,Safata
+3352,Masonry,Residential,282.3,1,Falealili
+3352,Timber,Hotel,65.4,2,Lotofaga
+3360,Masonry,Residential,135.8,1,Safata
+3361,Timber,Outbuilding,27.0,1,Falealili
+3372,Masonry,Outbuilding,20.1,1,Aleipata Itupa i Luga
+3372,Timber,Tourist Fale,59.1,1,Siumu
+3375,Masonry,Residential,191.1,1,Aleipata Itupa i Luga
+3376,Timber,Hotel,233.7,3,Aleipata Itupa i Luga
+3384,Masonry,Outbuilding,35.1,1,Vaa o Fonoti
+3404,Masonry,Residential,141.7,1,Aleipata Itupa i Lalo
+3410,Masonry,Residential,158.3,1,Aleipata Itupa i Lalo
+3412,Masonry,Outbuilding,162.1,1,Falealili
+3415,Masonry,Outbuilding,96.7,1,Falealili
+3422,Masonry,Residential,154.7,1,Siumu
+3425,Masonry,Residential,199.5,1,Safata
+3440,Masonry,Residential,193.7,1,Safata
+3460,Masonry,Residential,165.2,1,Siumu
+3466,Masonry,Outbuilding,37.4,1,Siumu
+3467,Masonry,Religious,466.0,1,Falealili
+3469,Timber,Residential,67.2,1,Falealili
+3471,Masonry,Outbuilding,36.1,1,Lotofaga
+3474,Masonry,Hotel,332.4,1,Falealili
+3479,Masonry,Fale,24.9,1,Siumu
+3486,Timber,Hotel,43.9,2,Falealili
+3489,Timber,Outbuilding,28.9,1,Aleipata Itupa i Luga
+3491,Masonry,Outbuilding,61.8,1,Falealili
+3499,Masonry,Outbuilding,29.5,1,Siumu
+3500,Masonry,Outbuilding,30.3,1,Vaa o Fonoti
+3504,Masonry,Residential,229.5,1,Aleipata Itupa i Luga
+3508,Timber,Residential,103.2,1,Aleipata Itupa i Luga
+3512,Masonry,Residential,92.0,1,Lotofaga
+3515,Masonry,Outbuilding,148.3,1,Falealili
+3515,Masonry,Residential,86.7,1,Aleipata Itupa i Lalo
+3518,Masonry,Residential,175.8,1,Aleipata Itupa i Lalo
+3530,Masonry,Outbuilding,120.8,1,Siumu
+3531,Masonry,Outbuilding,26.0,1,Falealili
+3537,Masonry,Residential,130.9,1,Falealili
+3540,Masonry,Residential,164.5,1,Safata
+3543,Masonry,Residential,134.6,1,Vaa o Fonoti
+3546,Masonry,Residential,124.8,1,Falealili
+3546,Timber,Outbuilding,19.4,1,Aleipata Itupa i Lalo
+3549,Masonry,Residential,106.8,1,Vaa o Fonoti
+3550,Masonry,Residential,172.6,1,Aleipata Itupa i Lalo
+3572,Masonry,Residential,193.3,1,Safata
+3574,Masonry,Residential,83.9,1,Vaa o Fonoti
+3577,Masonry,Residential,46.7,1,Anoamaa East
+3577,Masonry,Residential,546.7,1,Siumu
+3578,Masonry,Residential,108.0,1,Safata
+3579,Masonry,Outbuilding,77.3,1,Falealili
+3583,Masonry,Residential,84.1,1,Aleipata Itupa i Lalo
+3589,Masonry,Outbuilding,28.9,1,Vaa o Fonoti
+3592,Masonry,Outbuilding,45.9,1,Falealili
+3595,Masonry,Residential,83.2,1,Aleipata Itupa i Lalo
+3603,Masonry,Residential,118.6,1,Siumu
+3603,Masonry,Residential,326.0,1,Siumu
+3604,Masonry,Outbuilding,68.0,1,Siumu
+3605,Masonry,Residential,138.4,1,Vaa o Fonoti
+3609,Masonry,Outbuilding,25.1,1,Vaa o Fonoti
+3611,Masonry,Outbuilding,218.0,1,Siumu
+3612,Masonry,Outbuilding,67.2,1,Aleipata Itupa i Luga
+3615,Masonry,Residential,153.1,1,Falealili
+3616,Masonry,Hotel,36.0,2,Lotofaga
+3619,Masonry,Residential,261.4,1,Aleipata Itupa i Lalo
+3620,Masonry,Residential,145.5,1,Siumu
+3622,Masonry,Outbuilding,46.2,1,Aleipata Itupa i Lalo
+3627,Masonry,Residential,129.1,1,Lepa
+3631,Timber,Hotel,50.4,1,Falealili
+3635,Masonry,Residential,113.1,1,Safata
+3638,Masonry,Outbuilding,77.7,1,Falealili
+3639,Masonry,Residential,234.2,1,Safata
+3649,Masonry,Residential,164.3,1,Vaa o Fonoti
+3652,Masonry,Residential,77.5,1,Aleipata Itupa i Lalo
+3652,Masonry,Residential,79.4,1,Anoamaa East
+3659,Masonry,Education,331.2,1,Aleipata Itupa i Lalo
+3664,Masonry,Residential,97.3,1,Falealili
+3669,Masonry,Outbuilding,57.7,1,Safata
+3674,Masonry,Residential,132.6,1,Aleipata Itupa i Lalo
+3683,Masonry,Outbuilding,29.1,1,Vaa o Fonoti
+3688,Masonry,Residential,120.6,1,Vaa o Fonoti
+3691,Timber,Outbuilding,18.3,1,Falealili
+3692,Timber,Tourist Fale,11.1,1,Lepa
+3697,Masonry,Residential,180.1,1,Falealili
+3702,Masonry,Hotel,45.1,2,Lotofaga
+3709,Masonry,Industrial,30.0,1,Aleipata Itupa i Lalo
+3713,Masonry,Residential,248.2,1,Aleipata Itupa i Lalo
+3713,Masonry,Residential,57.4,1,Aleipata Itupa i Lalo
+3715,Masonry,Outbuilding,57.6,1,Safata
+3716,Masonry,Residential,284.3,1,Safata
+3718,Masonry,Residential,115.2,1,Aleipata Itupa i Lalo
+3719,Masonry,Residential,42.0,1,Vaa o Fonoti
+3721,Masonry,Residential,131.0,1,Siumu
+3727,Masonry,Residential,36.7,1,Falealili
+3728,Masonry,Residential,174.0,1,Falealili
+3729,Masonry,Hotel,92.5,3,Lepa
+3732,Masonry,Outbuilding,52.7,1,Lotofaga
+3740,Masonry,Outbuilding,47.7,1,Lepa
+3741,Masonry,Residential,348.2,1,Lotofaga
+3744,Masonry,Outbuilding,61.3,1,Safata
+3755,Masonry,Residential,89.1,1,Lepa
+3767,Timber,Tourist Fale,19.9,1,Lepa
+3783,Masonry,Residential,44.7,1,Falealili
+3786,Masonry,Outbuilding,49.4,1,Aleipata Itupa i Luga
+3788,Masonry,Residential,96.4,1,Vaa o Fonoti
+3789,Timber,Outbuilding,12.3,1,Falealili
+3792,Masonry,Outbuilding,58.0,1,Safata
+3793,Masonry,Residential,521.7,1,Vaa o Fonoti
+3794,Masonry,Residential,223.2,1,Falealili
+3796,Masonry,Residential,129.9,1,Vaa o Fonoti
+3799,Masonry,Residential,91.7,1,Falealili
+3820,Masonry,Outbuilding,39.5,1,Lepa
+3827,Masonry,Residential,129.9,1,Safata
+3832,Timber,Outbuilding,250.2,1,Falealili
+3833,Masonry,Fale,56.7,1,Siumu
+3835,Masonry,Outbuilding,83.9,1,Safata
+3839,Timber,Hotel,55.1,2,
+3840,Masonry,Outbuilding,192.7,1,Siumu
+3842,Timber,Outbuilding,32.7,1,Lepa
+3843,Masonry,Outbuilding,60.1,1,Safata
+3843,Masonry,Residential,217.1,1,Anoamaa East
+3844,Masonry,Outbuilding,119.5,1,Falealili
+3844,Masonry,Residential,98.7,1,Lotofaga
+3851,Masonry,Religious,2036.7,1,Aleipata Itupa i Lalo
+3855,Masonry,Residential,302.2,1,Falealili
+3856,Masonry,Residential,311.6,1,Falealili
+3860,Timber,Outbuilding,37.9,1,Aleipata Itupa i Lalo
+3861,Masonry,Fale,17.0,1,Aleipata Itupa i Luga
+3869,Masonry,Hotel,54.0,1,Lotofaga
+3873,Masonry,Outbuilding,21.4,1,Aleipata Itupa i Lalo
+3873,Masonry,Residential,609.1,1,Falealili
+3891,Masonry,Fale,98.3,1,Aleipata Itupa i Luga
+3895,Masonry,Residential,288.1,1,Falealili
+3903,Masonry,Outbuilding,84.6,1,Siumu
+3904,Masonry,Residential,263.0,1,Safata
+3904,Masonry,Residential,74.7,1,Aleipata Itupa i Luga
+3910,Masonry,Outbuilding,136.9,1,Siumu
+3912,Masonry,Residential,188.0,1,Aleipata Itupa i Lalo
+3921,Timber,Tourist Fale,11.1,1,Lepa
+3933,Masonry,Residential,206.1,1,Anoamaa East
+3937,Masonry,Residential,219.7,1,Falealili
+3948,Masonry,Outbuilding,42.5,1,Lotofaga
+3954,Masonry,Residential,132.3,1,Vaa o Fonoti
+3966,Masonry,Outbuilding,34.3,1,Falealili
+3969,Masonry,Residential,69.7,1,Lepa
+3976,Masonry,Outbuilding,36.6,1,Falealili
+3976,Masonry,Residential,223.6,1,Siumu
+3977,Masonry,Residential,169.7,1,Safata
+3981,Masonry,Outbuilding,45.1,1,Aleipata Itupa i Lalo
+3986,Masonry,Residential,86.3,1,Aleipata Itupa i Lalo
+3988,Masonry,Residential,135.1,1,Siumu
+3989,Masonry,Outbuilding,97.5,1,Siumu
+3999,Masonry,Outbuilding,46.8,1,Siumu
+4004,Masonry,Outbuilding,23.8,1,Aleipata Itupa i Lalo
+4019,Timber,Fale,22.8,1,Lotofaga
+4021,Masonry,Outbuilding,41.6,1,Safata
+4023,Masonry,Outbuilding,60.8,1,Siumu
+4024,Masonry,Fale,57.7,1,Aleipata Itupa i Lalo
+4025,Masonry,Residential,227.4,1,Safata
+4028,Masonry,Outbuilding,117.2,1,Falealili
+4040,Masonry,Outbuilding,126.6,1,Siumu
+4047,Masonry,Commercial,355.2,3,Siumu
+4050,Masonry,Residential,209.7,1,Safata
+4070,Timber,Fale,45.6,1,Falealili
+4081,Masonry,Residential,97.7,1,Falealili
+4086,Masonry,Residential,214.1,1,Falealili
+4090,Masonry,Residential,154.7,1,Aleipata Itupa i Lalo
+4095,Masonry,Fale,17.0,1,Aleipata Itupa i Luga
+4096,Masonry,Residential,153.3,1,Siumu
+4097,Masonry,Residential,139.8,1,Siumu
+4106,Masonry,Residential,237.9,1,Aleipata Itupa i Lalo
+4111,Masonry,Residential,174.4,1,Siumu
+4113,Timber,Hotel,44.7,1,Falealili
+4118,Masonry,Residential,87.6,1,Falealili
+4129,Masonry,Residential,74.3,1,Aleipata Itupa i Lalo
+4130,Masonry,Outbuilding,30.2,1,Vaa o Fonoti
+4136,Masonry,Residential,97.0,1,Vaa o Fonoti
+4140,Masonry,Residential,109.3,1,Vaa o Fonoti
+4141,Masonry,Outbuilding,58.9,1,Lotofaga
+4153,Masonry,Outbuilding,76.4,1,Falealili
+4161,Masonry,Residential,125.9,1,Falealili
+4164,Masonry,Outbuilding,24.9,1,Falealili
+4172,Masonry,Outbuilding,92.0,1,Siumu
+4180,Masonry,Outbuilding,43.2,1,Siumu
+4189,Masonry,Outbuilding,32.5,1,Aleipata Itupa i Lalo
+4192,Masonry,Outbuilding,70.7,1,Vaa o Fonoti
+4199,Masonry,Residential,252.5,1,Falealili
+4202,Masonry,Outbuilding,49.4,1,Siumu
+4220,Reinforced_Concrete,Hotel,964.5,2,Lotofaga
+4221,Masonry,Residential,233.2,1,Falealili
+4228,Timber,Outbuilding,10.6,1,Falealili
+4230,Masonry,Residential,331.0,1,Siumu
+4233,Masonry,Community,501.3,1,Falealili
+4241,Masonry,Residential,234.5,1,Falealili
+4243,Masonry,Residential,150.9,1,Falealili
+4243,Masonry,Residential,91.2,1,Vaa o Fonoti
+4243,Timber,Tourist Fale,13.2,1,Siumu
+4245,Masonry,Residential,147.5,1,Lepa
+4248,Masonry,Residential,110.8,1,Vaa o Fonoti
+4250,Timber,Residential,34.1,1,Aleipata Itupa i Lalo
+4252,Masonry,Residential,136.1,1,Aleipata Itupa i Lalo
+4257,Masonry,Outbuilding,49.5,1,Anoamaa East
+4258,Masonry,Outbuilding,53.3,1,Aleipata Itupa i Luga
+4259,Masonry,Outbuilding,33.0,1,Anoamaa East
+4263,Timber,Tourist Fale,23.0,1,Falealili
+4269,Masonry,Residential,172.6,1,Aleipata Itupa i Luga
+4273,Steel,Industrial,67.7,1,
+4275,Masonry,Outbuilding,18.2,1,Lotofaga
+4276,Masonry,Residential,156.7,1,Falealili
+4276,Timber,Hotel,15.9,2,Lepa
+4286,Masonry,Outbuilding,69.0,1,Vaa o Fonoti
+4286,Masonry,Outbuilding,77.3,1,Safata
+4287,Timber,Outbuilding,14.4,1,Aleipata Itupa i Lalo
+4288,Masonry,Fale,309.1,1,Falealili
+4291,Masonry,Commercial,548.6,3,Siumu
+4292,Masonry,Residential,151.0,1,Safata
+4293,Masonry,Residential,114.0,1,Safata
+4295,Masonry,Outbuilding,58.0,1,Vaa o Fonoti
+4298,Masonry,Residential,315.3,1,Safata
+4312,Masonry,Residential,315.3,1,Aleipata Itupa i Lalo
+4315,Masonry,Residential,304.2,1,Falealili
+4318,Masonry,Outbuilding,26.7,1,Safata
+4350,Masonry,Residential,58.2,1,Vaa o Fonoti
+4353,Timber,Fale,11.1,1,Lepa
+4354,Masonry,Outbuilding,11.4,1,Falealili
+4359,Masonry,Residential,76.2,1,Vaa o Fonoti
+4362,Masonry,Fale,17.0,1,Aleipata Itupa i Luga
+4365,Masonry,Residential,74.0,1,Safata
+4375,Masonry,Outbuilding,64.4,1,Falealili
+4375,Masonry,Religious,99.9,1,Vaa o Fonoti
+4380,Masonry,Outbuilding,67.1,1,Falealili
+4382,Masonry,Commercial,65.6,1,Siumu
+4385,Masonry,Residential,121.4,1,Aleipata Itupa i Lalo
+4385,Masonry,Residential,169.8,1,Aleipata Itupa i Lalo
+4395,Masonry,Residential,132.7,1,Siumu
+4403,Masonry,Outbuilding,70.0,1,Lepa
+4406,Masonry,Residential,219.9,1,Siumu
+4423,Masonry,Outbuilding,71.5,1,Falealili
+4423,Masonry,Residential,369.0,1,Falealili
+4426,Masonry,Religious,356.3,1,Safata
+4434,Masonry,Residential,178.1,1,Siumu
+4434,Masonry,Residential,234.7,1,Siumu
+4436,Masonry,Residential,303.5,1,Falealili
+4438,Masonry,Residential,139.7,1,Aleipata Itupa i Luga
+4441,Masonry,Residential,134.6,1,Falealili
+4450,Masonry,Fale,17.0,1,Aleipata Itupa i Luga
+4454,Masonry,Residential,269.2,1,Safata
+4459,Masonry,Hotel,263.3,2,Aleipata Itupa i Luga
+4460,Masonry,Residential,82.5,1,Siumu
+4465,Masonry,Outbuilding,51.6,1,Siumu
+4473,Masonry,Outbuilding,96.5,1,Siumu
+4478,Masonry,Outbuilding,80.5,1,Falealili
+4490,Masonry,Residential,148.0,1,Safata
+4490,Timber,Outbuilding,56.8,1,Aleipata Itupa i Lalo
+4493,Masonry,Outbuilding,125.8,1,Falealili
+4493,Masonry,Outbuilding,74.7,1,Safata
+4495,Timber,Fale,19.0,1,Aleipata Itupa i Lalo
+4497,Masonry,Outbuilding,112.0,1,Falealili
+4499,Masonry,Residential,74.7,1,Lepa
+4502,Masonry,Residential,170.1,1,Siumu
+4509,Masonry,Outbuilding,25.6,1,Aleipata Itupa i Luga
+4511,Masonry,Religious,498.7,1,Vaa o Fonoti
+4511,Masonry,Residential,108.3,1,Aleipata Itupa i Lalo
+4518,Masonry,Outbuilding,12.8,1,Vaa o Fonoti
+4528,Timber,Fale,40.9,1,Aleipata Itupa i Lalo
+4538,Masonry,Hotel,115.1,2,Lotofaga
+4541,Masonry,Residential,339.3,1,Siumu
+4543,Masonry,Residential,110.6,1,Aleipata Itupa i Lalo
+4544,Masonry,Residential,212.1,1,Falealili
+4544,Masonry,Residential,51.7,1,Falealili
+4549,Timber,Fale,39.4,1,Safata
+4550,Timber,Outbuilding,13.9,1,Aleipata Itupa i Lalo
+4551,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+4552,Masonry,Residential,138.7,1,Aleipata Itupa i Lalo
+4553,Masonry,Outbuilding,86.3,1,Safata
+4563,Masonry,Residential,123.3,1,Safata
+4567,Masonry,Outbuilding,146.8,1,Falealili
+4574,Masonry,Outbuilding,48.5,1,Safata
+4576,Masonry,Residential,236.7,1,Siumu
+4577,Masonry,Residential,126.1,1,Falealili
+4582,Masonry,Residential,193.2,1,Lepa
+4589,Masonry,Outbuilding,16.2,1,Lepa
+4599,Masonry,Outbuilding,79.8,1,Lotofaga
+4606,Masonry,Hotel,73.8,2,Lotofaga
+4609,Masonry,Residential,127.6,1,Aleipata Itupa i Lalo
+4611,Masonry,Outbuilding,142.0,1,Siumu
+4622,Masonry,Hotel,81.0,2,Lotofaga
+4627,Masonry,Residential,144.5,1,Vaa o Fonoti
+4630,Masonry,Residential,162.5,1,Falealili
+4632,Masonry,Outbuilding,39.3,1,Vaa o Fonoti
+4632,Timber,Outbuilding,30.9,1,Aleipata Itupa i Luga
+4636,Masonry,Residential,124.7,1,Safata
+4636,Timber,Outbuilding,15.0,1,Aleipata Itupa i Lalo
+4642,Masonry,Hotel,48.3,1,Lotofaga
+4649,Masonry,Residential,190.8,1,Falealili
+4660,Masonry,Residential,260.3,1,Siumu
+4662,Masonry,Residential,56.2,1,Falealili
+4673,Masonry,Religious,793.5,1,Falealili
+4680,Masonry,Outbuilding,63.5,1,Lepa
+4682,Masonry,Outbuilding,126.5,1,Safata
+4686,Masonry,Residential,159.9,1,Falealili
+4691,Masonry,Residential,164.5,1,Aleipata Itupa i Lalo
+4692,Masonry,Outbuilding,126.7,1,Siumu
+4702,Masonry,Residential,57.9,1,Vaa o Fonoti
+4703,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+4706,Masonry,Outbuilding,30.8,1,Falealili
+4706,Masonry,Residential,132.2,1,Safata
+4709,Masonry,Residential,87.9,1,Falealili
+4719,Masonry,Outbuilding,60.9,1,Siumu
+4719,Masonry,Residential,102.2,1,Safata
+4729,Masonry,Outbuilding,129.1,1,Siumu
+4729,Masonry,Residential,247.2,1,Aleipata Itupa i Luga
+4730,Masonry,Community,416.2,1,Falealili
+4731,Timber,Outbuilding,56.5,1,Aleipata Itupa i Lalo
+4734,Masonry,Residential,103.3,1,Falealili
+4736,Timber,Fale,11.1,1,Lepa
+4742,Masonry,Commercial,133.7,2,Siumu
+4742,Masonry,Outbuilding,62.9,1,Safata
+4748,Masonry,Residential,134.1,1,Siumu
+4751,Masonry,Residential,385.5,1,Siumu
+4752,Masonry,Residential,153.8,1,Falealili
+4762,Masonry,Residential,137.3,1,Siumu
+4763,Masonry,Outbuilding,26.9,1,Safata
+4764,Timber,Outbuilding,36.3,1,Falealili
+4767,Masonry,Residential,42.0,1,Lepa
+4775,Masonry,Outbuilding,47.0,1,Safata
+4777,Masonry,Outbuilding,33.1,1,Falealili
+4781,Masonry,Residential,88.8,1,Falealili
+4786,Masonry,Residential,46.4,1,Lepa
+4788,Masonry,Residential,80.1,1,Anoamaa East
+4792,Masonry,Outbuilding,50.5,1,Lepa
+4801,Masonry,Outbuilding,29.8,1,Safata
+4806,Masonry,Outbuilding,37.7,1,Lepa
+4814,Masonry,Outbuilding,109.4,1,Siumu
+4815,Masonry,Residential,264.6,1,Lepa
+4831,Masonry,Residential,127.2,1,Safata
+4853,Masonry,Residential,200.6,1,Vaa o Fonoti
+4855,Timber,Tourist Fale,14.6,1,Aleipata Itupa i Luga
+4871,Masonry,Outbuilding,113.7,1,Lepa
+4900,Masonry,Residential,122.6,1,Vaa o Fonoti
+4905,Masonry,Residential,335.2,1,Vaa o Fonoti
+4907,Masonry,Residential,88.3,1,Falealili
+4916,Masonry,Residential,90.4,1,Falealili
+4918,Timber,Tourist Fale,11.1,1,Lepa
+4921,Timber,Tourist Fale,159.6,1,Siumu
+4926,Masonry,Residential,167.0,1,Aleipata Itupa i Lalo
+4934,Masonry,Residential,118.2,1,Falealili
+4938,Masonry,Residential,41.1,1,Aleipata Itupa i Luga
+4938,Masonry,Residential,58.8,1,Falealili
+4942,Masonry,Residential,116.0,1,Falealili
+4942,Timber,Outbuilding,36.6,1,Falealili
+4965,Masonry,Residential,334.0,1,Lepa
+4967,Masonry,Residential,306.4,1,Falealili
+4982,Masonry,Religious,499.4,1,Falealili
+4983,Timber,Outbuilding,30.4,1,Falealili
+4995,Masonry,Residential,260.5,1,Safata
+4996,Masonry,Residential,139.8,1,Safata
+5006,Masonry,Outbuilding,61.9,1,Falealili
+5013,Masonry,Residential,279.8,1,Lotofaga
+5014,Masonry,Outbuilding,30.0,1,Falealili
+5017,Masonry,Residential,147.4,1,Falealili
+5025,Masonry,Outbuilding,29.7,1,Aleipata Itupa i Lalo
+5025,Masonry,Residential,102.3,1,Aleipata Itupa i Lalo
+5027,Masonry,Outbuilding,16.8,1,Vaa o Fonoti
+5030,Masonry,Residential,108.3,1,Falealili
+5032,Masonry,Residential,109.5,1,Lepa
+5035,Reinforced_Concrete,Religious,488.8,1,Falealili
+5049,Masonry,Outbuilding,46.3,1,Aleipata Itupa i Luga
+5051,Masonry,Outbuilding,35.9,1,Aleipata Itupa i Luga
+5063,Masonry,Residential,89.9,1,Falealili
+5064,Timber,Outbuilding,57.5,1,Lepa
+5068,Masonry,Outbuilding,28.7,1,Falealili
+5075,Masonry,Outbuilding,32.9,1,Safata
+5092,Masonry,Outbuilding,47.4,1,Falealili
+5092,Masonry,Residential,267.0,1,Falealili
+5102,Masonry,Outbuilding,18.0,1,Aleipata Itupa i Lalo
+5112,Masonry,Residential,153.8,1,Lotofaga
+5116,Masonry,Outbuilding,31.6,1,Safata
+5117,Masonry,Residential,55.4,1,Aleipata Itupa i Lalo
+5118,Masonry,Residential,151.7,1,Aleipata Itupa i Lalo
+5121,Timber,Outbuilding,22.9,1,Aleipata Itupa i Lalo
+5125,Masonry,Residential,337.7,1,Aleipata Itupa i Luga
+5134,Timber,Fale,89.4,1,Siumu
+5138,Masonry,Residential,38.0,1,Falealili
+5138,Masonry,Residential,66.2,1,Aleipata Itupa i Luga
+5139,Masonry,Residential,269.9,1,Falealili
+5152,Masonry,Hotel,200.5,3,Falealili
+5159,Masonry,Residential,126.5,1,Falealili
+5161,Masonry,Outbuilding,100.7,1,Falealili
+5180,Masonry,Outbuilding,53.2,1,Anoamaa East
+5187,Masonry,Residential,234.3,1,Vaa o Fonoti
+5190,Masonry,Outbuilding,66.7,1,Safata
+5197,Masonry,Outbuilding,35.4,1,Safata
+5198,Masonry,Residential,229.8,1,Falealili
+5203,Masonry,Residential,157.2,1,Siumu
+5206,Masonry,Residential,326.6,1,Aleipata Itupa i Luga
+5231,Masonry,Residential,76.8,1,Lepa
+5232,Masonry,Residential,168.2,1,Vaa o Fonoti
+5239,Masonry,Residential,99.1,1,Safata
+5239,Timber,Outbuilding,15.2,1,Aleipata Itupa i Lalo
+5245,Masonry,Outbuilding,64.0,1,Safata
+5246,Masonry,Outbuilding,43.8,1,Aleipata Itupa i Luga
+5266,Masonry,Residential,35.3,1,Falealili
+5270,Masonry,Residential,111.2,1,Falealili
+5283,Timber,Outbuilding,7.5,1,Falealili
+5290,Masonry,Outbuilding,18.2,1,Falealili
+5290,Masonry,Outbuilding,78.9,1,Vaa o Fonoti
+5302,Masonry,Outbuilding,56.1,1,Safata
+5309,Masonry,Residential,135.5,1,Aleipata Itupa i Lalo
+5328,Masonry,Residential,98.2,1,Falealili
+5334,Masonry,Outbuilding,207.8,1,Falealili
+5343,Masonry,Outbuilding,233.9,1,Falealili
+5349,Masonry,Residential,87.2,1,Falealili
+5349,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+5352,Masonry,Outbuilding,38.2,1,Safata
+5359,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+5362,Masonry,Outbuilding,47.6,1,Falealili
+5365,Masonry,Residential,242.3,1,Siumu
+5367,Timber,Residential,92.0,1,Lepa
+5373,Masonry,Residential,128.6,1,Aleipata Itupa i Luga
+5374,Masonry,Outbuilding,33.9,1,Falealili
+5380,Masonry,Residential,124.4,1,Aleipata Itupa i Luga
+5382,Masonry,Residential,282.4,1,Aleipata Itupa i Lalo
+5392,Masonry,Residential,77.2,1,Falealili
+5404,Masonry,Residential,226.5,1,Safata
+5409,Masonry,Religious,109.5,1,Siumu
+5410,Timber,Outbuilding,36.6,1,Aleipata Itupa i Lalo
+5433,Masonry,Fale,52.0,1,Siumu
+5435,Masonry,Residential,463.4,1,Siumu
+5438,Timber,Tourist Fale,74.1,1,Siumu
+5441,Masonry,Outbuilding,38.8,1,Aleipata Itupa i Lalo
+5444,Timber,Fale,22.8,1,Lepa
+5445,Masonry,Residential,186.4,1,Falealili
+5446,Masonry,Outbuilding,99.1,1,Safata
+5448,Masonry,Outbuilding,74.3,1,Safata
+5452,Masonry,Residential,315.3,1,Safata
+5458,Timber,Hotel,23.0,2,Falealili
+5461,Masonry,Outbuilding,41.6,1,Safata
+5464,Masonry,Residential,161.8,1,Aleipata Itupa i Lalo
+5469,Masonry,Fale,160.3,1,Lotofaga
+5471,Masonry,Outbuilding,96.7,1,Falealili
+5477,Masonry,Hotel,87.5,1,Falealili
+5479,Masonry,Commercial,291.4,2,Siumu
+5480,Masonry,Outbuilding,19.0,1,Aleipata Itupa i Luga
+5483,Masonry,Outbuilding,84.3,1,Falealili
+5510,Masonry,Commercial,48.8,2,Aleipata Itupa i Luga
+5526,Masonry,Outbuilding,82.2,1,Siumu
+5531,Masonry,Outbuilding,44.6,1,Lepa
+5539,Masonry,Outbuilding,29.6,1,Aleipata Itupa i Lalo
+5549,Masonry,Residential,138.5,1,Lepa
+5549,Masonry,Residential,277.2,1,Aleipata Itupa i Luga
+5552,Masonry,Residential,181.3,1,Siumu
+5556,Masonry,Outbuilding,8.1,1,Falealili
+5559,Timber,Tourist Fale,133.2,1,Siumu
+5563,Masonry,Residential,145.5,1,Safata
+5574,Masonry,Residential,107.5,1,Siumu
+5574,Masonry,Residential,256.9,1,Falealili
+5575,Masonry,Residential,58.6,1,Anoamaa East
+5576,Masonry,Residential,205.5,1,Lotofaga
+5582,Masonry,Residential,209.2,1,Siumu
+5584,Masonry,Residential,60.4,1,Aleipata Itupa i Luga
+5588,Masonry,Outbuilding,75.2,1,Falealili
+5588,Masonry,Residential,72.1,1,Falealili
+5590,Masonry,Outbuilding,73.1,1,Aleipata Itupa i Luga
+5598,Masonry,Residential,189.1,1,Falealili
+5599,Masonry,Residential,85.4,1,Safata
+5607,Masonry,Residential,331.0,1,Aleipata Itupa i Lalo
+5610,Masonry,Outbuilding,49.1,1,Aleipata Itupa i Lalo
+5630,Timber,Outbuilding,40.5,1,Lepa
+5631,Masonry,Commericial - not verified,184.4,1,Aleipata Itupa i Lalo
+5632,Masonry,Outbuilding,38.7,1,Falealili
+5641,Masonry,Outbuilding,15.0,1,Lepa
+5641,Masonry,Residential,306.9,1,Siumu
+5652,Masonry,Residential,1367.3,1,Siumu
+5654,Masonry,Outbuilding,28.6,1,Falealili
+5676,Masonry,Residential,103.9,1,Falealili
+5677,Masonry,Outbuilding,58.2,1,Falealili
+5681,Masonry,Residential,190.1,1,Falealili
+5683,Masonry,Residential,233.2,1,Aleipata Itupa i Lalo
+5690,Masonry,Residential,77.4,1,Falealili
+5695,Masonry,Residential,115.2,1,Falealili
+5696,Masonry,Tourist Fale,34.0,1,Safata
+5706,Masonry,Outbuilding,12.6,1,Falealili
+5708,Masonry,Fale,672.0,1,Aleipata Itupa i Lalo
+5708,Timber,Outbuilding,25.7,1,Aleipata Itupa i Luga
+5715,Masonry,Residential,131.2,1,Aleipata Itupa i Luga
+5717,Masonry,Residential,266.9,1,Falealili
+5721,Masonry,Residential,221.9,1,Safata
+5721,Masonry,Residential,247.3,1,Falealili
+5728,Timber,Hotel,33.7,2,Lepa
+5729,Masonry,Hotel,839.6,1,Falealili
+5736,Timber,Tourist Fale,18.0,1,Aleipata Itupa i Luga
+5739,Masonry,Outbuilding,15.5,1,Falealili
+5748,Masonry,Residential,101.0,1,Falealili
+5763,Masonry,Residential,236.6,1,Aleipata Itupa i Luga
+5766,Masonry,Outbuilding,34.2,1,Aleipata Itupa i Luga
+5769,Masonry,Residential,426.9,1,Safata
+5778,Masonry,Outbuilding,85.8,1,Siumu
+5791,Masonry,Outbuilding,15.7,1,Aleipata Itupa i Lalo
+5792,Masonry,Residential,116.3,1,Aleipata Itupa i Luga
+5799,Masonry,Hotel,68.8,1,Lotofaga
+5812,Masonry,Residential,153.9,1,Aleipata Itupa i Luga
+5816,Masonry,Residential,288.0,1,Siumu
+5820,Masonry,Residential,100.3,1,Falealili
+5822,Masonry,Residential,177.4,1,Siumu
+5822,Masonry,Residential,323.3,1,Aleipata Itupa i Luga
+5824,Timber,Fale,22.8,1,Lotofaga
+5825,Masonry,Outbuilding,56.8,1,Falealili
+5827,Timber,Fale,24.1,1,Aleipata Itupa i Lalo
+5835,Masonry,Outbuilding,50.8,1,Safata
+5836,Masonry,Residential,323.8,1,Vaa o Fonoti
+5838,Masonry,Fale,198.1,1,Safata
+5839,Masonry,Residential,66.0,1,Aleipata Itupa i Lalo
+5846,Masonry,Residential,364.6,1,Safata
+5850,Masonry,Residential,129.7,1,Falealili
+5853,Masonry,Residential,126.0,1,Lotofaga
+5856,Masonry,Outbuilding,56.8,1,Safata
+5860,Masonry,Outbuilding,13.4,1,Aleipata Itupa i Luga
+5865,Masonry,Outbuilding,79.6,1,Siumu
+5868,Timber,Tourist Fale,30.3,1,Siumu
+5871,Masonry,Outbuilding,13.2,1,Aleipata Itupa i Lalo
+5893,Masonry,Outbuilding,108.0,1,Siumu
+5893,Timber,Residential,105.8,1,Falealili
+5897,Masonry,Residential,125.1,1,Vaa o Fonoti
+5917,Timber,Tourist Fale,35.0,1,Lepa
+5919,Timber,Tourist Fale,19.9,1,Falealili
+5921,Masonry,Residential,215.6,1,Aleipata Itupa i Luga
+5922,Masonry,Residential,171.1,1,Vaa o Fonoti
+5922,Masonry,Residential,214.1,1,Safata
+5923,Masonry,Tourist Fale,18.8,1,Lepa
+5924,Masonry,Outbuilding,59.0,1,Safata
+5928,Masonry,Residential,73.8,1,Siumu
+5931,Timber,Residential,65.7,1,Aleipata Itupa i Luga
+5939,Masonry,Residential,165.6,1,Safata
+5943,Timber,Tourist Fale,19.9,1,Falealili
+5947,Masonry,Outbuilding,42.8,1,Lotofaga
+5956,Masonry,Outbuilding,14.9,1,Falealili
+5959,Masonry,Outbuilding,30.4,1,Aleipata Itupa i Lalo
+5959,Masonry,Outbuilding,58.3,1,Aleipata Itupa i Luga
+5971,Masonry,Residential,198.4,1,Lepa
+5976,Masonry,Residential,142.0,1,Vaa o Fonoti
+5977,Masonry,Residential,189.6,1,Siumu
+5982,Masonry,Residential,273.0,1,Falealili
+5983,Masonry,Residential,904.2,1,Aleipata Itupa i Lalo
+5985,Masonry,Fale,50.7,1,Siumu
+5986,Masonry,Residential,209.2,1,Safata
+5988,Masonry,Outbuilding,58.0,1,Siumu
+5992,Masonry,Hotel,85.3,2,Lotofaga
+5993,Masonry,Outbuilding,32.5,1,Falealili
+5996,Masonry,Residential,228.5,1,Lepa
+5999,Masonry,Hotel,147.2,3,Aleipata Itupa i Luga
+6002,Masonry,Outbuilding,54.0,1,Siumu
+6005,Masonry,Outbuilding,205.6,1,Siumu
+6012,Masonry,Residential,330.8,1,Falealili
+6018,Timber,Hotel,219.3,1,Lepa
+6019,Masonry,Outbuilding,33.1,1,Falealili
+6023,Masonry,Outbuilding,15.9,1,Vaa o Fonoti
+6032,Masonry,Outbuilding,271.3,1,Siumu
+6032,Masonry,Outbuilding,54.2,1,Safata
+6032,Masonry,Religious,338.1,1,Siumu
+6040,Masonry,Outbuilding,46.0,1,Siumu
+6046,Masonry,Residential,139.1,1,Siumu
+6051,Masonry,Residential,176.3,1,Siumu
+6052,Timber,Outbuilding,20.8,1,Lepa
+6053,Masonry,Outbuilding,99.5,1,Safata
+6057,Masonry,Residential,131.8,1,Siumu
+6059,Masonry,Residential,82.0,1,Aleipata Itupa i Lalo
+6066,Masonry,Fale,95.9,1,Aleipata Itupa i Lalo
+6073,Masonry,Outbuilding,76.4,1,Safata
+6075,Masonry,Residential,213.0,1,Siumu
+6106,Masonry,Residential,113.2,1,Falealili
+6111,Masonry,Outbuilding,32.2,1,Aleipata Itupa i Lalo
+6122,Masonry,Outbuilding,27.6,1,Siumu
+6122,Masonry,Outbuilding,53.9,1,Siumu
+6129,Masonry,Residential,133.9,1,Falealili
+6137,Masonry,Residential,330.8,1,Siumu
+6143,Masonry,Outbuilding,80.2,1,Falealili
+6153,Masonry,Outbuilding,17.5,1,Vaa o Fonoti
+6153,Masonry,Outbuilding,34.1,1,Lotofaga
+6164,Masonry,Outbuilding,26.6,1,Vaa o Fonoti
+6173,Masonry,Residential,146.7,1,Siumu
+6173,Masonry,Residential,181.9,1,Siumu
+6181,Masonry,Outbuilding,104.3,1,Safata
+6191,Masonry,Residential,104.0,1,Siumu
+6199,Masonry,Outbuilding,51.6,1,Aleipata Itupa i Lalo
+6213,Masonry,Residential,394.1,1,Lepa
+6216,Masonry,Residential,130.3,1,Safata
+6226,Masonry,Residential,174.9,1,Vaa o Fonoti
+6236,Masonry,Outbuilding,48.7,1,Lotofaga
+6240,Timber,Tourist Fale,19.9,1,Lepa
+6242,Timber,Tourist Fale,30.7,1,Siumu
+6245,Masonry,Fale,61.9,1,Falealili
+6257,Masonry,Outbuilding,60.9,1,Lepa
+6258,Masonry,Residential,610.6,1,Falealili
+6259,Masonry,Outbuilding,23.8,1,Lepa
+6265,Masonry,Commercial,141.1,1,Siumu
+6299,Masonry,Residential,138.7,1,Aleipata Itupa i Lalo
+6313,Masonry,Residential,232.1,1,Aleipata Itupa i Luga
+6323,Masonry,Residential,147.0,1,Safata
+6330,Masonry,Residential,132.3,1,Safata
+6332,Masonry,Residential,68.4,1,Lepa
+6335,Masonry,Outbuilding,32.3,1,Safata
+6340,Masonry,Outbuilding,22.7,1,Vaa o Fonoti
+6361,Masonry,Tourist Fale,23.8,1,Safata
+6362,Timber,Tourist Fale,11.1,1,Lepa
+6370,Masonry,Outbuilding,29.9,1,Aleipata Itupa i Lalo
+6380,Timber,Fale,40.7,1,Falealili
+6386,Masonry,Outbuilding,55.6,1,Aleipata Itupa i Lalo
+6386,Masonry,Residential,70.2,1,Siumu
+6396,Masonry,Residential,97.2,1,Falealili
+6397,Masonry,Commercial,62.0,2,Lepa
+6397,Masonry,Outbuilding,24.5,1,Falealili
+6407,Masonry,Residential,59.8,1,Safata
+6409,Masonry,Outbuilding,63.3,1,Falealili
+6417,Masonry,Residential,109.8,1,Falealili
+6421,Masonry,Outbuilding,52.0,1,Siumu
+6426,Masonry,Outbuilding,122.7,1,Siumu
+6432,Masonry,Residential,170.5,1,Falealili
+6433,Masonry,Residential,385.0,1,Lepa
+6435,Masonry,Outbuilding,85.1,1,Safata
+6435,Masonry,Residential,162.2,1,Aleipata Itupa i Luga
+6439,Masonry,Outbuilding,22.5,1,Aleipata Itupa i Lalo
+6440,Masonry,Tourist Fale,34.7,1,Safata
+6454,Masonry,Residential,110.2,1,Safata
+6456,Timber,Tourist Fale,21.5,1,Aleipata Itupa i Luga
+6458,Masonry,Commercial - not verified,760.1,1,Siumu
+6458,Masonry,Outbuilding,97.4,1,Safata
+6461,Masonry,Residential,127.6,1,Falealili
+6467,Masonry,Outbuilding,24.0,1,Falealili
+6467,Masonry,Outbuilding,63.2,1,Aleipata Itupa i Luga
+6469,Masonry,Residential,92.8,1,Falealili
+6477,Masonry,Outbuilding,57.0,1,Aleipata Itupa i Lalo
+6480,Masonry,Residential,126.1,1,Aleipata Itupa i Lalo
+6488,Masonry,Residential,147.5,1,Safata
+6492,Masonry,Outbuilding,86.2,1,Falealili
+6506,Masonry,Residential,107.3,1,Safata
+6509,Masonry,Community,144.5,1,Siumu
+6510,Timber,Outbuilding,57.1,1,Falealili
+6514,Masonry,Residential,126.4,1,Safata
+6515,Masonry,Residential,104.4,1,Siumu
+6517,Masonry,Residential,119.5,1,Siumu
+6523,Masonry,Residential,232.4,1,Falealili
+6525,Masonry,Outbuilding,50.5,1,Lepa
+6528,Timber,Residential,181.0,1,Aleipata Itupa i Lalo
+6543,Masonry,Residential,114.6,1,Siumu
+6552,Masonry,Residential,238.1,1,Safata
+6564,Masonry,Outbuilding,254.1,1,Safata
+6567,Masonry,Residential,157.6,1,Falealili
+6569,Masonry,Residential,66.3,1,Lepa
+6570,Masonry,Residential,318.7,1,Safata
+6571,Masonry,Residential,119.6,1,Falealili
+6572,Timber,Fale,43.8,1,Falealili
+6606,Masonry,Outbuilding,72.5,1,Siumu
+6615,Masonry,Outbuilding,12.4,1,Aleipata Itupa i Lalo
+6619,Masonry,Residential,117.7,1,Lotofaga
+6633,Masonry,Residential,194.7,1,Falealili
+6642,Masonry,Residential,235.5,1,Siumu
+6642,Masonry,Residential,76.4,1,Falealili
+6644,Masonry,Residential,148.1,1,Siumu
+6649,Masonry,Residential,273.7,1,Siumu
+6653,Masonry,Residential,225.4,1,Siumu
+6683,Timber,Fale,26.9,1,Lotofaga
+6687,Masonry,Residential,221.4,1,Falealili
+6695,Masonry,Outbuilding,68.9,1,Siumu
+6700,Masonry,Residential,248.3,1,Lotofaga
+6704,Masonry,Residential,282.1,1,Siumu
+6705,Masonry,Residential,140.5,1,Anoamaa East
+6715,Masonry,Residential,161.0,1,Safata
+6721,Timber,Tourist Fale,19.9,1,Lepa
+6724,Masonry,Residential,61.5,1,Aleipata Itupa i Luga
+6730,Masonry,Outbuilding,143.3,1,Safata
+6753,Masonry,Outbuilding,92.5,1,Siumu
+6754,Timber,Outbuilding,19.2,1,Aleipata Itupa i Luga
+6774,Masonry,Outbuilding,47.3,1,Vaa o Fonoti
+6780,Masonry,Outbuilding,79.0,1,Safata
+6788,Masonry,Residential,196.8,1,Safata
+6795,Masonry,Residential,313.8,1,Falealili
+6799,Masonry,Outbuilding,52.0,1,Falealili
+6801,Masonry,Outbuilding,100.7,1,Falealili
+6809,Timber,Fale,75.1,1,Lotofaga
+6810,Masonry,Residential,273.2,1,Lotofaga
+6812,Masonry,Outbuilding,44.5,1,Safata
+6813,Masonry,Residential,109.5,1,Lepa
+6815,Masonry,Outbuilding,23.3,1,Lepa
+6819,Masonry,Residential,91.1,1,Aleipata Itupa i Lalo
+6834,Timber,Tourist Fale,19.9,1,Lepa
+6854,Masonry,Residential,239.8,1,Siumu
+6855,Masonry,Residential,132.7,1,Lotofaga
+6860,Masonry,Outbuilding,111.1,1,Falealili
+6867,Masonry,Residential,182.4,1,Safata
+6872,Masonry,Outbuilding,33.0,1,Vaa o Fonoti
+6878,Masonry,Residential,123.1,1,Aleipata Itupa i Lalo
+6884,Masonry,Outbuilding,48.5,1,Safata
+6889,Timber,Fale,37.4,1,Aleipata Itupa i Lalo
+6892,Masonry,Outbuilding,61.4,1,Lepa
+6899,Masonry,Outbuilding,167.6,1,Lotofaga
+6899,Masonry,Residential,278.5,1,Falealili
+6906,Masonry,Residential,71.2,1,Anoamaa East
+6921,Masonry,Outbuilding,180.6,1,Safata
+6921,Masonry,Outbuilding,28.9,1,Falealili
+6923,Masonry,Residential,214.9,1,Siumu
+6926,Masonry,Residential,179.1,1,Falealili
+6926,Timber,Fale,41.3,1,Falealili
+6927,Masonry,Residential,58.5,1,Aleipata Itupa i Lalo
+6939,Masonry,Residential,150.1,1,Aleipata Itupa i Lalo
+6944,Masonry,Outbuilding,37.0,1,Safata
+6947,Masonry,Outbuilding,64.6,1,Vaa o Fonoti
+6951,Masonry,Outbuilding,43.9,1,Safata
+6966,Masonry,Outbuilding,30.4,1,Falealili
+6966,Masonry,Residential,124.9,1,Vaa o Fonoti
+6988,Masonry,Residential,468.0,1,Siumu
+6993,Masonry,Residential,85.9,1,Siumu
+6996,Masonry,Residential,90.2,1,Siumu
+6998,Timber,Outbuilding,71.4,1,Aleipata Itupa i Lalo
+7002,Masonry,Residential,153.9,1,Aleipata Itupa i Lalo
+7008,Masonry,Residential,146.9,1,Siumu
+7023,Masonry,Community,626.3,1,Falealili
+7028,Timber,Outbuilding,41.4,1,Aleipata Itupa i Luga
+7031,Masonry,Outbuilding,48.9,1,Falealili
+7031,Masonry,Residential,693.4,1,Safata
+7035,Masonry,Residential,130.0,1,Safata
+7036,Timber,Outbuilding,21.8,1,Falealili
+7051,Masonry,Residential,22.8,1,Aleipata Itupa i Luga
+7060,Timber,Hotel,18.8,2,Lepa
+7065,Masonry,Residential,92.6,1,Aleipata Itupa i Luga
+7075,Masonry,Residential,224.2,1,Safata
+7078,Masonry,Residential,83.6,1,Aleipata Itupa i Lalo
+7078,Timber,Fale,44.3,1,Aleipata Itupa i Lalo
+7079,Masonry,Outbuilding,96.8,1,Safata
+7080,Masonry,Residential,213.0,1,Safata
+7081,Masonry,Outbuilding,86.4,1,Falealili
+7083,Masonry,Outbuilding,54.2,1,Safata
+7084,Timber,Fale,63.1,1,Safata
+7085,Masonry,Outbuilding,21.6,1,Aleipata Itupa i Lalo
+7095,Masonry,Residential,95.6,1,Vaa o Fonoti
+7100,Timber,Fale,25.1,1,Safata
+7106,Masonry,Outbuilding,101.3,1,Siumu
+7109,Masonry,Hotel,225.0,2,Falealili
+7109,Masonry,Hotel,62.2,2,Lotofaga
+7109,Masonry,Outbuilding,102.8,1,Safata
+7110,Masonry,Residential,254.8,1,Aleipata Itupa i Luga
+7112,Timber,Hotel,50.4,2,Falealili
+7129,Masonry,Outbuilding,216.3,1,Siumu
+7140,Masonry,Fale,37.0,1,Falealili
+7141,Masonry,Residential,74.6,1,Falealili
+7142,Masonry,Hotel,46.7,2,Lotofaga
+7149,Masonry,Residential,159.1,1,Safata
+7149,Reinforced Concrete,Religious,497.6,1,Falealili
+7158,Timber,Outbuilding,15.1,1,Falealili
+7159,Masonry,Residential,159.2,1,Aleipata Itupa i Lalo
+7165,Masonry,Residential,112.6,1,Safata
+7170,Masonry,Outbuilding,32.5,1,Safata
+7171,Masonry,Residential,188.2,1,Safata
+7172,Masonry,Residential,165.5,1,Vaa o Fonoti
+7173,Masonry,Residential,406.6,1,Siumu
+7205,Masonry,Residential,216.1,1,Falealili
+7211,Masonry,Outbuilding,27.0,1,Aleipata Itupa i Lalo
+7213,Masonry,Residential,134.4,1,Aleipata Itupa i Luga
+7224,Masonry,Outbuilding,141.8,1,Siumu
+7227,Masonry,Residential,146.3,1,Falealili
+7235,Masonry,Residential,119.6,1,Vaa o Fonoti
+7235,Masonry,Residential,143.6,1,Aleipata Itupa i Lalo
+7238,Masonry,Outbuilding,40.1,1,Vaa o Fonoti
+7239,Masonry,Residential,110.9,1,Vaa o Fonoti
+7259,Masonry,Residential,228.7,1,Aleipata Itupa i Lalo
+7262,Masonry,Residential,125.8,1,Falealili
+7265,Masonry,Residential,125.8,1,Safata
+7266,Masonry,Outbuilding,31.4,1,Falealili
+7268,Masonry,Outbuilding,42.3,1,Safata
+7274,Masonry,Outbuilding,24.5,1,Falealili
+7281,Masonry,Residential,57.4,1,Falealili
+7282,Masonry,Outbuilding,29.4,1,Vaa o Fonoti
+7291,Timber,Tourist Fale,19.9,1,Lepa
+7292,Masonry,Residential,173.5,1,Siumu
+7292,Masonry,Residential,173.9,1,Safata
+7294,Masonry,Residential,116.5,1,Vaa o Fonoti
+7308,Timber,Outbuilding,18.2,1,Aleipata Itupa i Lalo
+7309,Masonry,Outbuilding,75.8,1,Siumu
+7322,Masonry,Residential,218.8,1,Falealili
+7323,Masonry,Residential,253.6,1,Siumu
+7323,Masonry,Residential,90.2,1,Safata
+7333,Masonry,Outbuilding,61.6,1,Falealili
+7334,Timber,Outbuilding,43.4,1,Falealili
+7339,Masonry,Outbuilding,65.9,1,Falealili
+7343,Timber,Hotel,26.5,3,Lepa
+7344,Masonry,Outbuilding,24.5,1,Vaa o Fonoti
+7345,Masonry,Residential,168.5,1,Safata
+7349,Masonry,Outbuilding,111.3,1,Siumu
+7351,Masonry,Residential,115.3,1,Falealili
+7353,Masonry,Hotel,72.7,2,Siumu
+7353,Masonry,Residential,400.4,1,Siumu
+7378,Masonry,Outbuilding,28.8,1,Falealili
+7383,Masonry,Residential,180.0,1,Falealili
+7388,Masonry,Outbuilding,14.9,1,Anoamaa East
+7391,Masonry,Residential,48.6,1,Lepa
+7394,Masonry,Residential,149.3,1,Aleipata Itupa i Lalo
+7400,Masonry,Residential,194.8,1,Siumu
+7403,Masonry,Fale,116.8,1,Aleipata Itupa i Lalo
+7403,Masonry,Residential,208.2,1,Falealili
+7428,Masonry,Residential,161.1,1,Safata
+7428,Masonry,Residential,175.2,1,Safata
+7443,Masonry,Residential,161.8,1,Siumu
+7443,Masonry,Residential,238.2,1,Safata
+7447,Timber,Outbuilding,38.5,1,Falealili
+7449,Masonry,Residential,109.1,1,Safata
+7451,Masonry,Outbuilding,68.4,1,Aleipata Itupa i Luga
+7452,Masonry,Residential,231.0,1,Lepa
+7455,Masonry,Hotel,49.3,2,Aleipata Itupa i Luga
+7460,Timber,Outbuilding,72.6,1,Lepa
+7470,Masonry,Outbuilding,48.7,1,Safata
+7471,Masonry,Residential,90.4,1,Aleipata Itupa i Luga
+7472,Masonry,Commercial,438.2,2,Aleipata Itupa i Lalo
+7473,Masonry,Residential,113.6,1,Vaa o Fonoti
+7481,Masonry,Residential,156.4,1,Anoamaa East
+7485,Masonry,Outbuilding,48.2,1,Lotofaga
+7489,Masonry,Outbuilding,51.0,1,Lepa
+7502,Masonry,Residential,198.8,1,Safata
+7508,Masonry,Residential,339.5,1,Falealili
+7509,Masonry,Residential,181.8,1,Falealili
+7512,Masonry,Residential,89.3,1,Aleipata Itupa i Lalo
+7519,Masonry,Hotel,49.4,2,Aleipata Itupa i Luga
+7524,Timber,Tourist Fale,29.9,1,Lepa
+7533,Masonry,Residential,124.8,1,Aleipata Itupa i Lalo
+7533,Masonry,Residential,141.9,1,Aleipata Itupa i Lalo
+7539,Masonry,Residential,96.8,1,Safata
+7544,Masonry,Residential,116.8,1,Safata
+7546,Masonry,Hotel,111.0,2,Lotofaga
+7547,Masonry,Residential,87.1,1,Falealili
+7555,Timber,Outbuilding,31.2,1,Aleipata Itupa i Luga
+7559,Masonry,Outbuilding,60.1,1,Safata
+7569,Masonry,Residential,416.8,1,Siumu
+7580,Masonry,Residential,141.9,1,Aleipata Itupa i Lalo
+7580,Masonry,Residential,97.2,1,Falealili
+7583,Masonry,Outbuilding,32.6,1,Falealili
+7591,Masonry,Outbuilding,59.7,1,Aleipata Itupa i Luga
+7593,Masonry,Outbuilding,24.0,1,Falealili
+7597,Masonry,Residential,135.9,1,Safata
+7597,Masonry,Residential,149.9,1,Aleipata Itupa i Lalo
+7598,Timber,Tourist Fale,166.8,1,Siumu
+7603,Masonry,Residential,123.0,1,Siumu
+7607,Masonry,Residential,132.4,1,Vaa o Fonoti
+7610,Masonry,Residential,158.2,1,Safata
+7622,Masonry,Hotel,211.4,2,Lepa
+7632,Masonry,Outbuilding,86.9,1,Siumu
+7633,Masonry,Outbuilding,62.6,1,Safata
+7646,Masonry,Residential,290.3,1,Aleipata Itupa i Lalo
+7648,Masonry,Outbuilding,41.0,1,Aleipata Itupa i Luga
+7661,Masonry,Outbuilding,44.4,1,Siumu
+7663,Masonry,Outbuilding,32.9,1,Falealili
+7671,Masonry,Residential,87.2,1,Falealili
+7688,Timber,Outbuilding,27.9,1,Falealili
+7696,Masonry,Outbuilding,74.4,1,Falealili
+7709,Masonry,Education,1559.1,1,Aleipata Itupa i Lalo
+7725,Masonry,Community,446.4,1,Falealili
+7730,Masonry,Outbuilding,68.2,1,Safata
+7735,Masonry,Residential,199.3,1,Siumu
+7745,Masonry,Outbuilding,41.6,1,Aleipata Itupa i Lalo
+7755,Masonry,Commercial,99.8,1,Siumu
+7755,Masonry,Residential,120.9,1,Siumu
+7765,Masonry,Residential,168.7,1,Aleipata Itupa i Luga
+7769,Masonry,Residential,121.9,1,Falealili
+7776,Masonry,Residential,85.2,1,Lotofaga
+7783,Masonry,Residential,103.4,1,Falealili
+7786,Masonry,Fale,31.5,1,Siumu
+7794,Masonry,Outbuilding,142.2,1,Aleipata Itupa i Lalo
+7798,Masonry,Residential,275.2,1,Aleipata Itupa i Lalo
+7812,Masonry,Residential,108.2,1,Vaa o Fonoti
+7822,Masonry,Outbuilding,42.8,1,Falealili
+7826,Masonry,Residential,237.7,1,Aleipata Itupa i Lalo
+7841,Masonry,Outbuilding,48.0,1,Siumu
+7842,Masonry,Residential,199.6,1,Lepa
+7843,Masonry,Outbuilding,49.1,1,Falealili
+7853,Masonry,Residential,119.5,1,Siumu
+7855,Masonry,Residential,158.7,1,Safata
+7880,Masonry,Residential,161.9,1,Falealili
+7894,Masonry,Outbuilding,95.0,1,Falealili
+7901,Masonry,Residential,237.5,1,Aleipata Itupa i Lalo
+7904,Masonry,Residential,128.5,1,Vaa o Fonoti
+7912,Masonry,Residential,219.9,1,Lepa
+7913,Masonry,Hotel,74.8,2,Lotofaga
+7914,Steel,Industrial,156.0,1,
+7927,Masonry,Outbuilding,18.2,1,Falealili
+7928,Masonry,Residential,94.2,1,Siumu
+7936,Masonry,Residential,242.8,1,Falealili
+7938,Masonry,Outbuilding,325.5,1,Siumu
+7940,Timber,Residential,34.8,1,Lepa
+7941,Masonry,Outbuilding,89.8,1,Safata
+7950,Masonry,Residential,164.4,1,Siumu
+7955,Masonry,Outbuilding,110.4,1,Falealili
+7958,Masonry,Residential,190.9,1,Aleipata Itupa i Lalo
+7960,Masonry,Outbuilding,16.3,1,Falealili
+7963,Masonry,Residential,121.9,1,Lotofaga
+7964,Masonry,Residential,169.5,1,Falealili
+7970,Masonry,Residential,49.5,1,Siumu
+7982,Masonry,Outbuilding,68.6,1,Siumu
+7989,Masonry,Outbuilding,36.0,1,Aleipata Itupa i Luga
+8018,Masonry,Residential,80.9,1,Vaa o Fonoti
+8024,Masonry,Outbuilding,43.2,1,Safata
+8026,Masonry,Residential,180.0,1,Lepa
+8032,Masonry,Hotel,344.7,2,Siumu
+8041,Masonry,Residential,117.7,1,Safata
+8044,Masonry,Outbuilding,47.1,1,Vaa o Fonoti
+8056,Masonry,Outbuilding,25.8,1,Vaa o Fonoti
+8057,Timber,Fale,33.3,1,Falealili
+8063,Masonry,Residential,76.5,1,Siumu
+8066,Masonry,Residential,82.4,1,Lepa
+8068,Masonry,Fale,14.8,1,Aleipata Itupa i Lalo
+8075,Masonry,Fale,58.8,1,Safata
+8081,Masonry,Residential,153.1,1,Vaa o Fonoti
+8082,Masonry,Outbuilding,87.7,1,Falealili
+8087,Masonry,Commercial,78.7,2,Lepa
+8101,Masonry,Residential,119.5,1,Vaa o Fonoti
+8101,Timber,Outbuilding,19.8,1,Aleipata Itupa i Lalo
+8108,Masonry,Residential,104.2,1,Falealili
+8110,Masonry,Outbuilding,189.4,1,Siumu
+8112,Masonry,Residential,179.1,1,Aleipata Itupa i Lalo
+8117,Timber,Outbuilding,30.0,1,Aleipata Itupa i Lalo
+8121,Masonry,Hotel,161.2,2,Lepa
+8121,Masonry,Outbuilding,67.2,1,Lepa
+8123,Masonry,Residential,265.7,1,Siumu
+8130,Masonry,Residential,174.5,1,Siumu
+8134,Masonry,Residential,54.8,1,Falealili
+8141,Masonry,Hotel,88.7,3,Lepa
+8150,Timber,Fale,61.4,1,Lepa
+8154,Masonry,Fale,45.4,1,Falealili
+8161,Masonry,Outbuilding,7.7,1,Lepa
+8165,Masonry,Residential,237.4,1,Siumu
+8166,Masonry,Outbuilding,125.8,1,Siumu
+8166,Masonry,Residential,131.1,1,Falealili
+8170,Masonry,Outbuilding,111.5,1,Safata
+8172,Masonry,Outbuilding,70.4,1,Safata
+8175,Masonry,Residential,161.2,1,Siumu
+8187,Masonry,Residential,80.4,1,Vaa o Fonoti
+8190,Masonry,Residential,153.0,1,Vaa o Fonoti
+8194,Masonry,Residential,56.1,1,Aleipata Itupa i Lalo
+8196,Masonry,Residential,152.2,1,Safata
+8200,Masonry,Residential,137.9,1,Anoamaa East
+8203,Masonry,Outbuilding,49.8,1,Falealili
+8206,Masonry,Residential,313.4,1,Safata
+8235,Timber,Outbuilding,27.2,1,Aleipata Itupa i Lalo
+8238,Masonry,Hotel,121.7,2,Lotofaga
+8242,Masonry,Outbuilding,128.6,1,Aleipata Itupa i Lalo
+8245,Masonry,Outbuilding,41.2,1,Aleipata Itupa i Lalo
+8246,Masonry,Residential,121.6,1,Falealili
+8250,Masonry,Residential,314.9,1,Falealili
+8261,Masonry,Residential,131.8,1,Lotofaga
+8282,Masonry,Residential,223.8,1,Siumu
+8292,Masonry,Fale,418.6,1,Siumu
+8305,Masonry,Residential,125.7,1,Aleipata Itupa i Lalo
+8310,Masonry,Outbuilding,66.4,1,Safata
+8311,Masonry,Residential,53.5,1,Vaa o Fonoti
+8331,Masonry,Outbuilding,37.0,1,Falealili
+8336,Masonry,Outbuilding,43.6,1,Anoamaa East
+8339,Masonry,Outbuilding,84.6,1,Lepa
+8341,Masonry,Tourist Fale,39.0,1,Safata
+8343,Masonry,Outbuilding,58.9,1,Siumu
+8349,Masonry,Residential,309.1,1,Lotofaga
+8351,Masonry,Residential,308.5,1,Falealili
+8365,Masonry,Outbuilding,68.6,1,Siumu
+8366,Masonry,Residential,314.1,1,Safata
+8374,Masonry,Residential,69.0,1,Aleipata Itupa i Luga
+8381,Masonry,Outbuilding,27.2,1,Anoamaa East
+8384,Masonry,Outbuilding,33.8,1,Aleipata Itupa i Lalo
+8387,Masonry,Residential,79.7,1,Falealili
+8399,Masonry,Residential,148.7,1,Vaa o Fonoti
+8399,Masonry,Residential,250.7,1,Safata
+8409,Masonry,Outbuilding,56.6,1,Aleipata Itupa i Luga
+8415,Timber,Fale,37.4,1,Falealili
+8419,Masonry,Outbuilding,10.1,1,Vaa o Fonoti
+8431,Masonry,Outbuilding,85.8,1,Falealili
+8438,Masonry,Residential,112.8,1,Vaa o Fonoti
+8446,Masonry,Religious,580.8,1,Falealili
+8458,Timber,Outbuilding,38.5,1,Falealili
+8466,Masonry,Outbuilding,64.6,1,Aleipata Itupa i Lalo
+8488,Masonry,Outbuilding,126.3,1,Siumu
+8489,Timber,Hotel,19.8,2,Lotofaga
+8493,Masonry,Residential,222.4,1,Aleipata Itupa i Luga
+8500,Masonry,Residential,264.9,1,Siumu
+8504,Masonry,Residential,116.1,1,Aleipata Itupa i Luga
+8506,Timber,Residential,59.5,1,Falealili
+8507,Masonry,Outbuilding,31.1,1,Aleipata Itupa i Lalo
+8507,Masonry,Tourist Fale,33.7,1,Safata
+8508,Masonry,Residential,59.4,1,Vaa o Fonoti
+8509,Masonry,Hotel,37.3,2,Lotofaga
+8511,Masonry,Outbuilding,60.6,1,Falealili
+8521,Timber,Outbuilding,33.6,1,Falealili
+8529,Masonry,Residential,296.5,1,Aleipata Itupa i Lalo
+8530,Masonry,Residential,158.4,1,Aleipata Itupa i Luga
+8536,Timber,Outbuilding,30.7,1,Aleipata Itupa i Lalo
+8538,Timber,Hotel,64.7,1,Lepa
+8539,Masonry,Residential,521.1,1,Falealili
+8545,Masonry,Residential,100.9,1,Vaa o Fonoti
+8547,Masonry,Residential,93.5,1,Vaa o Fonoti
+8550,Masonry,Residential,208.5,1,Aleipata Itupa i Lalo
+8553,Masonry,Outbuilding,26.9,1,Lepa
+8554,Masonry,Outbuilding,17.9,1,Lotofaga
+8558,Masonry,Outbuilding,10.6,1,Falealili
+8559,Masonry,Outbuilding,15.1,1,Vaa o Fonoti
+8562,Masonry,Residential,144.8,1,Siumu
+8572,Masonry,Residential,176.4,1,Lepa
+8573,Masonry,Hotel,122.4,2,Lotofaga
+8573,Masonry,Residential,117.2,1,Vaa o Fonoti
+8573,Masonry,Residential,203.6,1,Aleipata Itupa i Lalo
+8576,Masonry,Residential,793.6,1,Safata
+8586,Timber,Hotel,23.0,2,Falealili
+8590,Masonry,Hotel,70.3,3,Lotofaga
+8597,Masonry,Residential,123.0,1,Falealili
+8600,Masonry,Outbuilding,84.8,1,Aleipata Itupa i Lalo
+8600,Timber,Outbuilding,41.9,1,Aleipata Itupa i Luga
+8602,Masonry,Residential,103.0,1,Aleipata Itupa i Lalo
+8604,Masonry,Residential,127.8,1,Vaa o Fonoti
+8605,Masonry,Outbuilding,25.2,1,Falealili
+8606,Masonry,Residential,222.4,1,Safata
+8608,Masonry,Residential,83.8,1,Falealili
+8611,Masonry,Residential,213.0,1,Siumu
+8617,Masonry,Outbuilding,48.1,1,Vaa o Fonoti
+8617,Masonry,Residential,97.5,1,Vaa o Fonoti
+8628,Masonry,Residential,217.7,1,Aleipata Itupa i Lalo
+8640,Masonry,Religious,80.0,1,Siumu
+8643,Masonry,Outbuilding,6.2,1,Falealili
+8645,Masonry,Fale,114.0,1,Safata
+8655,Masonry,Outbuilding,44.3,1,Vaa o Fonoti
+8672,Masonry,Residential,230.7,1,Falealili
+8675,Masonry,Residential,132.3,1,Aleipata Itupa i Lalo
+8676,Masonry,Outbuilding,14.6,1,Vaa o Fonoti
+8676,Masonry,Residential,147.5,1,Safata
+8677,Masonry,Residential,122.8,1,Aleipata Itupa i Lalo
+8680,Masonry,Residential,297.5,1,Safata
+8683,Masonry,Residential,175.3,1,Safata
+8683,Masonry,Residential,97.1,1,Aleipata Itupa i Lalo
+8688,Masonry,Outbuilding,122.8,1,Siumu
+8696,Timber,Fale,34.3,1,Aleipata Itupa i Lalo
+8697,Masonry,Residential,136.1,1,Lepa
+8698,Masonry,Residential,204.1,1,Falealili
+8706,Masonry,Commercial,309.1,1,Falealili
+8709,Masonry,Outbuilding,52.5,1,Vaa o Fonoti
+8710,Masonry,Outbuilding,117.4,1,Falealili
+8725,Masonry,Outbuilding,37.7,1,Falealili
+8725,Masonry,Residential,244.3,1,Siumu
+8729,Masonry,Residential,269.8,1,Lepa
+8730,Masonry,Residential,125.5,1,Aleipata Itupa i Luga
+8740,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+8742,Masonry,Outbuilding,53.9,1,Falealili
+8748,Masonry,Residential,181.4,1,Vaa o Fonoti
+8759,Masonry,Hotel,53.0,1,Falealili
+8764,Masonry,Outbuilding,97.8,1,Falealili
+8766,Masonry,Outbuilding,40.0,1,Falealili
+8769,Masonry,Outbuilding,22.8,1,Falealili
+8770,Masonry,Outbuilding,40.0,1,Safata
+8771,Masonry,Outbuilding,16.8,1,Falealili
+8772,Masonry,Residential,53.2,1,Vaa o Fonoti
+8778,Masonry,Residential,322.1,1,Falealili
+8787,Timber,Fale,42.2,1,Lepa
+8790,Masonry,Outbuilding,82.3,1,Siumu
+8793,Timber,Hotel,16.0,1,Lepa
+8795,Masonry,Outbuilding,131.0,1,Safata
+8803,Timber,Education,45.3,1,Falealili
+8805,Masonry,Residential,114.8,1,Safata
+8810,Masonry,Residential,153.2,1,Aleipata Itupa i Lalo
+8826,Masonry,Outbuilding,102.7,1,Siumu
+8827,Masonry,Residential,161.0,1,Aleipata Itupa i Lalo
+8831,Masonry,Residential,65.4,1,Vaa o Fonoti
+8832,Masonry,Outbuilding,27.5,1,Falealili
+8833,Masonry,Outbuilding,143.3,1,Safata
+8834,Masonry,Residential,352.0,1,Falealili
+8837,Masonry,Residential,113.9,1,Safata
+8863,Masonry,Outbuilding,99.1,1,Falealili
+8871,Masonry,Outbuilding,53.0,1,Aleipata Itupa i Lalo
+8878,Masonry,Outbuilding,62.4,1,Siumu
+8887,Masonry,Residential,100.4,1,Anoamaa East
+8887,Masonry,Residential,179.0,1,Falealili
+8887,Masonry,Residential,43.8,1,Vaa o Fonoti
+8894,Masonry,Commercial,53.7,1,Siumu
+8913,Masonry,Hotel,31.8,2,Aleipata Itupa i Luga
+8917,Masonry,Residential,214.3,1,Aleipata Itupa i Lalo
+8920,Masonry,Residential,315.3,1,Aleipata Itupa i Luga
+8921,Masonry,Hotel,55.3,1,Lotofaga
+8927,Masonry,Outbuilding,72.3,1,Falealili
+8929,Masonry,Outbuilding,34.8,1,Lepa
+8942,Masonry,Hotel,78.9,3,Lotofaga
+8947,Masonry,Outbuilding,19.8,1,Aleipata Itupa i Lalo
+8955,Masonry,Residential,66.9,1,Vaa o Fonoti
+8961,Masonry,Residential,272.4,1,Safata
+8969,Masonry,Outbuilding,37.9,1,Safata
+8970,Masonry,Residential,108.1,1,Falealili
+8971,Masonry,Residential,165.0,1,Safata
+8973,Masonry,Residential,160.9,1,Lepa
+8974,Masonry,Residential,141.5,1,Safata
+8976,Timber,Residential,45.1,1,Aleipata Itupa i Lalo
+8985,Timber,Tourist Fale,16.7,1,Aleipata Itupa i Luga
+8991,Masonry,Outbuilding,107.6,1,Falealili
+8992,Masonry,Residential,241.3,1,Aleipata Itupa i Luga
+8995,Masonry,Outbuilding,87.3,1,Falealili
+8997,Masonry,Residential,182.0,1,Lepa
+9007,Masonry,Fale,19.6,1,Falealili
+9018,Masonry,Residential,297.4,1,Falealili
+9021,Masonry,Residential,127.0,1,Aleipata Itupa i Lalo
+9030,Masonry,Residential,146.0,1,Siumu
+9031,Masonry,Religious,363.7,1,Aleipata Itupa i Lalo
+9035,Masonry,Residential,180.7,1,Siumu
+9042,Masonry,Outbuilding,37.2,1,Vaa o Fonoti
+9042,Masonry,Residential,281.2,1,Safata
+9045,Masonry,Fale,34.0,1,Aleipata Itupa i Lalo
+9048,Masonry,Residential,146.5,1,Safata
+9053,Masonry,Residential,149.2,1,Aleipata Itupa i Lalo
+9062,Masonry,Outbuilding,27.2,1,Falealili
+9072,Masonry,Residential,149.1,1,Falealili
+9081,Timber,Tourist Fale,19.9,1,Lepa
+9082,Steel,Industrial,462.6,1,
+9085,Masonry,Residential,222.5,1,Safata
+9086,Masonry,Outbuilding,34.5,1,Aleipata Itupa i Luga
+9112,Masonry,Residential,160.7,1,Falealili
+9115,Masonry,Residential,230.8,1,Aleipata Itupa i Lalo
+9116,Masonry,Residential,99.6,1,Aleipata Itupa i Lalo
+9122,Masonry,Outbuilding,31.1,1,Falealili
+9124,Timber,Residential,39.8,1,Aleipata Itupa i Lalo
+9142,Masonry,Outbuilding,133.9,1,Siumu
+9142,Masonry,Residential,135.6,1,Vaa o Fonoti
+9146,Timber,Tourist Fale,141.7,1,Siumu
+9152,Masonry,Residential,97.7,1,Aleipata Itupa i Lalo
+9158,Masonry,Residential,204.4,1,Siumu
+9160,Masonry,Residential,244.1,1,Aleipata Itupa i Luga
+9166,Masonry,Outbuilding,410.4,1,Siumu
+9175,Masonry,Hotel,34.2,2,Lepa
+9178,Masonry,Hotel,298.0,3,Siumu
+9185,Masonry,Residential,112.1,1,Vaa o Fonoti
+9187,Masonry,Residential,207.3,1,Falealili
+9197,Masonry,Outbuilding,53.7,1,Safata
+9198,Masonry,Outbuilding,57.3,1,Safata
+9202,Masonry,Outbuilding,51.5,1,Lotofaga
+9209,Masonry,Outbuilding,29.6,1,Aleipata Itupa i Lalo
+9212,Masonry,Hotel,31.8,3,Aleipata Itupa i Luga
+9219,Masonry,Residential,209.8,1,Safata
+9220,Masonry,Outbuilding,49.3,1,Falealili
+9220,Timber,Outbuilding,17.1,1,Falealili
+9224,Masonry,Outbuilding,80.2,1,Vaa o Fonoti
+9226,Masonry,Residential,172.5,1,Lotofaga
+9231,Masonry,Outbuilding,24.1,1,Falealili
+9242,Masonry,Residential,241.7,1,Siumu
+9242,Timber,Tourist Fale,11.1,1,Lepa
+9245,Masonry,Education,358.9,1,Aleipata Itupa i Lalo
+9249,Masonry,Residential,112.5,1,Siumu
+9252,Masonry,Residential,253.6,1,Siumu
+9257,Masonry,Residential,196.3,1,Falealili
+9260,Masonry,Residential,100.6,1,Vaa o Fonoti
+9271,Masonry,Residential,164.1,1,Aleipata Itupa i Lalo
+9274,Masonry,Outbuilding,18.7,1,Vaa o Fonoti
+9276,Masonry,Residential,73.7,1,Vaa o Fonoti
+9296,Masonry,Residential,82.6,1,Safata
+9298,Masonry,Outbuilding,83.2,1,Siumu
+9308,Masonry,Commercial,111.3,1,Siumu
+9308,Masonry,Residential,172.3,1,Siumu
+9309,Masonry,Outbuilding,103.0,1,Falealili
+9311,Masonry,Residential,193.8,1,Safata
+9315,Masonry,Outbuilding,24.5,1,Safata
+9323,Masonry,Outbuilding,66.7,1,Safata
+9336,Timber,Outbuilding,53.9,1,Aleipata Itupa i Lalo
+9346,Masonry,Outbuilding,14.8,1,Falealili
+9356,Masonry,Residential,208.9,1,Aleipata Itupa i Luga
+9359,Masonry,Hotel,31.8,2,Aleipata Itupa i Luga
+9363,Masonry,Residential,102.2,1,Safata
+9364,Masonry,Residential,193.2,1,Falealili
+9364,Timber,Residential,367.1,1,Falealili
+9372,Masonry,Residential,296.3,1,Falealili
+9374,Masonry,Residential,169.9,1,Safata
+9380,Masonry,Outbuilding,157.0,1,Siumu
+9388,Masonry,Residential,247.2,1,Siumu
+9391,Masonry,Hotel,1175.2,2,Siumu
+9397,Timber,Tourist Fale,31.2,1,Lepa
+9400,Masonry,Residential,204.8,1,Safata
+9402,Masonry,Residential,213.3,1,Falealili
+9404,Masonry,Outbuilding,137.1,1,Falealili
+9406,Masonry,Outbuilding,56.8,1,Vaa o Fonoti
+9411,Masonry,Residential,180.6,1,Falealili
+9413,Masonry,Residential,126.8,1,Falealili
+9416,Timber,Hotel,67.6,1,Aleipata Itupa i Luga
+9424,Masonry,Residential,124.9,1,Falealili
+9427,Masonry,Outbuilding,60.0,1,Aleipata Itupa i Lalo
+9439,Timber,Outbuilding,19.9,1,Aleipata Itupa i Lalo
+9441,Masonry,Residential,124.6,1,Safata
+9447,Masonry,Outbuilding,39.2,1,Falealili
+9447,Masonry,Residential,336.0,1,Siumu
+9452,Masonry,Hotel,105.1,2,Safata
+9455,Masonry,Outbuilding,134.1,1,Falealili
+9462,Masonry,Outbuilding,39.1,1,Siumu
+9463,Masonry,Outbuilding,29.1,1,Falealili
+9467,Masonry,Outbuilding,6.1,1,Aleipata Itupa i Lalo
+9471,Masonry,Residential,171.5,1,Falealili
+9478,Masonry,Residential,120.8,1,Falealili
+9485,Masonry,Residential,125.1,1,Siumu
+9487,Masonry,Outbuilding,13.5,1,Aleipata Itupa i Luga
+9487,Masonry,Outbuilding,47.8,1,Safata
+9519,Masonry,Outbuilding,30.5,1,Falealili
+9523,Masonry,Outbuilding,34.5,1,Aleipata Itupa i Lalo
+9525,Masonry,Religious,45.2,1,Vaa o Fonoti
+9529,Masonry,Residential,195.1,1,Safata
+9530,Masonry,Outbuilding,59.7,1,Siumu
+9534,Masonry,Outbuilding,31.3,1,Safata
+9541,Masonry,Hotel,49.5,2,Aleipata Itupa i Luga
+9556,Masonry,Residential,214.1,1,Aleipata Itupa i Lalo
+9573,Masonry,Residential,591.9,1,Siumu
+9574,Masonry,Residential,97.0,1,Falealili
+9598,Masonry,Residential,124.3,1,Lepa
+9605,Masonry,Residential,162.2,1,Falealili
+9607,Masonry,Outbuilding,70.9,1,Safata
+9607,Masonry,Residential,138.7,1,Falealili
+9607,Masonry,Residential,397.8,1,Siumu
+9618,Masonry,Residential,107.6,1,Falealili
+9620,Masonry,Residential,89.1,1,Vaa o Fonoti
+9623,Masonry,Outbuilding,344.2,1,Siumu
+9624,Masonry,Residential,103.6,1,Falealili
+9626,Masonry,Residential,113.0,1,Lepa
+9631,Masonry,Residential,256.9,1,Siumu
+9637,Masonry,Residential,189.7,1,Falealili
+9639,Masonry,Residential,219.5,1,Safata
+9642,Masonry,Community - not verified,298.8,1,Vaa o Fonoti
+9648,Masonry,Hotel,55.7,2,Falealili
+9649,Masonry,Outbuilding,82.1,1,Siumu
+9649,Masonry,Residential,211.4,1,Falealili
+9669,Masonry,Commercial - not verified,400.9,1,Aleipata Itupa i Lalo
+9676,Masonry,Residential,165.9,1,Safata
+9687,Masonry,Commercial,67.7,2,Siumu
+9708,Masonry,Residential,104.7,1,Aleipata Itupa i Luga
+9709,Masonry,Outbuilding,51.2,1,Safata
+9710,Masonry,Hotel,31.5,3,Lotofaga
+9713,Masonry,Tourist Fale,26.5,1,Safata
+9715,Masonry,Fale,222.9,1,Falealili
+9718,Masonry,Outbuilding,105.3,1,Siumu
+9726,Masonry,Outbuilding,34.1,1,Falealili
+9728,Masonry,Outbuilding,45.1,1,Safata
+9731,Masonry,Outbuilding,70.0,1,Aleipata Itupa i Lalo
+9737,Masonry,Residential,106.3,1,Falealili
+9738,Masonry,Residential,306.5,1,Siumu
+9746,Masonry,Residential,68.7,1,Falealili
+9755,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+9758,Timber,Outbuilding,30.9,1,Aleipata Itupa i Lalo
+9772,Masonry,Residential,386.3,1,Safata
+9774,Masonry,Outbuilding,174.5,1,Aleipata Itupa i Lalo
+9778,Masonry,Outbuilding,109.7,1,Safata
+9788,Masonry,Community - not verified,377.0,1,Aleipata Itupa i Lalo
+9792,Masonry,Residential,381.2,1,Siumu
+9798,Masonry,Residential,156.2,1,Safata
+9798,Masonry,Residential,381.2,1,Falealili
+9811,Masonry,Residential,314.9,1,Safata
+9814,Masonry,Fale,81.9,1,Falealili
+9816,Masonry,Residential,113.5,1,Falealili
+9816,Masonry,Residential,189.8,1,Siumu
+9818,Masonry,Residential,157.8,1,Falealili
+9822,Masonry,Residential,121.9,1,Siumu
+9833,Masonry,Residential,140.6,1,Vaa o Fonoti
+9833,Timber,Tourist Fale,19.9,1,Lepa
+9846,Masonry,Outbuilding,43.5,1,Vaa o Fonoti
+9848,Masonry,Residential,58.8,1,Falealili
+9851,Masonry,Hotel,46.4,2,Lotofaga
+9854,Masonry,Outbuilding,99.0,1,Safata
+9856,Masonry,Residential,299.9,1,Falealili
+9860,Timber,Hotel,50.4,2,Falealili
+9861,Masonry,Outbuilding,29.0,1,Falealili
+9863,Masonry,Residential,105.0,1,Falealili
+9864,Masonry,Outbuilding,112.5,1,Safata
+9867,Masonry,Outbuilding,94.0,1,Falealili
+9874,Masonry,Residential,242.9,1,Siumu
+9880,Masonry,Outbuilding,18.9,1,Aleipata Itupa i Luga
+9880,Masonry,Outbuilding,65.5,1,Safata
+9880,Timber,Fale,166.1,1,Lepa
+9881,Masonry,Residential,135.8,1,Falealili
+9882,Masonry,Residential,93.9,1,Falealili
+9888,Masonry,Residential,118.7,1,Safata
+9904,Masonry,Outbuilding,38.1,1,Falealili
+9904,Masonry,Residential,145.6,1,Safata
+9905,Masonry,Commercial - not verified,679.6,1,Safata
+9914,Masonry,Outbuilding,35.6,1,Falealili
+9915,Masonry,Residential,73.7,1,Vaa o Fonoti
+9923,Masonry,Residential,38.8,1,Falealili
+9932,Timber,Tourist Fale,19.9,1,Lepa
+9941,Masonry,Outbuilding,41.7,1,Siumu
+9941,Timber,Fale,59.6,1,Safata
+9943,Masonry,Residential,262.7,1,Siumu
+9948,Masonry,Residential,128.0,1,Aleipata Itupa i Luga
+9949,Masonry,Outbuilding,84.1,1,Falealili
+9949,Masonry,Residential,91.6,1,Falealili
+9962,Masonry,Residential,140.7,1,Safata
+9966,Masonry,Outbuilding,36.7,1,Safata
+9968,Masonry,Outbuilding,97.9,1,Falealili
+9970,Timber,Hotel,157.9,3,Siumu
+9974,Masonry,Outbuilding,28.4,1,Falealili
+9979,Masonry,Residential,126.2,1,Lotofaga
+9985,Timber,Residential,66.9,1,Aleipata Itupa i Lalo
+9994,Masonry,Hotel,56.4,2,Lotofaga
+9996,Masonry,Outbuilding,98.6,1,Siumu
+10002,Masonry,Residential,110.7,1,Vaa o Fonoti
+10006,Masonry,Outbuilding,66.2,1,Falealili
+10010,Timber,Hotel,20.2,2,Falealili
+10012,Masonry,Residential,118.5,1,Falealili
+10014,Masonry,Residential,126.2,1,Vaa o Fonoti
+10017,Masonry,Outbuilding,66.5,1,Safata
+10017,Masonry,Outbuilding,86.7,1,Safata
+10018,Timber,Outbuilding,8.6,1,Aleipata Itupa i Luga
+10020,Masonry,Outbuilding,67.7,1,Safata
+10023,Masonry,Residential,128.5,1,Falealili
+10038,Timber,Tourist Fale,127.0,1,Siumu
+10046,Masonry,Outbuilding,68.7,1,Siumu
+10056,Timber,Fale,40.9,1,Aleipata Itupa i Lalo
+10061,Masonry,Residential,106.5,1,Lepa
+10068,Masonry,Commercial,62.5,2,Siumu
+10069,Masonry,Residential,285.7,1,Anoamaa East
+10079,Masonry,Outbuilding,31.7,1,Aleipata Itupa i Lalo
+10079,Masonry,Residential,533.6,1,Falealili
+10084,Masonry,Outbuilding,84.8,1,Safata
+10090,Masonry,Hotel,68.2,1,Lotofaga
+10099,Masonry,Outbuilding,29.0,1,Aleipata Itupa i Luga
+10101,Masonry,Outbuilding,34.8,1,Falealili
+10102,Timber,Fale,54.0,1,Falealili
+10104,Masonry,Outbuilding,20.1,1,Lotofaga
+10107,Masonry,Outbuilding,65.7,1,Lepa
+10114,Masonry,Residential,228.7,1,Falealili
+10116,Masonry,Residential,155.0,1,Siumu
+10119,Masonry,Residential,219.4,1,Siumu
+10122,Masonry,Residential,128.2,1,Aleipata Itupa i Lalo
+10133,Masonry,Commercial,81.6,1,Siumu
+10136,Masonry,Residential,210.0,1,Lepa
+10153,Masonry,Outbuilding,32.7,1,Vaa o Fonoti
+10166,Masonry,Residential,96.1,1,Aleipata Itupa i Lalo
+10174,Masonry,Residential,163.6,1,Falealili
+10186,Masonry,Outbuilding,45.7,1,Aleipata Itupa i Luga
+10193,Masonry,Residential,136.4,1,Falealili
+10199,Masonry,Outbuilding,33.2,1,Falealili
+10202,Masonry,Outbuilding,103.0,1,Siumu
+10208,Masonry,Residential,105.2,1,Falealili
+10214,Masonry,Residential,88.3,1,Anoamaa East
+10224,Masonry,Residential,115.3,1,Vaa o Fonoti
+10226,Masonry,Residential,307.4,1,Siumu
+10232,Masonry,Residential,72.6,1,Falealili
+10235,Masonry,Residential,111.2,1,Lotofaga
+10240,Timber,Hotel,96.3,3,
+10246,Masonry,Residential,203.7,1,Safata
+10269,Timber,Residential,161.3,1,Aleipata Itupa i Lalo
+10272,Masonry,Residential,151.1,1,Safata
+10276,Masonry,Outbuilding,43.9,1,Falealili
+10277,Masonry,Residential,184.4,1,Falealili
+10277,Timber,Fale,48.2,1,Aleipata Itupa i Lalo
+10283,Masonry,Outbuilding,169.5,1,Siumu
+10287,Masonry,Hotel,38.9,1,Aleipata Itupa i Luga
+10290,Masonry,Residential,202.6,1,Safata
+10294,Timber,Tourist Fale,191.4,1,Siumu
+10295,Masonry,Outbuilding,86.9,1,Falealili
+10296,Masonry,Residential,195.8,1,Lepa
+10310,Masonry,Residential,55.9,1,Falealili
+10311,Masonry,Residential,159.5,1,Safata
+10330,Timber,Residential,53.3,1,Aleipata Itupa i Luga
+10337,Masonry,Residential,139.3,1,Aleipata Itupa i Lalo
+10338,Masonry,Fale,92.8,1,Aleipata Itupa i Lalo
+10343,Masonry,Residential,221.9,1,Vaa o Fonoti
+10346,Masonry,Outbuilding,133.4,1,Siumu
+10346,Masonry,Outbuilding,33.9,1,Siumu
+10349,Masonry,Religious,214.8,1,Vaa o Fonoti
+10354,Masonry,Residential,178.8,1,Falealili
+10356,Masonry,Hotel,36.2,3,Lepa
+10356,Masonry,Residential,80.3,1,Aleipata Itupa i Luga
+10369,Masonry,Community,56.1,1,Aleipata Itupa i Luga
+10376,Masonry,Outbuilding,33.6,1,Aleipata Itupa i Lalo
+10377,Masonry,Residential,93.9,1,Aleipata Itupa i Lalo
+10378,Masonry,Residential,126.6,1,Aleipata Itupa i Lalo
+10384,Masonry,Residential,165.7,1,Vaa o Fonoti
+10385,Masonry,Residential,142.9,1,Vaa o Fonoti
+10397,Masonry,Outbuilding,33.9,1,Safata
+10402,Masonry,Residential,326.7,1,Lotofaga
+10404,Masonry,Religious,122.2,1,Vaa o Fonoti
+10405,Masonry,Residential,245.9,1,Aleipata Itupa i Lalo
+10408,Masonry,Residential,136.4,1,Siumu
+10414,Masonry,Community - not verified,256.7,1,Siumu
+10422,Timber,Outbuilding,10.3,1,Aleipata Itupa i Lalo
+10429,Masonry,Outbuilding,79.4,1,Safata
+10430,Masonry,Outbuilding,48.9,1,Vaa o Fonoti
+10430,Masonry,Residential,100.6,1,Aleipata Itupa i Luga
+10432,Masonry,Residential,145.7,1,Safata
+10444,Masonry,Residential,293.7,1,Safata
+10446,Masonry,Tourist Fale,35.0,1,Safata
+10448,Masonry,Residential,113.2,1,Safata
+10448,Masonry,Residential,176.8,1,Siumu
+10451,Masonry,Residential,250.0,1,Lotofaga
+10455,Masonry,Outbuilding,87.4,1,Falealili
+10464,Masonry,Residential,118.5,1,Falealili
+10465,Masonry,Residential,150.8,1,Falealili
+10471,Masonry,Outbuilding,371.5,1,Siumu
+10480,Masonry,Outbuilding,60.6,1,Siumu
+10480,Masonry,Outbuilding,90.2,1,Falealili
+10493,Masonry,Outbuilding,13.9,1,Falealili
+10497,Masonry,Outbuilding,69.9,1,Safata
+10499,Masonry,Residential,277.9,1,Falealili
+10499,Masonry,Residential,72.5,1,Falealili
+10540,Masonry,Residential,57.4,1,Falealili
+10550,Masonry,Residential,191.6,1,Aleipata Itupa i Luga
+10552,Masonry,Residential,154.9,1,Aleipata Itupa i Lalo
+10553,Masonry,Residential,144.1,1,Safata
+10560,Masonry,Hotel,56.0,2,Lepa
+10569,Masonry,Residential,219.7,1,Falealili
+10589,Masonry,Residential,129.8,1,Siumu
+10589,Masonry,Residential,215.6,1,Aleipata Itupa i Lalo
+10597,Masonry,Outbuilding,80.0,1,Falealili
+10597,Masonry,Residential,114.5,1,Falealili
+10598,Masonry,Residential,303.8,1,Siumu
+10600,Masonry,Outbuilding,146.1,1,Safata
+10606,Masonry,Outbuilding,29.4,1,Safata
+10606,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+10608,Masonry,Outbuilding,22.2,1,Aleipata Itupa i Luga
+10609,Masonry,Residential,60.0,1,Anoamaa East
+10615,Masonry,Residential,181.1,1,Aleipata Itupa i Lalo
+10625,Masonry,Residential,177.2,1,Aleipata Itupa i Lalo
+10626,Masonry,Residential,67.2,1,Falealili
+10642,Masonry,Residential,120.9,1,Falealili
+10668,Masonry,Hotel,66.1,2,Lotofaga
+10685,Timber,Tourist Fale,28.3,1,Siumu
+10687,Masonry,Residential,219.3,1,Falealili
+10688,Masonry,Outbuilding,43.0,1,Aleipata Itupa i Luga
+10690,Masonry,Residential,204.1,1,Siumu
+10699,Masonry,Residential,188.6,1,Falealili
+10703,Masonry,Residential,337.8,1,Siumu
+10709,Masonry,Outbuilding,25.4,1,Vaa o Fonoti
+10721,Timber,Hotel,21.7,2,Lepa
+10724,Masonry,Residential,155.5,1,Safata
+10728,Masonry,Residential,155.3,1,Vaa o Fonoti
+10742,Masonry,Residential,120.1,1,Aleipata Itupa i Luga
+10744,Masonry,Fale,42.7,1,Aleipata Itupa i Luga
+10748,Masonry,Hotel,45.0,2,Lepa
+10756,Masonry,Residential,207.9,1,Safata
+10759,Masonry,Outbuilding,55.8,1,Falealili
+10763,Masonry,Hotel,298.2,2,Safata
+10768,Timber,Outbuilding,21.7,1,Aleipata Itupa i Luga
+10770,Masonry,Outbuilding,37.1,1,Aleipata Itupa i Lalo
+10772,Masonry,Residential,220.9,1,Aleipata Itupa i Lalo
+10782,Masonry,Outbuilding,33.6,1,Falealili
+10783,Masonry,Community,398.0,1,Falealili
+10786,Masonry,Residential,149.3,1,Vaa o Fonoti
+10791,Masonry,Outbuilding,30.9,1,Falealili
+10791,Masonry,Residential,142.6,1,Falealili
+10802,Masonry,Education,373.8,1,Aleipata Itupa i Lalo
+10802,Masonry,Residential,162.6,1,Siumu
+10807,Masonry,Residential,186.8,1,Siumu
+10825,Masonry,Outbuilding,101.1,1,Aleipata Itupa i Lalo
+10828,Timber,Outbuilding,43.4,1,Aleipata Itupa i Lalo
+10836,Masonry,Outbuilding,205.1,1,Falealili
+10844,Masonry,Community,51.9,1,Aleipata Itupa i Luga
+10847,Masonry,Residential,83.7,1,Safata
+10849,Masonry,Outbuilding,72.9,1,Aleipata Itupa i Luga
+10873,Masonry,Outbuilding,12.4,1,Vaa o Fonoti
+10875,Timber,Hotel,50.4,2,Falealili
+10876,Masonry,Residential,103.7,1,Aleipata Itupa i Lalo
+10879,Masonry,Residential,1172.4,1,Safata
+10880,Masonry,Residential,182.7,1,Falealili
+10882,Masonry,Residential,123.6,1,Vaa o Fonoti
+10883,Masonry,Hotel,69.3,3,Lepa
+10890,Masonry,Outbuilding,21.3,1,Lepa
+10891,Masonry,Outbuilding,127.8,1,Safata
+10910,Masonry,Outbuilding,113.5,1,Siumu
+10913,Masonry,Residential,94.4,1,Falealili
+10915,Masonry,Outbuilding,35.6,1,Vaa o Fonoti
+10922,Masonry,Religious,171.9,1,Vaa o Fonoti
+10924,Timber,Tourist Fale,11.1,1,Lepa
+10935,Timber,Outbuilding,12.5,1,Aleipata Itupa i Lalo
+10938,Masonry,Residential,117.7,1,Safata
+10950,Timber,Hotel,32.2,2,Lepa
+10954,Masonry,Residential,237.8,1,Vaa o Fonoti
+10959,Masonry,Outbuilding,16.2,1,Falealili
+10965,Masonry,Outbuilding,79.2,1,Vaa o Fonoti
+10977,Masonry,Outbuilding,11.1,1,Falealili
+10981,Masonry,Residential,133.0,1,Safata
+10983,Masonry,Outbuilding,88.8,1,Safata
+10983,Masonry,Outbuilding,96.0,1,Siumu
+10988,Masonry,Outbuilding,47.3,1,Aleipata Itupa i Luga
+11005,Masonry,Residential,128.2,1,Aleipata Itupa i Luga
+11011,Masonry,Residential,598.6,1,Lotofaga
+11012,Masonry,Hotel,53.2,3,Lotofaga
+11019,Masonry,Outbuilding,73.0,1,Falealili
+11033,Timber,Outbuilding,7.6,1,Aleipata Itupa i Luga
+11035,Masonry,Outbuilding,91.1,1,Siumu
+11038,Timber,Tourist Fale,6.7,1,Siumu
+11043,Masonry,Residential,203.5,1,Lepa
+11044,Masonry,Residential,126.1,1,Safata
+11046,Masonry,Residential,104.3,1,Aleipata Itupa i Lalo
+11046,Masonry,Residential,136.6,1,Siumu
+11047,Masonry,Residential,58.8,1,Falealili
+11057,Masonry,Residential,189.0,1,Aleipata Itupa i Luga
+11057,Timber,Outbuilding,42.0,1,Falealili
+11061,Masonry,Community,281.1,1,Lotofaga
+11061,Masonry,Residential,63.2,1,Aleipata Itupa i Luga
+11062,Masonry,Residential,197.0,1,Aleipata Itupa i Lalo
+11065,Masonry,Residential,147.9,1,Falealili
+11065,Masonry,Residential,497.4,1,Safata
+11069,Masonry,Residential,200.8,1,Vaa o Fonoti
+11075,Masonry,Residential,69.6,1,Falealili
+11091,Timber,Fale,47.0,1,Aleipata Itupa i Lalo
+11107,Masonry,Outbuilding,43.0,1,Falealili
+11111,Masonry,Hotel,340.3,2,Lepa
+11114,Timber,Residential,87.1,1,Aleipata Itupa i Lalo
+11126,Masonry,Residential,42.0,1,Falealili
+11126,Masonry,Residential,93.0,1,Vaa o Fonoti
+11134,Masonry,Outbuilding,43.9,1,Falealili
+11135,Masonry,Outbuilding,23.3,1,Falealili
+11137,Masonry,Residential,182.6,1,Falealili
+11137,Masonry,Residential,93.2,1,Vaa o Fonoti
+11138,Masonry,Outbuilding,56.5,1,Falealili
+11157,Masonry,Residential,203.9,1,Siumu
+11159,Masonry,Residential,201.0,1,Falealili
+11166,Masonry,Residential,132.3,1,Lotofaga
+11169,Masonry,Residential,223.1,1,Safata
+11172,Masonry,Residential,325.1,1,Aleipata Itupa i Lalo
+11188,Masonry,Residential,120.8,1,Vaa o Fonoti
+11190,Masonry,Residential,169.9,1,Safata
+11190,Timber,Tourist Fale,23.0,1,Falealili
+11191,Masonry,Outbuilding,33.3,1,Vaa o Fonoti
+11192,Masonry,Religious,61.5,1,Safata
+11198,Masonry,Outbuilding,27.7,1,Siumu
+11202,Timber,Tourist Fale,19.9,1,Lepa
+11210,Masonry,Residential,190.1,1,Aleipata Itupa i Lalo
+11210,Masonry,Residential,203.1,1,Siumu
+11210,Masonry,Residential,216.0,1,Safata
+11222,Timber,Hotel,32.8,1,Lepa
+11224,Masonry,Outbuilding,35.8,1,Aleipata Itupa i Lalo
+11226,Masonry,Residential,46.1,1,Aleipata Itupa i Luga
+11233,Masonry,Residential,258.2,1,Falealili
+11236,Masonry,Outbuilding,35.7,1,Siumu
+11237,Masonry,Outbuilding,77.2,1,Aleipata Itupa i Lalo
+11237,Masonry,Residential,122.8,1,Vaa o Fonoti
+11240,Masonry,Residential,125.7,1,Aleipata Itupa i Luga
+11245,Timber,Fale,22.5,1,Lepa
+11265,Masonry,Hotel,82.8,3,Falealili
+11268,Masonry,Residential,152.4,1,Falealili
+11268,Masonry,Residential,89.5,1,Vaa o Fonoti
+11269,Masonry,Tourist Fale,36.4,1,Safata
+11276,Masonry,Outbuilding,23.8,1,Aleipata Itupa i Lalo
+11281,Masonry,Residential,70.0,1,Aleipata Itupa i Lalo
+11282,Timber,Outbuilding,15.1,1,Lepa
+11291,Masonry,Residential,139.1,1,Lotofaga
+11293,Masonry,Residential,184.0,1,Safata
+11309,Masonry,Fale,28.5,1,Aleipata Itupa i Luga
+11310,Masonry,Outbuilding,240.9,1,Siumu
+11315,Masonry,Outbuilding,21.6,1,Falealili
+11317,Masonry,Residential,183.2,1,Falealili
+11319,Masonry,Residential,77.7,1,Falealili
+11323,Masonry,Residential,537.6,1,Safata
+11327,Masonry,Hotel,50.2,3,Aleipata Itupa i Luga
+11327,Masonry,Residential,123.9,1,Falealili
+11333,Masonry,Outbuilding,14.9,1,Falealili
+11334,Masonry,Residential,125.2,1,Safata
+11341,Masonry,Residential,295.2,1,Safata
+11346,Masonry,Residential,225.0,1,Falealili
+11347,Timber,Outbuilding,54.0,1,Aleipata Itupa i Lalo
+11349,Reinforced_Concrete,Religious,878.3,1,Aleipata Itupa i Luga
+11369,Masonry,Residential,148.5,1,Siumu
+11375,Masonry,Residential,169.4,1,Lepa
+11382,Masonry,Residential,203.8,1,Vaa o Fonoti
+11386,Masonry,Residential,89.7,1,Safata
+11387,Timber,Outbuilding,11.0,1,Lepa
+11391,Masonry,Residential,104.2,1,Safata
+11394,Masonry,Outbuilding,70.5,1,Lotofaga
+11401,Masonry,Outbuilding,34.4,1,Siumu
+11404,Masonry,Residential,130.3,1,Aleipata Itupa i Lalo
+11418,Masonry,Residential,123.7,1,Safata
+11418,Masonry,Residential,255.6,1,Falealili
+11418,Masonry,Residential,288.3,1,Aleipata Itupa i Lalo
+11424,Masonry,Residential,262.8,1,Safata
+11426,Masonry,Religious,220.4,1,Aleipata Itupa i Lalo
+11433,Masonry,Residential,282.5,1,Siumu
+11435,Masonry,Residential,83.9,1,Falealili
+11436,Masonry,Residential,234.3,1,Falealili
+11441,Timber,Outbuilding,19.4,1,Aleipata Itupa i Luga
+11442,Masonry,Residential,109.3,1,Siumu
+11446,Masonry,Residential,110.3,1,Falealili
+11447,Timber,Fale,38.1,1,Safata
+11453,Masonry,Residential,93.0,1,Aleipata Itupa i Lalo
+11457,Masonry,Residential,154.7,1,Safata
+11458,Masonry,Outbuilding,96.9,1,Safata
+11466,Timber,Outbuilding,41.7,1,Aleipata Itupa i Luga
+11469,Masonry,Residential,89.9,1,Safata
+11495,Masonry,Outbuilding,44.1,1,Falealili
+11495,Masonry,Residential,83.1,1,Vaa o Fonoti
+11496,Masonry,Residential,129.7,1,Anoamaa East
+11497,Masonry,Outbuilding,17.2,1,Falealili
+11497,Masonry,Residential,135.4,1,Safata
+11498,Masonry,Residential,111.2,1,Safata
+11500,Masonry,Tourist Fale,160.2,1,Lepa
+11504,Masonry,Residential,135.5,1,Siumu
+11506,Masonry,Residential,128.8,1,Aleipata Itupa i Lalo
+11508,Masonry,Outbuilding,86.3,1,Siumu
+11508,Masonry,Residential,160.7,1,Vaa o Fonoti
+11529,Masonry,Residential,1.3,1,Aleipata Itupa i Lalo
+11530,Masonry,Residential,300.9,1,Aleipata Itupa i Lalo
+11540,Masonry,Outbuilding,116.8,1,Siumu
+11554,Masonry,Outbuilding,112.0,1,Safata
+11558,Masonry,Outbuilding,21.9,1,Anoamaa East
+11558,Masonry,Outbuilding,23.1,1,Anoamaa East
+11559,Masonry,Residential,149.7,1,Falealili
+11561,Masonry,Outbuilding,74.8,1,Siumu
+11570,Masonry,Residential,75.3,1,Vaa o Fonoti
+11572,Masonry,Outbuilding,114.3,1,Falealili
+11574,Masonry,Outbuilding,16.7,1,Falealili
+11574,Masonry,Outbuilding,77.6,1,Falealili
+11597,Masonry,Residential,252.2,1,Falealili
+11610,Masonry,Outbuilding,39.6,1,Falealili
+11612,Masonry,Residential,200.0,1,Falealili
+11613,Masonry,Residential,96.9,1,Vaa o Fonoti
+11616,Timber,Fale,16.5,1,Aleipata Itupa i Luga
+11621,Masonry,Residential,137.3,1,Safata
+11626,Masonry,Residential,75.1,1,Safata
+11630,Masonry,Outbuilding,22.7,1,Safata
+11631,Timber,Hotel,32.3,3,Lepa
+11634,Masonry,Residential,110.8,1,Siumu
+11641,Masonry,Outbuilding,66.2,1,Falealili
+11648,Timber,Tourist Fale,11.1,1,Lepa
+11650,Timber,Outbuilding,39.7,1,Falealili
+11658,Masonry,Residential,78.9,1,Lepa
+11666,Masonry,Residential,157.2,1,Aleipata Itupa i Lalo
+11672,Masonry,Residential,149.5,1,Safata
+11681,Masonry,Outbuilding,37.9,1,Vaa o Fonoti
+11695,Masonry,Outbuilding,13.5,1,Vaa o Fonoti
+11697,Masonry,Residential,247.0,1,Safata
+11708,Timber,Hotel,58.1,3,Falealili
+11712,Masonry,Residential,164.6,1,Safata
+11712,Masonry,Residential,247.8,1,Aleipata Itupa i Luga
+11712,Masonry,Residential,283.8,1,Aleipata Itupa i Lalo
+11715,Masonry,Residential,163.7,1,Safata
+11730,Masonry,Residential,106.9,1,Falealili
+11730,Timber,Tourist Fale,15.3,1,Aleipata Itupa i Luga
+11738,Masonry,Outbuilding,31.0,1,Lepa
+11739,Masonry,Residential,170.5,1,Falealili
+11741,Masonry,Residential,199.3,1,Falealili
+11749,Masonry,Outbuilding,50.1,1,Falealili
+11758,Masonry,Hotel,28.4,2,Lepa
+11762,Masonry,Residential,143.8,1,Vaa o Fonoti
+11769,Masonry,Residential,97.9,1,Aleipata Itupa i Luga
+11770,Masonry,Outbuilding,40.6,1,Falealili
+11779,Masonry,Residential,194.7,1,Safata
+11786,Masonry,Outbuilding,91.0,1,Lotofaga
+11799,Masonry,Outbuilding,48.8,1,Falealili
+11804,Masonry,Residential,189.7,1,Siumu
+11810,Masonry,Commercial,531.2,2,Falealili
+11818,Masonry,Residential,184.7,1,Siumu
+11831,Masonry,Outbuilding,41.6,1,Aleipata Itupa i Luga
+11837,Masonry,Residential,174.0,1,Aleipata Itupa i Lalo
+11840,Masonry,Residential,160.1,1,Aleipata Itupa i Lalo
+11843,Masonry,Outbuilding,63.4,1,Vaa o Fonoti
+11849,Masonry,Residential,129.1,1,Siumu
+11852,Masonry,Residential,116.7,1,Siumu
+11856,Masonry,Residential,132.5,1,Aleipata Itupa i Luga
+11856,Masonry,Residential,98.8,1,Aleipata Itupa i Lalo
+11856,Reinforced Concrete,Religious,414.0,1,Falealili
+11861,Masonry,Outbuilding,32.8,1,Aleipata Itupa i Luga
+11861,Masonry,Residential,256.2,1,Safata
+11862,Timber,Outbuilding,48.1,1,Lepa
+11863,Masonry,Residential,169.8,1,Lotofaga
+11865,Masonry,Residential,208.5,1,Falealili
+11877,Masonry,Outbuilding,17.8,1,Falealili
+11888,Masonry,Residential,343.6,1,Falealili
+11896,Masonry,Outbuilding,56.6,1,Falealili
+11898,Masonry,Residential,302.4,1,Siumu
+11904,Masonry,Residential,318.1,1,Aleipata Itupa i Luga
+11905,Masonry,Residential,233.2,1,Falealili
+11909,Masonry,Outbuilding,60.5,1,Siumu
+11911,Masonry,Outbuilding,23.1,1,Aleipata Itupa i Lalo
+11920,Masonry,Fale,174.1,1,Aleipata Itupa i Lalo
+11922,Masonry,Hotel,308.0,2,Falealili
+11926,Masonry,Residential,62.5,1,Falealili
+11929,Masonry,Residential,120.5,1,Aleipata Itupa i Luga
+11931,Masonry,Outbuilding,50.1,1,Falealili
+11935,Masonry,Outbuilding,64.8,1,Safata
+11937,Masonry,Outbuilding,80.3,1,Safata
+11940,Masonry,Outbuilding,20.7,1,Vaa o Fonoti
+11941,Masonry,Outbuilding,48.0,1,Siumu
+11944,Masonry,Religious,674.5,1,Lepa
+11948,Masonry,Outbuilding,28.8,1,Falealili
+11960,Masonry,Residential,141.4,1,Safata
+11962,Masonry,Residential,180.9,1,Falealili
+11976,Timber,Outbuilding,41.2,1,Lepa
+11979,Masonry,Outbuilding,15.4,1,Vaa o Fonoti
+11983,Masonry,Outbuilding,14.2,1,Aleipata Itupa i Luga
+11985,Masonry,Residential,218.3,1,Anoamaa East
+11987,Masonry,Residential,147.8,1,Aleipata Itupa i Luga
+11987,Masonry,Residential,312.9,1,Siumu
+11991,Masonry,Residential,83.0,1,Aleipata Itupa i Lalo
+11994,Masonry,Residential,171.7,1,Aleipata Itupa i Lalo
+11997,Masonry,Outbuilding,28.2,1,Aleipata Itupa i Lalo
+11997,Masonry,Outbuilding,52.4,1,Lepa
+12010,Masonry,Residential,178.6,1,Safata
+12012,Masonry,Commercial,62.5,2,Siumu
+12019,Masonry,Outbuilding,29.5,1,Aleipata Itupa i Lalo
+12026,Timber,Hotel,20.2,2,Falealili
+12029,Masonry,Residential,149.3,1,Falealili
+12036,Masonry,Residential,350.0,1,Aleipata Itupa i Lalo
+12037,Masonry,Residential,90.3,1,Vaa o Fonoti
+12045,Masonry,Residential,90.9,1,Falealili
+12053,Masonry,Residential,188.5,1,Safata
+12055,Masonry,Residential,154.5,1,Aleipata Itupa i Luga
+12056,Masonry,Outbuilding,65.6,1,Falealili
+12057,Masonry,Outbuilding,95.8,1,Falealili
+12058,Masonry,Residential,307.5,1,Lepa
+12067,Masonry,Residential,295.6,1,Siumu
+12069,Masonry,Residential,152.4,1,Siumu
+12079,Masonry,Outbuilding,38.6,1,Vaa o Fonoti
+12084,Masonry,Residential,53.1,1,Vaa o Fonoti
+12088,Masonry,Residential,168.1,1,Siumu
+12090,Masonry,Residential,87.0,1,Aleipata Itupa i Lalo
+12101,Masonry,Residential,467.7,1,Siumu
+12111,Masonry,Outbuilding,55.3,1,Falealili
+12114,Masonry,Residential,209.8,1,Aleipata Itupa i Luga
+12118,Timber,Hotel,111.0,3,Aleipata Itupa i Luga
+12127,Masonry,Outbuilding,46.8,1,Falealili
+12138,Masonry,Residential,63.6,1,Vaa o Fonoti
+12143,Masonry,Outbuilding,28.1,1,Falealili
+12147,Masonry,Residential,91.6,1,Aleipata Itupa i Luga
+12152,Masonry,Residential,61.9,1,Falealili
+12152,Reinforced_Concrete,Hotel,779.0,3,Lotofaga
+12158,Masonry,Residential,121.6,1,Falealili
+12158,Masonry,Residential,192.1,1,Falealili
+12159,Masonry,Residential,92.1,1,Falealili
+12160,Timber,Hotel,23.0,3,Falealili
+12165,Masonry,Outbuilding,33.8,1,Falealili
+12167,Masonry,Commercial,168.6,3,Siumu
+12167,Masonry,Residential,192.9,1,Falealili
+12168,Masonry,Residential,24.3,1,Aleipata Itupa i Lalo
+12169,Reinforced_Concrete,Religious,814.7,1,Falealili
+12198,Masonry,Outbuilding,50.8,1,Aleipata Itupa i Lalo
+12205,Masonry,Outbuilding,28.2,1,Safata
+12208,Masonry,Residential,220.1,1,Aleipata Itupa i Luga
+12220,Masonry,Education,178.6,1,Aleipata Itupa i Lalo
+12236,Reinforced Concrete,Religious,363.5,1,Safata
+12238,Masonry,Outbuilding,47.5,1,Lepa
+12248,Masonry,Residential,124.4,1,Safata
+12255,Masonry,Residential,945.5,1,Safata
+12270,Masonry,Residential,59.3,1,Falealili
+12273,Reinforced Concrete,Religious,727.3,1,Falealili
+12274,Masonry,Residential,118.4,1,Safata
+12275,Masonry,Residential,144.8,1,Aleipata Itupa i Luga
+12286,Masonry,Residential,72.2,1,Falealili
+12295,Timber,Hotel,27.0,3,Falealili
+12306,Masonry,Outbuilding,89.3,1,Safata
+12319,Masonry,Residential,96.2,1,Falealili
+12323,Masonry,Outbuilding,16.4,1,Falealili
+12323,Masonry,Residential,108.7,1,Siumu
+12331,Timber,Tourist Fale,19.9,1,Falealili
+12333,Masonry,Residential,204.1,1,Safata
+12335,Masonry,Residential,156.4,1,Falealili
+12336,Masonry,Residential,199.9,1,Aleipata Itupa i Lalo
+12337,Masonry,Residential,177.0,1,Safata
+12350,Masonry,Outbuilding,82.5,1,Aleipata Itupa i Lalo
+12365,Masonry,Outbuilding,27.9,1,Anoamaa East
+12378,Masonry,Outbuilding,87.2,1,Siumu
+12383,Masonry,Hotel,38.4,2,Falealili
+12384,Masonry,Residential,89.0,1,Falealili
+12386,Timber,Fale,38.8,1,Falealili
+12394,Masonry,Residential,79.4,1,Siumu
+12397,Masonry,Residential,96.5,1,Aleipata Itupa i Luga
+12402,Masonry,Residential,129.5,1,Safata
+12422,Masonry,Outbuilding,76.5,1,Falealili
+12433,Timber,Outbuilding,17.3,1,Aleipata Itupa i Lalo
+12437,Masonry,Residential,107.1,1,Aleipata Itupa i Lalo
+12441,Masonry,Religious,1555.9,1,Siumu
+12454,Masonry,Outbuilding,59.2,1,Safata
+12456,Masonry,Residential,104.1,1,Aleipata Itupa i Lalo
+12456,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+12457,Masonry,Residential,128.1,1,Falealili
+12458,Masonry,Residential,89.4,1,Lepa
+12459,Masonry,Residential,204.6,1,Aleipata Itupa i Lalo
+12464,Masonry,Residential,102.5,1,Falealili
+12464,Masonry,Residential,1101.1,1,Falealili
+12464,Timber,Tourist Fale,23.0,1,Falealili
+12471,Masonry,Residential,74.7,1,Safata
+12475,Masonry,Residential,651.0,1,Aleipata Itupa i Luga
+12483,Masonry,Residential,137.7,1,Vaa o Fonoti
+12494,Masonry,Community - not verified,242.8,1,Safata
+12494,Masonry,Residential,341.0,1,Siumu
+12497,Masonry,Outbuilding,101.9,1,Siumu
+12497,Masonry,Outbuilding,61.4,1,Safata
+12523,Masonry,Residential,151.0,1,Aleipata Itupa i Lalo
+12529,Masonry,Hotel,31.8,1,Aleipata Itupa i Luga
+12532,Timber,Outbuilding,19.9,1,Falealili
+12535,Masonry,Residential,82.0,1,Falealili
+12544,Timber,Community,44.0,1,Falealili
+12549,Masonry,Hotel,63.7,2,Lotofaga
+12559,Masonry,Residential,81.4,1,Aleipata Itupa i Lalo
+12561,Masonry,Residential,200.9,1,Falealili
+12570,Masonry,Residential,148.6,1,Safata
+12570,Masonry,Residential,36.7,1,Aleipata Itupa i Luga
+12575,Masonry,Hotel,65.7,2,Lotofaga
+12582,Masonry,Residential,71.5,1,Aleipata Itupa i Lalo
+12583,Masonry,Religious,45.2,1,Vaa o Fonoti
+12588,Masonry,Residential,151.3,1,Safata
+12590,Masonry,Residential,104.5,1,Falealili
+12595,Masonry,Outbuilding,44.4,1,Falealili
+12595,Masonry,Outbuilding,640.9,1,Siumu
+12596,Masonry,Outbuilding,33.7,1,Lepa
+12600,Masonry,Residential,282.9,1,Lepa
+12611,Masonry,Residential,93.9,1,Vaa o Fonoti
+12614,Masonry,Residential,256.7,1,Falealili
+12627,Masonry,Hotel,31.8,3,Aleipata Itupa i Luga
+12629,Masonry,Residential,110.3,1,Vaa o Fonoti
+12638,Timber,Outbuilding,54.8,1,Aleipata Itupa i Lalo
+12640,Timber,Outbuilding,32.6,1,Lepa
+12643,Masonry,Residential,133.6,1,Lotofaga
+12647,Masonry,Outbuilding,57.6,1,Falealili
+12647,Masonry,Residential,129.0,1,Aleipata Itupa i Luga
+12651,Timber,Outbuilding,18.5,1,Aleipata Itupa i Lalo
+12666,Masonry,Residential,118.8,1,Aleipata Itupa i Lalo
+12666,Masonry,Residential,131.1,1,Falealili
+12672,Masonry,Outbuilding,30.0,1,Aleipata Itupa i Lalo
+12684,Masonry,Residential,113.5,1,Falealili
+12688,Timber,Outbuilding,51.5,1,Aleipata Itupa i Lalo
+12694,Timber,Tourist Fale,19.9,1,Lepa
+12695,Timber,Outbuilding,55.3,1,Aleipata Itupa i Lalo
+12713,Masonry,Residential,211.5,1,Siumu
+12715,Masonry,Outbuilding,11.8,1,Falealili
+12719,Masonry,Outbuilding,140.2,1,Siumu
+12720,Masonry,Outbuilding,79.8,1,Safata
+12722,Timber,Tourist Fale,11.1,1,Lepa
+12733,Masonry,Residential,186.3,1,Safata
+12735,Masonry,Residential,141.6,1,Aleipata Itupa i Luga
+12739,Masonry,Residential,192.7,1,Falealili
+12741,Masonry,Residential,163.9,1,Falealili
+12744,Timber,Fale,44.9,1,Siumu
+12753,Masonry,Residential,66.9,1,Safata
+12761,Masonry,Outbuilding,107.6,1,Falealili
+12761,Masonry,Outbuilding,50.8,1,Vaa o Fonoti
+12762,Masonry,Residential,475.5,1,Siumu
+12777,Masonry,Residential,660.5,1,Siumu
+12780,Masonry,Residential,248.6,1,Falealili
+12784,Masonry,Residential,96.0,1,Safata
+12790,Masonry,Residential,178.5,1,Aleipata Itupa i Luga
+12792,Masonry,Residential,211.5,1,Aleipata Itupa i Lalo
+12801,Masonry,Residential,207.5,1,Falealili
+12804,Masonry,Residential,60.2,1,Falealili
+12826,Masonry,Residential,388.6,1,Aleipata Itupa i Lalo
+12834,Masonry,Residential,107.4,1,Falealili
+12842,Masonry,Outbuilding,68.1,1,Falealili
+12843,Masonry,Residential,245.2,1,Aleipata Itupa i Lalo
+12860,Masonry,Residential,238.3,1,Falealili
+12861,Masonry,Residential,294.7,1,Aleipata Itupa i Lalo
+12869,Masonry,Residential,191.2,1,Siumu
+12873,Masonry,Outbuilding,56.9,1,
+12881,Timber,Tourist Fale,19.9,1,Lepa
+12887,Masonry,Outbuilding,38.8,1,Aleipata Itupa i Lalo
+12890,Masonry,Fale,104.7,1,Falealili
+12892,Masonry,Hotel,31.4,2,Lepa
+12894,Masonry,Outbuilding,73.1,1,Vaa o Fonoti
+12895,Masonry,Residential,94.4,1,Falealili
+12898,Masonry,Residential,137.0,1,Safata
+12898,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+12917,Masonry,Outbuilding,63.3,1,Falealili
+12918,Masonry,Hotel,51.3,2,Lepa
+12919,Masonry,Residential,146.1,1,Lepa
+12919,Masonry,Residential,196.3,1,Aleipata Itupa i Luga
+12922,Masonry,Residential,103.3,1,Aleipata Itupa i Luga
+12923,Masonry,Residential,200.3,1,Siumu
+12926,Masonry,Outbuilding,60.1,1,Safata
+12933,Masonry,Outbuilding,29.3,1,Safata
+12938,Masonry,Residential,278.3,1,Safata
+12950,Masonry,Residential,252.8,1,Safata
+12951,Masonry,Hotel,126.9,2,Lotofaga
+12956,Masonry,Residential,373.0,1,Aleipata Itupa i Luga
+12958,Masonry,Residential,203.1,1,Siumu
+12963,Masonry,Religious,429.0,1,Siumu
+12968,Masonry,Outbuilding,78.3,1,Falealili
+12968,Masonry,Outbuilding,79.1,1,Safata
+12973,Masonry,Residential,220.4,1,Aleipata Itupa i Lalo
+12974,Masonry,Outbuilding,11.6,1,Falealili
+12974,Masonry,Residential,88.4,1,Aleipata Itupa i Lalo
+12978,Masonry,Residential,95.1,1,Vaa o Fonoti
+12982,Masonry,Residential,14.2,1,Aleipata Itupa i Lalo
+12983,Masonry,Outbuilding,24.9,1,Falealili
+12994,Masonry,Outbuilding,20.6,1,Aleipata Itupa i Lalo
+13001,Masonry,Outbuilding,228.1,1,Falealili
+13015,Masonry,Outbuilding,12.8,1,Vaa o Fonoti
+13019,Masonry,Residential,180.5,1,Safata
+13027,Masonry,Residential,229.2,1,Aleipata Itupa i Lalo
+13031,Masonry,Residential,221.0,1,Lepa
+13043,Masonry,Residential,628.5,1,Falealili
+13047,Timber,Outbuilding,21.5,1,Aleipata Itupa i Luga
+13049,Masonry,Residential,289.7,1,Falealili
+13051,Masonry,Residential,141.9,1,Siumu
+13056,Masonry,Hotel,52.8,1,Siumu
+13056,Masonry,Outbuilding,68.6,1,Aleipata Itupa i Lalo
+13057,Timber,Outbuilding,40.0,1,Aleipata Itupa i Luga
+13060,Masonry,Residential,214.7,1,Aleipata Itupa i Lalo
+13061,Masonry,Outbuilding,70.5,1,Safata
+13070,Masonry,Outbuilding,50.4,1,Vaa o Fonoti
+13072,Masonry,Commercial,88.6,3,Siumu
+13079,Masonry,Residential,324.6,1,Safata
+13090,Masonry,Residential,125.0,1,Falealili
+13101,Masonry,Residential,107.6,1,Falealili
+13102,Timber,Tourist Fale,11.1,1,Lepa
+13103,Masonry,Hotel,52.5,3,Falealili
+13128,Masonry,Residential,378.8,1,Vaa o Fonoti
+13134,Masonry,Residential,141.3,1,Aleipata Itupa i Lalo
+13137,Timber,Residential,16.3,1,Aleipata Itupa i Luga
+13143,Masonry,Outbuilding,30.6,1,Aleipata Itupa i Lalo
+13145,Timber,Outbuilding,25.6,1,Aleipata Itupa i Lalo
+13162,Masonry,Outbuilding,37.4,1,Siumu
+13177,Masonry,Residential,248.3,1,Aleipata Itupa i Luga
+13178,Masonry,Residential,177.8,1,Aleipata Itupa i Lalo
+13188,Masonry,Residential,285.7,1,Aleipata Itupa i Lalo
+13198,Masonry,Residential,149.5,1,Lepa
+13208,Masonry,Outbuilding,19.1,1,Falealili
+13217,Masonry,Residential,298.9,1,Aleipata Itupa i Lalo
+13224,Masonry,Outbuilding,36.0,1,Falealili
+13227,Masonry,Residential,249.2,1,Aleipata Itupa i Lalo
+13231,Masonry,Residential,186.3,1,Siumu
+13234,Masonry,Outbuilding,19.9,1,Falealili
+13235,Masonry,Outbuilding,145.5,1,Safata
+13238,Masonry,Outbuilding,30.0,1,Lotofaga
+13239,Masonry,Residential,238.0,1,Lotofaga
+13240,Masonry,Outbuilding,81.1,1,Lotofaga
+13243,Masonry,Residential,142.4,1,Lotofaga
+13243,Masonry,Residential,310.8,1,Aleipata Itupa i Lalo
+13245,Masonry,Residential,94.1,1,Aleipata Itupa i Lalo
+13254,Masonry,Outbuilding,82.3,1,Safata
+13275,Masonry,Outbuilding,124.9,1,Siumu
+13279,Masonry,Residential,54.1,1,Falealili
+13281,Masonry,Outbuilding,75.8,1,Falealili
+13287,Masonry,Outbuilding,44.3,1,Falealili
+13289,Masonry,Outbuilding,114.3,1,Lotofaga
+13292,Masonry,Outbuilding,13.2,1,Vaa o Fonoti
+13300,Masonry,Residential,185.8,1,Safata
+13307,Masonry,Residential,109.4,1,Lepa
+13312,Masonry,Residential,160.5,1,Aleipata Itupa i Lalo
+13320,Masonry,Outbuilding,57.4,1,Safata
+13322,Masonry,Residential,67.6,1,Falealili
+13326,Masonry,Outbuilding,95.3,1,Siumu
+13332,Masonry,Outbuilding,47.9,1,Anoamaa East
+13334,Masonry,Residential,215.0,1,Falealili
+13335,Masonry,Outbuilding,15.9,1,Falealili
+13339,Masonry,Residential,659.8,1,Safata
+13340,Masonry,Outbuilding,73.3,1,Aleipata Itupa i Lalo
+13342,Masonry,Tourist Fale,18.8,1,Lepa
+13354,Masonry,Outbuilding,54.7,1,Lepa
+13368,Masonry,Residential,73.7,1,Aleipata Itupa i Lalo
+13371,Masonry,Outbuilding,83.3,1,Vaa o Fonoti
+13372,Timber,Outbuilding,51.3,1,Aleipata Itupa i Lalo
+13376,Masonry,Outbuilding,47.7,1,Safata
+13382,Masonry,Outbuilding,81.9,1,Safata
+13388,Masonry,Outbuilding,34.2,1,Aleipata Itupa i Lalo
+13390,Timber,Fale,58.8,1,Safata
+13391,Masonry,Fale,17.0,1,Aleipata Itupa i Luga
+13397,Masonry,Outbuilding,104.9,1,Falealili
+13401,Timber,Hotel,90.8,2,Siumu
+13409,Timber,Tourist Fale,11.1,1,Lepa
+13415,Masonry,Outbuilding,17.1,1,Falealili
+13416,Masonry,Outbuilding,55.9,1,Safata
+13419,Masonry,Hotel,64.7,2,Falealili
+13420,Masonry,Residential,145.6,1,Aleipata Itupa i Lalo
+13424,Masonry,Tourist Fale,30.4,1,Safata
+13450,Timber,Tourist Fale,11.1,1,Lepa
+13453,Masonry,Outbuilding,49.1,1,Siumu
+13454,Masonry,Commercial,69.0,2,Siumu
+13463,Masonry,Residential,200.3,1,Lepa
+13466,Masonry,Outbuilding,118.6,1,Siumu
+13466,Masonry,Religious,243.6,1,Safata
+13479,Masonry,Outbuilding,40.3,1,Lotofaga
+13480,Timber,Fale,40.9,1,Aleipata Itupa i Lalo
+13484,Masonry,Religious,268.2,1,Lepa
+13488,Masonry,Outbuilding,33.8,1,Falealili
+13510,Masonry,Outbuilding,24.7,1,Vaa o Fonoti
+13513,Masonry,Residential,146.5,1,Vaa o Fonoti
+13514,Masonry,Residential,158.5,1,Safata
+13520,Masonry,Residential,159.5,1,Siumu
+13521,Masonry,Outbuilding,70.8,1,Safata
+13528,Masonry,Residential,88.3,1,Safata
+13531,Masonry,Outbuilding,163.0,1,Siumu
+13532,Masonry,Fale,25.2,1,Aleipata Itupa i Lalo
+13532,Masonry,Residential,148.3,1,Vaa o Fonoti
+13540,Masonry,Residential,133.7,1,Lepa
+13544,Masonry,Outbuilding,54.1,1,Safata
+13558,Masonry,Residential,230.8,1,Vaa o Fonoti
+13566,Masonry,Residential,198.4,1,Aleipata Itupa i Luga
+13578,Masonry,Outbuilding,58.7,1,Siumu
+13581,Masonry,Outbuilding,74.1,1,Safata
+13588,Masonry,Outbuilding,63.0,1,Aleipata Itupa i Lalo
+13594,Masonry,Outbuilding,70.3,1,Falealili
+13600,Masonry,Residential,165.2,1,Aleipata Itupa i Luga
+13601,Masonry,Residential,155.2,1,Safata
+13610,Masonry,Outbuilding,22.5,1,Aleipata Itupa i Lalo
+13612,Masonry,Residential,221.2,1,Siumu
+13618,Masonry,Residential,107.1,1,Lotofaga
+13619,Masonry,Outbuilding,13.8,1,Aleipata Itupa i Lalo
+13626,Masonry,Residential,157.0,1,Falealili
+13628,Masonry,Outbuilding,100.8,1,Safata
+13628,Masonry,Residential,189.9,1,Safata
+13632,Masonry,Outbuilding,146.6,1,Siumu
+13633,Masonry,Residential,260.7,1,Aleipata Itupa i Luga
+13633,Masonry,Residential,447.5,1,Safata
+13636,Masonry,Residential,83.6,1,Falealili
+13645,Masonry,Outbuilding,117.4,1,Siumu
+13657,Masonry,Fale,42.1,1,Aleipata Itupa i Lalo
+13669,Timber,Outbuilding,29.5,1,Falealili
+13678,Masonry,Outbuilding,108.8,1,Siumu
+13679,Masonry,Residential,164.8,1,Lepa
+13700,Masonry,Residential,148.3,1,Siumu
+13702,Masonry,Outbuilding,40.3,1,Falealili
+13719,Masonry,Residential,132.6,1,Aleipata Itupa i Luga
+13721,Masonry,Residential,38.8,1,Vaa o Fonoti
+13725,Masonry,Residential,242.7,1,Siumu
+13725,Masonry,Residential,88.5,1,Falealili
+13739,Masonry,Residential,49.7,1,Safata
+13743,Masonry,Residential,223.8,1,Falealili
+13743,Timber,Hotel,23.0,2,Falealili
+13746,Masonry,Residential,80.2,1,Falealili
+13765,Masonry,Hotel,40.2,1,Lotofaga
+13768,Masonry,Residential,233.6,1,Aleipata Itupa i Lalo
+13770,Masonry,Outbuilding,118.6,1,Falealili
+13770,Masonry,Religious,412.5,1,Falealili
+13770,Masonry,Residential,118.1,1,Falealili
+13774,Timber,Outbuilding,21.1,1,Aleipata Itupa i Lalo
+13792,Masonry,Residential,176.6,1,Falealili
+13794,Masonry,Outbuilding,129.0,1,Siumu
+13803,Timber,Tourist Fale,8.7,1,Siumu
+13805,Masonry,Residential,217.9,1,Falealili
+13810,Masonry,Residential,161.1,1,Falealili
+13819,Masonry,Fale,40.1,1,Aleipata Itupa i Lalo
+13821,Masonry,Residential,312.4,1,Aleipata Itupa i Lalo
+13825,Masonry,Residential,75.9,1,Vaa o Fonoti
+13839,Timber,Tourist Fale,20.5,1,Lepa
+13843,Masonry,Residential,222.4,1,Aleipata Itupa i Lalo
+13850,Masonry,Outbuilding,29.7,1,Aleipata Itupa i Luga
+13853,Masonry,Residential,129.5,1,Aleipata Itupa i Lalo
+13859,Masonry,Hotel,96.3,1,Lotofaga
+13864,Masonry,Outbuilding,21.5,1,Lotofaga
+13869,Masonry,Outbuilding,102.6,1,Siumu
+13875,Masonry,Outbuilding,83.6,1,Falealili
+13875,Masonry,Residential,271.6,1,Safata
+13881,Masonry,Residential,196.2,1,Siumu
+13892,Masonry,Residential,107.7,1,Aleipata Itupa i Lalo
+13893,Timber,Outbuilding,33.0,1,Aleipata Itupa i Lalo
+13899,Masonry,Outbuilding,20.9,1,Aleipata Itupa i Luga
+13903,Masonry,Outbuilding,62.4,1,Aleipata Itupa i Luga
+13904,Timber,Outbuilding,26.1,1,Falealili
+13912,Masonry,Outbuilding,85.6,1,Aleipata Itupa i Lalo
+13916,Masonry,Residential,141.7,1,Lepa
+13924,Steel,Industrial,464.2,1,
+13925,Timber,Tourist Fale,19.9,1,Lepa
+13926,Masonry,Residential,169.6,1,Aleipata Itupa i Lalo
+13931,Masonry,Religious,900.4,1,Aleipata Itupa i Luga
+13931,Masonry,Residential,127.8,1,Siumu
+13931,Timber,Hotel,92.5,2,Aleipata Itupa i Luga
+13937,Masonry,Residential,122.7,1,Lepa
+13938,Masonry,Residential,108.1,1,Vaa o Fonoti
+13941,Masonry,Outbuilding,38.7,1,Safata
+13942,Masonry,Hotel,150.0,3,Siumu
+13942,Masonry,Residential,237.6,1,Aleipata Itupa i Lalo
+13945,Masonry,Outbuilding,29.8,1,Siumu
+13947,Masonry,Hotel,769.6,1,Aleipata Itupa i Luga
+13952,Masonry,Outbuilding,20.5,1,Falealili
+13955,Timber,Residential,111.7,1,Aleipata Itupa i Lalo
+13956,Masonry,Residential,95.0,1,Falealili
+13971,Masonry,Residential,113.7,1,Aleipata Itupa i Lalo
+13973,Masonry,Outbuilding,79.6,1,Siumu
+13976,Masonry,Residential,56.0,1,Safata
+13984,Timber,Tourist Fale,11.1,1,Lepa
+13988,Masonry,Residential,340.4,1,Safata
+13991,Masonry,Residential,155.9,1,Falealili
+13995,Masonry,Residential,396.6,1,Aleipata Itupa i Lalo
+14000,Masonry,Residential,126.0,1,Falealili
+14000,Masonry,Residential,234.6,1,Aleipata Itupa i Lalo
+14000,Masonry,Residential,58.9,1,Vaa o Fonoti
+14004,Masonry,Outbuilding,109.4,1,Aleipata Itupa i Lalo
+14006,Masonry,Outbuilding,61.1,1,Siumu
+14007,Masonry,Outbuilding,50.3,1,Falealili
+14007,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+14012,Masonry,Residential,427.4,1,Aleipata Itupa i Luga
+14020,Masonry,Outbuilding,34.7,1,Vaa o Fonoti
+14037,Timber,Hotel,74.5,3,Aleipata Itupa i Luga
+14042,Masonry,Residential,44.3,1,Safata
+14046,Masonry,Hotel,175.2,3,Siumu
+14047,Masonry,Outbuilding,83.0,1,Lepa
+14051,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+14056,Masonry,Residential,83.8,1,Vaa o Fonoti
+14058,Masonry,Residential,58.5,1,Falealili
+14060,Masonry,Residential,221.9,1,Siumu
+14067,Masonry,Residential,120.6,1,Siumu
+14072,Masonry,Residential,1295.6,1,Safata
+14078,Timber,Tourist Fale,11.1,1,Lepa
+14091,Masonry,Outbuilding,143.8,1,Siumu
+14099,Masonry,Residential,215.3,1,Falealili
+14112,Masonry,Residential,292.0,1,Safata
+14133,Masonry,Outbuilding,52.6,1,Safata
+14137,Timber,Outbuilding,36.5,1,Aleipata Itupa i Luga
+14142,Masonry,Outbuilding,36.9,1,Siumu
+14156,Masonry,Outbuilding,22.6,1,Aleipata Itupa i Luga
+14173,Masonry,Residential,89.8,1,Aleipata Itupa i Lalo
+14182,Masonry,Residential,142.2,1,Safata
+14186,Masonry,Outbuilding,32.0,1,Falealili
+14187,Masonry,Outbuilding,85.0,1,Safata
+14188,Timber,Fale,22.4,1,Falealili
+14190,Timber,Outbuilding,22.2,1,Lepa
+14192,Masonry,Outbuilding,39.6,1,Falealili
+14195,Masonry,Residential,258.0,1,Aleipata Itupa i Lalo
+14196,Masonry,Fale,60.2,1,Aleipata Itupa i Luga
+14196,Timber,Fale,19.0,1,Aleipata Itupa i Lalo
+14202,Masonry,Residential,148.8,1,Aleipata Itupa i Lalo
+14208,Masonry,Outbuilding,16.3,1,Falealili
+14212,Masonry,Outbuilding,64.3,1,Siumu
+14212,Masonry,Residential,154.2,1,Siumu
+14218,Masonry,Residential,281.1,1,Siumu
+14218,Masonry,Residential,373.4,1,Safata
+14220,Masonry,Residential,111.2,1,Falealili
+14222,Masonry,Residential,168.5,1,Falealili
+14225,Masonry,Residential,98.2,1,Lotofaga
+14234,Masonry,Outbuilding,100.9,1,Aleipata Itupa i Lalo
+14235,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+14249,Masonry,Residential,236.5,1,Lotofaga
+14255,Masonry,Outbuilding,107.2,1,Safata
+14259,Masonry,Residential,81.5,1,Aleipata Itupa i Lalo
+14273,Masonry,Outbuilding,88.1,1,Siumu
+14285,Timber,Hotel,53.8,2,Lepa
+14286,Masonry,Residential,80.7,1,Vaa o Fonoti
+14287,Masonry,Outbuilding,69.7,1,Falealili
+14288,Masonry,Outbuilding,91.4,1,Siumu
+14293,Masonry,Residential,65.6,1,Vaa o Fonoti
+14300,Timber,Outbuilding,17.9,1,Aleipata Itupa i Lalo
+14304,Masonry,Outbuilding,28.6,1,Safata
+14308,Masonry,Residential,139.3,1,Aleipata Itupa i Lalo
+14309,Timber,Residential,75.5,1,Aleipata Itupa i Lalo
+14318,Masonry,Residential,90.1,1,Aleipata Itupa i Lalo
+14324,Masonry,Residential,67.1,1,Falealili
+14327,Masonry,Outbuilding,72.6,1,Lotofaga
+14328,Masonry,Residential,201.7,1,Falealili
+14333,Masonry,Outbuilding,60.3,1,Falealili
+14333,Masonry,Residential,97.2,1,Anoamaa East
+14338,Masonry,Residential,67.9,1,Falealili
+14358,Masonry,Residential,83.6,1,Vaa o Fonoti
+14361,Timber,Fale,83.8,1,Falealili
+14362,Masonry,Residential,133.6,1,Falealili
+14362,Reinforced_Concrete,Hotel,852.8,3,Lotofaga
+14363,Masonry,Residential,65.7,1,Falealili
+14371,Masonry,Hotel,57.6,2,Lotofaga
+14374,Masonry,Residential,136.7,1,Aleipata Itupa i Luga
+14376,Masonry,Residential,136.0,1,Falealili
+14377,Masonry,Fale,41.8,1,Aleipata Itupa i Lalo
+14377,Timber,Outbuilding,13.2,1,Aleipata Itupa i Lalo
+14383,Timber,Hotel,18.7,2,Lepa
+14385,Masonry,Outbuilding,101.7,1,Falealili
+14391,Masonry,Residential,155.3,1,Aleipata Itupa i Lalo
+14401,Masonry,Residential,262.9,1,Aleipata Itupa i Lalo
+14408,Masonry,Outbuilding,36.2,1,Siumu
+14409,Masonry,Residential,406.1,1,Safata
+14412,Masonry,Residential,127.3,1,Aleipata Itupa i Lalo
+14420,Masonry,Outbuilding,37.9,1,Lotofaga
+14426,Masonry,Outbuilding,44.1,1,Aleipata Itupa i Luga
+14428,Masonry,Residential,174.4,1,Siumu
+14430,Masonry,Residential,146.1,1,Aleipata Itupa i Lalo
+14432,Masonry,Outbuilding,42.4,1,Safata
+14432,Masonry,Residential,122.4,1,Falealili
+14435,Timber,Tourist Fale,136.4,1,Siumu
+14439,Masonry,Residential,315.5,1,Aleipata Itupa i Lalo
+14444,Masonry,Hotel,50.8,2,Siumu
+14446,Masonry,Commercial,107.7,1,Siumu
+14446,Masonry,Outbuilding,130.7,1,Siumu
+14451,Masonry,Outbuilding,67.1,1,Falealili
+14463,Masonry,Outbuilding,33.5,1,Lepa
+14466,Timber,Tourist Fale,23.0,1,Falealili
+14467,Timber,Tourist Fale,16.9,1,Lepa
+14473,Masonry,Outbuilding,60.3,1,Vaa o Fonoti
+14489,Masonry,Residential,149.1,1,Falealili
+14498,Masonry,Outbuilding,37.8,1,Siumu
+14505,Masonry,Residential,172.2,1,Vaa o Fonoti
+14508,Timber,Residential,58.0,1,Aleipata Itupa i Lalo
+14511,Masonry,Residential,87.3,1,Falealili
+14515,Masonry,Outbuilding,68.1,1,Siumu
+14516,Masonry,Residential,153.5,1,Lotofaga
+14525,Masonry,Residential,169.8,1,Aleipata Itupa i Luga
+14528,Masonry,Tourist Fale,30.7,1,Safata
+14530,Timber,Tourist Fale,30.3,1,Siumu
+14538,Masonry,Residential,167.8,1,Aleipata Itupa i Lalo
+14553,Masonry,Fale,36.5,1,Anoamaa East
+14554,Masonry,Residential,1048.5,1,Siumu
+14559,Masonry,Residential,91.2,1,Aleipata Itupa i Lalo
+14559,Timber,Outbuilding,23.0,1,Vaa o Fonoti
+14572,Masonry,Residential,150.2,1,Vaa o Fonoti
+14580,Masonry,Outbuilding,46.4,1,Falealili
+14585,Timber,Outbuilding,42.9,1,Aleipata Itupa i Lalo
+14588,Masonry,Residential,290.0,1,Lepa
+14592,Masonry,Outbuilding,60.2,1,Siumu
+14596,Masonry,Residential,196.9,1,Falealili
+14599,Masonry,Residential,98.4,1,Siumu
+14601,Masonry,Hotel,145.9,1,Aleipata Itupa i Luga
+14605,Masonry,Outbuilding,41.7,1,Safata
+14606,Masonry,Residential,179.6,1,Lepa
+14606,Masonry,Residential,96.7,1,Vaa o Fonoti
+14608,Masonry,Outbuilding,100.0,1,Falealili
+14613,Masonry,Residential,38.1,1,Aleipata Itupa i Luga
+14614,Timber,Tourist Fale,11.1,1,Lepa
+14623,Masonry,Hotel,48.0,3,Aleipata Itupa i Luga
+14640,Masonry,Outbuilding,188.3,1,Safata
+14643,Masonry,Residential,269.4,1,Aleipata Itupa i Luga
+14650,Masonry,Outbuilding,51.1,1,Safata
+14651,Masonry,Residential,182.6,1,Safata
+14655,Masonry,Residential,84.6,1,Falealili
+14658,Timber,Hotel,58.6,2,Lotofaga
+14660,Masonry,Residential,136.0,1,Safata
+14660,Masonry,Residential,255.8,1,Siumu
+14664,Timber,Outbuilding,31.4,1,Aleipata Itupa i Lalo
+14673,Masonry,Residential,149.8,1,Aleipata Itupa i Lalo
+14676,Masonry,Fale,152.2,1,Safata
+14680,Masonry,Commercial,62.0,1,Siumu
+14706,Masonry,Residential,23.8,1,Falealili
+14708,Masonry,Hotel,222.0,2,Siumu
+14708,Timber,Fale,23.2,1,Lepa
+14722,Masonry,Outbuilding,21.2,1,Vaa o Fonoti
+14725,Masonry,Outbuilding,116.6,1,Siumu
+14740,Masonry,Outbuilding,126.8,1,Siumu
+14740,Masonry,Outbuilding,35.9,1,Vaa o Fonoti
+14749,Masonry,Tourist Fale,28.4,1,Siumu
+14751,Masonry,Fale,75.6,1,Siumu
+14754,Masonry,Outbuilding,90.7,1,Falealili
+14761,Masonry,Residential,30.2,1,Aleipata Itupa i Lalo
+14769,Masonry,Outbuilding,75.5,1,Lotofaga
+14772,Timber,Tourist Fale,19.2,1,Aleipata Itupa i Luga
+14777,Masonry,Residential,91.9,1,Falealili
+14778,Masonry,Outbuilding,14.0,1,Falealili
+14779,Timber,Outbuilding,92.7,1,Lepa
+14784,Masonry,Outbuilding,70.8,1,Falealili
+14786,Masonry,Outbuilding,293.6,1,Siumu
+14786,Timber,Residential,60.7,1,Aleipata Itupa i Luga
+14792,Masonry,Outbuilding,142.4,1,Safata
+14797,Masonry,Residential,275.3,1,Safata
+14800,Masonry,Outbuilding,26.9,1,Vaa o Fonoti
+14802,Masonry,Outbuilding,149.8,1,Siumu
+14803,Masonry,Residential,192.4,1,Safata
+14803,Masonry,Residential,78.6,1,Aleipata Itupa i Luga
+14806,Masonry,Residential,117.7,1,Falealili
+14819,Timber,Hotel,23.0,1,Falealili
+14823,Masonry,Outbuilding,149.5,1,Siumu
+14828,Masonry,Outbuilding,48.4,1,Safata
+14838,Timber,Tourist Fale,67.5,1,Siumu
+14847,Masonry,Residential,79.9,1,Falealili
+14849,Masonry,Residential,262.9,1,Siumu
+14851,Masonry,Outbuilding,364.9,1,Siumu
+14856,Masonry,Residential,141.8,1,Safata
+14868,Masonry,Outbuilding,22.0,1,Vaa o Fonoti
+14870,Masonry,Outbuilding,26.2,1,Aleipata Itupa i Lalo
+14873,Masonry,Outbuilding,68.2,1,Vaa o Fonoti
+14885,Masonry,Residential,121.8,1,Lepa
+14892,Masonry,Residential,146.9,1,Anoamaa East
+14895,Timber,Tourist Fale,23.0,1,Falealili
+14901,Masonry,Residential,351.1,1,Safata
+14901,Masonry,Residential,409.2,1,Aleipata Itupa i Lalo
+14907,Masonry,Outbuilding,47.8,1,Siumu
+14917,Masonry,Outbuilding,141.4,1,Siumu
+14921,Masonry,Outbuilding,18.4,1,Lepa
+14922,Masonry,Residential,127.7,1,Falealili
+14923,Masonry,Residential,155.3,1,Falealili
+14925,Masonry,Residential,236.8,1,Siumu
+14931,Masonry,Religious - not verified,527.4,1,Siumu
+14932,Masonry,Residential,233.2,1,Falealili
+14943,Masonry,Residential,88.3,1,Aleipata Itupa i Lalo
+14946,Masonry,Residential,116.7,1,Aleipata Itupa i Lalo
+14952,Masonry,Outbuilding,29.1,1,Falealili
+14955,Masonry,Residential,141.0,1,Siumu
+14962,Masonry,Hotel,29.0,1,Lepa
+14971,Masonry,Outbuilding,35.8,1,Aleipata Itupa i Luga
+14977,Timber,Tourist Fale,18.8,1,Aleipata Itupa i Luga
+14983,Masonry,Outbuilding,31.7,1,Safata
+14983,Timber,Fale,197.8,1,Siumu
+14984,Masonry,Residential,165.6,1,Falealili
+15036,Masonry,Residential,73.4,1,Safata
+15042,Masonry,Education,56.6,1,Falealili
+15044,Masonry,Residential,75.3,1,Anoamaa East
+15047,Masonry,Fale,17.1,1,Aleipata Itupa i Lalo
+15047,Masonry,Outbuilding,33.2,1,Safata
+15049,Masonry,Residential,124.6,1,Aleipata Itupa i Luga
+15072,Masonry,Outbuilding,33.3,1,Aleipata Itupa i Luga
+15072,Masonry,Residential,86.7,1,Vaa o Fonoti
+15076,Masonry,Residential,154.5,1,Aleipata Itupa i Lalo
+15081,Masonry,Residential,219.9,1,Safata
+15091,Timber,Outbuilding,21.2,1,Lepa
+15105,Masonry,Fale,17.0,1,Aleipata Itupa i Luga
+15121,Masonry,Outbuilding,97.0,1,Falealili
+15125,Masonry,Residential,255.2,1,Safata
+15127,Masonry,Outbuilding,18.0,1,Falealili
+15128,Masonry,Residential,470.8,1,Safata
+15131,Masonry,Outbuilding,130.7,1,Safata
+15160,Masonry,Outbuilding,39.5,1,Aleipata Itupa i Luga
+15174,Masonry,Residential,78.7,1,Vaa o Fonoti
+15187,Timber,Tourist Fale,23.0,1,Falealili
+15191,Masonry,Residential,165.8,1,Aleipata Itupa i Luga
+15208,Masonry,Residential,114.7,1,Safata
+15210,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+15212,Masonry,Outbuilding,31.0,1,Siumu
+15218,Timber,Hotel,68.2,1,Falealili
+15222,Masonry,Outbuilding,65.1,1,Falealili
+15222,Timber,Outbuilding,25.4,1,Aleipata Itupa i Lalo
+15233,Masonry,Outbuilding,27.9,1,Safata
+15233,Masonry,Outbuilding,44.7,1,Siumu
+15239,Timber,Residential,49.8,1,Aleipata Itupa i Lalo
+15244,Masonry,Outbuilding,65.0,1,Lotofaga
+15246,Masonry,Commercial,357.0,3,Siumu
+15253,Masonry,Residential,87.2,1,Falealili
+15254,Masonry,Outbuilding,39.7,1,Safata
+15258,Masonry,Residential,134.1,1,Siumu
+15260,Masonry,Residential,89.5,1,Aleipata Itupa i Lalo
+15265,Timber,Hotel,35.2,2,Falealili
+15274,Masonry,Hotel - not verified,333.9,1,Siumu
+15280,Masonry,Residential,140.9,1,Falealili
+15283,Masonry,Residential,213.8,1,Falealili
+15287,Masonry,Outbuilding,38.9,1,Lepa
+15305,Masonry,Hotel,257.6,2,Falealili
+15306,Masonry,Residential,112.7,1,Lepa
+15310,Masonry,Residential,196.8,1,Falealili
+15314,Timber,Outbuilding,41.1,1,Aleipata Itupa i Lalo
+15315,Masonry,Residential,107.9,1,Vaa o Fonoti
+15318,Masonry,Outbuilding,37.3,1,Aleipata Itupa i Lalo
+15328,Timber,Hotel,11.1,3,Lepa
+15329,Masonry,Residential,117.6,1,Lotofaga
+15330,Masonry,Residential,319.7,1,Vaa o Fonoti
+15331,Timber,Hotel,69.7,2,Lepa
+15333,Masonry,Outbuilding,67.5,1,Aleipata Itupa i Lalo
+15335,Masonry,Residential,178.4,1,Siumu
+15342,Timber,Hotel,18.0,1,Lepa
+15345,Masonry,Outbuilding,136.8,1,Falealili
+15350,Timber,Tourist Fale,199.2,1,Siumu
+15359,Masonry,Religious,350.2,1,Falealili
+15362,Timber,Hotel,69.6,2,Aleipata Itupa i Luga
+15363,Masonry,Residential,240.2,1,Aleipata Itupa i Luga
+15368,Masonry,Residential,269.9,1,Falealili
+15376,Masonry,Outbuilding,54.1,1,Aleipata Itupa i Luga
+15381,Masonry,Residential,187.7,1,Vaa o Fonoti
+15385,Masonry,Residential,407.1,1,Safata
+15385,Timber,Hotel,79.1,3,Lepa
+15414,Timber,Hotel,88.8,2,
+15416,Masonry,Outbuilding,39.9,1,Safata
+15420,Masonry,Community,321.0,1,Aleipata Itupa i Lalo
+15420,Timber,Outbuilding,42.2,1,Aleipata Itupa i Lalo
+15431,Masonry,Hotel,74.3,2,Lotofaga
+15443,Timber,Tourist Fale,19.9,1,Lepa
+15444,Masonry,Outbuilding,30.8,1,Falealili
+15446,Masonry,Residential,92.3,1,Vaa o Fonoti
+15449,Masonry,Residential,100.1,1,Lotofaga
+15450,Timber,Commercial,16.1,3,Aleipata Itupa i Lalo
+15465,Masonry,Outbuilding,39.8,1,Siumu
+15478,Masonry,Outbuilding,26.1,1,Aleipata Itupa i Lalo
+15491,Masonry,Outbuilding,87.8,1,Safata
+15495,Masonry,Outbuilding,107.3,1,Safata
+15499,Masonry,Outbuilding,48.4,1,Falealili
+15503,Masonry,Residential,190.9,1,Vaa o Fonoti
+15506,Masonry,Outbuilding,26.4,1,Falealili
+15508,Masonry,Outbuilding,21.3,1,Aleipata Itupa i Luga
+15512,Masonry,Residential,69.1,1,Aleipata Itupa i Lalo
+15512,Masonry,Residential,83.3,1,Lepa
+15519,Masonry,Outbuilding,60.6,1,Safata
+15526,Masonry,Outbuilding,97.4,1,Falealili
+15526,Reinforced Concrete,Religious,1226.3,1,Safata
+15529,Masonry,Outbuilding,31.2,1,Falealili
+15531,Masonry,Residential,57.7,1,Falealili
+15531,Timber,Fale,34.3,1,Aleipata Itupa i Lalo
+15534,Masonry,Residential,131.2,1,Aleipata Itupa i Lalo
+15539,Masonry,Residential,103.1,1,Falealili
+15541,Timber,Outbuilding,12.2,1,Aleipata Itupa i Luga
+15543,Masonry,Residential,187.6,1,Lepa
+15546,Masonry,Religious,166.0,1,Siumu
+15547,Masonry,Residential,140.3,1,Vaa o Fonoti
+15547,Masonry,Residential,259.2,1,Falealili
+15550,Masonry,Residential,315.0,1,Vaa o Fonoti
+15555,Masonry,Commercial,87.9,3,Siumu
+15574,Masonry,Residential,166.1,1,Falealili
+15578,Masonry,Outbuilding,148.2,1,Siumu
+15578,Masonry,Residential,210.0,1,Aleipata Itupa i Lalo
+15582,Timber,Fale,132.2,1,Aleipata Itupa i Lalo
+15586,Masonry,Community,175.3,1,Aleipata Itupa i Luga
+15591,Masonry,Residential,259.0,1,Falealili
+15592,Masonry,Residential,127.8,1,Safata
+15594,Masonry,Residential,23.8,1,Falealili
+15598,Masonry,Residential,216.5,1,Aleipata Itupa i Lalo
+15607,Masonry,Outbuilding,133.0,1,Siumu
+15607,Masonry,Residential,43.0,1,Falealili
+15619,Masonry,Residential,83.9,1,Anoamaa East
+15623,Masonry,Outbuilding,290.2,1,Safata
+15630,Masonry,Residential,112.7,1,Falealili
+15631,Masonry,Residential,168.2,1,Siumu
+15631,Masonry,Residential,83.0,1,Lepa
+15632,Masonry,Outbuilding,75.3,1,Vaa o Fonoti
+15635,Masonry,Residential,186.0,1,Falealili
+15639,Masonry,Outbuilding,19.8,1,Anoamaa East
+15639,Masonry,Residential,322.6,1,Safata
+15660,Masonry,Residential,389.2,1,Safata
+15670,Masonry,Residential,147.3,1,Lepa
+15678,Masonry,Outbuilding,45.1,1,Vaa o Fonoti
+15687,Masonry,Outbuilding,29.3,1,Aleipata Itupa i Lalo
+15693,Masonry,Residential,205.0,1,Siumu
+15697,Masonry,Residential,158.1,1,Siumu
+15702,Masonry,Residential,132.5,1,Falealili
+15703,Masonry,Residential,147.9,1,Siumu
+15703,Masonry,Residential,171.0,1,Vaa o Fonoti
+15712,Masonry,Residential,268.0,1,Siumu
+15740,Masonry,Residential,146.3,1,Aleipata Itupa i Luga
+15743,Masonry,Outbuilding,33.5,1,Falealili
+15750,Masonry,Outbuilding,76.0,1,Safata
+15759,Masonry,Tourist Fale,30.6,1,Safata
+15773,Masonry,Residential,182.3,1,Siumu
+15777,Masonry,Residential,168.1,1,Falealili
+15795,Masonry,Residential,96.4,1,Aleipata Itupa i Lalo
+15803,Masonry,Outbuilding,51.0,1,Siumu
+15807,Masonry,Outbuilding,22.5,1,Vaa o Fonoti
+15808,Masonry,Residential,152.0,1,Siumu
+15808,Masonry,Residential,165.5,1,Safata
+15812,Masonry,Residential,135.3,1,Falealili
+15814,Masonry,Residential,123.2,1,Safata
+15818,Masonry,Fale,12.5,1,Aleipata Itupa i Lalo
+15824,Masonry,Outbuilding,121.1,1,Siumu
+15832,Masonry,Residential,198.1,1,Siumu
+15836,Masonry,Residential,43.5,1,Falealili
+15839,Masonry,Outbuilding,26.3,1,Lotofaga
+15851,Masonry,Residential,157.0,1,Falealili
+15858,Timber,Outbuilding,17.7,1,Falealili
+15859,Masonry,Outbuilding,30.5,1,Aleipata Itupa i Lalo
+15863,Timber,Outbuilding,7.0,1,Falealili
+15876,Timber,Tourist Fale,19.9,1,Lepa
+15877,Timber,Hotel,63.2,1,Aleipata Itupa i Luga
+15884,Masonry,Residential,91.2,1,Falealili
+15893,Masonry,Residential,144.9,1,Vaa o Fonoti
+15893,Masonry,Residential,226.3,1,Safata
+15893,Masonry,Residential,254.2,1,Safata
+15894,Masonry,Outbuilding,75.2,1,Safata
+15900,Timber,Hotel,23.0,1,Falealili
+15915,Masonry,Residential,90.6,1,Siumu
+15916,Steel,Industrial,73.8,1,
+15920,Timber,Outbuilding,23.1,1,Lepa
+15925,Masonry,Outbuilding,92.9,1,Falealili
+15927,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+15928,Timber,Hotel,50.5,2,Lepa
+15930,Masonry,Residential,196.3,1,Safata
+15932,Masonry,Residential,376.7,1,Safata
+15934,Masonry,Residential,227.3,1,Falealili
+15936,Masonry,Residential,178.9,1,Falealili
+15939,Masonry,Residential,150.6,1,Falealili
+15947,Masonry,Residential,93.8,1,Safata
+15964,Masonry,Residential,114.5,1,Aleipata Itupa i Lalo
+15997,Masonry,Residential,56.0,1,Falealili
+16004,Masonry,Outbuilding,145.4,1,Falealili
+16004,Masonry,Residential,241.4,1,Siumu
+16011,Masonry,Outbuilding,57.3,1,Falealili
+16011,Masonry,Residential,116.1,1,Safata
+16011,Timber,Fale,61.4,1,Lepa
+16019,Timber,Fale,43.2,1,Aleipata Itupa i Lalo
+16022,Masonry,Residential,115.1,1,Siumu
+16024,Masonry,Hotel,557.6,2,Lepa
+16026,Masonry,Residential,276.5,1,Falealili
+16028,Timber,Hotel,58.1,1,Falealili
+16032,Masonry,Hotel,68.4,3,Falealili
+16044,Masonry,Outbuilding,41.5,1,Vaa o Fonoti
+16046,Timber,Residential,101.5,1,Falealili
+16047,Masonry,Residential,188.0,1,Aleipata Itupa i Lalo
+16055,Masonry,Residential,202.8,1,Safata
+16055,Masonry,Residential,236.4,1,Safata
+16065,Masonry,Residential,71.7,1,Aleipata Itupa i Lalo
+16069,Timber,Fale,48.5,1,Falealili
+16075,Timber,Fale,78.9,1,Lepa
+16076,Masonry,Residential,206.7,1,Lepa
+16078,Masonry,Outbuilding,93.1,1,Safata
+16079,Masonry,Residential,148.4,1,Falealili
+16085,Masonry,Outbuilding,52.8,1,Vaa o Fonoti
+16097,Masonry,Residential,37.2,1,Anoamaa East
+16099,Masonry,Outbuilding,15.9,1,Falealili
+16100,Masonry,Residential,49.0,1,Aleipata Itupa i Lalo
+16111,Timber,Outbuilding,14.7,1,Lepa
+16112,Masonry,Residential,437.1,1,Siumu
+16115,Masonry,Outbuilding,105.3,1,Falealili
+16119,Masonry,Outbuilding,56.8,1,Safata
+16122,Masonry,Residential,159.9,1,Vaa o Fonoti
+16122,Masonry,Residential,91.1,1,Aleipata Itupa i Lalo
+16126,Masonry,Outbuilding,199.5,1,Siumu
+16132,Masonry,Residential,174.0,1,Falealili
+16136,Masonry,Residential,299.8,1,Safata
+16141,Masonry,Residential,70.5,1,Lepa
+16142,Masonry,Tourist Fale,31.4,1,Siumu
+16144,Timber,Outbuilding,46.1,1,Aleipata Itupa i Lalo
+16144,Timber,Outbuilding,7.4,1,Aleipata Itupa i Luga
+16150,Timber,Tourist Fale,23.0,1,Falealili
+16155,Masonry,Residential,157.5,1,Safata
+16160,Masonry,Residential,219.1,1,Falealili
+16164,Masonry,Residential,42.6,1,Falealili
+16168,Masonry,Residential,209.5,1,Safata
+16177,Masonry,Residential,108.2,1,Vaa o Fonoti
+16182,Timber,Outbuilding,51.9,1,Falealili
+16184,Masonry,Residential,75.7,1,Lepa
+16187,Masonry,Outbuilding,89.5,1,Falealili
+16190,Masonry,Residential,101.9,1,Aleipata Itupa i Lalo
+16204,Masonry,Outbuilding,35.4,1,Siumu
+16214,Masonry,Hotel,63.5,2,Lotofaga
+16215,Masonry,Outbuilding,204.4,1,Safata
+16215,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+16225,Masonry,Outbuilding,87.2,1,Falealili
+16237,Timber,Residential,159.5,1,Aleipata Itupa i Luga
+16239,Masonry,Outbuilding,44.1,1,Vaa o Fonoti
+16239,Masonry,Residential,67.7,1,Vaa o Fonoti
+16244,Masonry,Outbuilding,34.6,1,Vaa o Fonoti
+16244,Masonry,Residential,44.2,1,Safata
+16248,Masonry,Outbuilding,269.2,1,Siumu
+16249,Masonry,Residential,74.6,1,Aleipata Itupa i Lalo
+16250,Masonry,Residential,385.5,1,Falealili
+16255,Masonry,Outbuilding,40.8,1,Falealili
+16259,Masonry,Residential,125.0,1,Aleipata Itupa i Luga
+16260,Masonry,Residential,147.8,1,Lepa
+16266,Masonry,Religious,127.4,1,Vaa o Fonoti
+16268,Masonry,Outbuilding,70.2,1,Falealili
+16271,Masonry,Residential,122.5,1,Aleipata Itupa i Lalo
+16278,Masonry,Residential,271.0,1,Lepa
+16295,Masonry,Residential,76.0,1,Vaa o Fonoti
+16298,Masonry,Commercial,179.4,2,Siumu
+16304,Masonry,Residential,30.6,1,Falealili
+16319,Masonry,Outbuilding,48.7,1,Aleipata Itupa i Lalo
+16320,Masonry,Residential,231.3,1,Falealili
+16324,Timber,Outbuilding,12.1,1,Falealili
+16326,Timber,Fale,19.0,1,Aleipata Itupa i Lalo
+16330,Masonry,Outbuilding,121.2,1,Siumu
+16332,Masonry,Residential,110.9,1,Falealili
+16335,Masonry,Residential,309.7,1,Falealili
+16336,Masonry,Outbuilding,65.9,1,Safata
+16336,Masonry,Residential,928.9,1,Siumu
+16342,Masonry,Outbuilding,15.1,1,Aleipata Itupa i Lalo
+16344,Timber,Tourist Fale,15.3,1,Aleipata Itupa i Luga
+16346,Masonry,Outbuilding,21.3,1,Falealili
+16346,Masonry,Residential,64.4,1,Falealili
+16362,Masonry,Residential,118.1,1,Falealili
+16365,Masonry,Residential,92.2,1,Aleipata Itupa i Luga
+16369,Masonry,Residential,133.8,1,Safata
+16396,Masonry,Hotel,548.3,1,Siumu
+16397,Masonry,Education,225.8,1,Falealili
+16402,Masonry,Residential,105.1,1,Vaa o Fonoti
+16412,Timber,Fale,40.9,1,Aleipata Itupa i Lalo
+16415,Timber,Tourist Fale,19.9,1,Lepa
+16419,Masonry,Residential,120.9,1,Aleipata Itupa i Lalo
+16428,Reinforced_Concrete,Religious,643.9,1,Falealili
+16431,Masonry,Residential,136.5,1,Aleipata Itupa i Lalo
+16432,Masonry,Outbuilding,58.6,1,Safata
+16436,Masonry,Outbuilding,25.4,1,Aleipata Itupa i Lalo
+16437,Masonry,Residential,80.8,1,Vaa o Fonoti
+16440,Masonry,Residential,156.0,1,Safata
+16444,Masonry,Residential,83.3,1,Aleipata Itupa i Lalo
+16447,Masonry,Residential,145.6,1,Aleipata Itupa i Luga
+16451,Masonry,Residential,235.5,1,Aleipata Itupa i Lalo
+16456,Masonry,Hotel,81.2,2,Lotofaga
+16460,Masonry,Outbuilding,17.6,1,Vaa o Fonoti
+16462,Masonry,Outbuilding,139.8,1,Falealili
+16468,Masonry,Outbuilding,30.8,1,Aleipata Itupa i Lalo
+16470,Masonry,Residential,343.4,1,Lepa
+16473,Masonry,Outbuilding,22.3,1,Aleipata Itupa i Lalo
+16475,Masonry,Outbuilding,51.7,1,Siumu
+16480,Masonry,Residential,248.7,1,Falealili
+16484,Masonry,Residential,171.7,1,Falealili
+16486,Timber,Fale,41.1,1,Aleipata Itupa i Lalo
+16488,Masonry,Outbuilding,40.9,1,Aleipata Itupa i Lalo
+16488,Masonry,Residential,91.3,1,Vaa o Fonoti
+16493,Masonry,Outbuilding,30.8,1,Safata
+16495,Masonry,Outbuilding,30.1,1,Safata
+16498,Masonry,Outbuilding,76.0,1,Falealili
+16499,Masonry,Residential,149.4,1,Falealili
+16507,Masonry,Residential,417.1,1,Safata
+16508,Masonry,Tourist Fale,35.3,1,Safata
+16518,Masonry,Residential,75.4,1,Anoamaa East
+16519,Masonry,Residential,195.6,1,Falealili
+16521,Timber,Hotel,130.8,3,Siumu
+16535,Masonry,Outbuilding,52.6,1,Safata
+16537,Masonry,Residential,182.8,1,Aleipata Itupa i Lalo
+16544,Masonry,Outbuilding,77.9,1,Siumu
+16549,Timber,Residential,33.0,1,Lepa
+16567,Masonry,Residential,113.3,1,Safata
+16570,Masonry,Outbuilding,51.3,1,Falealili
+16570,Timber,Hotel,40.3,3,Falealili
+16572,Masonry,Outbuilding,94.8,1,Safata
+16583,Masonry,Residential,97.4,1,Vaa o Fonoti
+16585,Masonry,Residential,207.5,1,Falealili
+16586,Masonry,Outbuilding,19.8,1,Vaa o Fonoti
+16592,Masonry,Residential,71.3,1,Anoamaa East
+16593,Timber,Fale,25.0,1,Aleipata Itupa i Lalo
+16596,Masonry,Residential,131.0,1,Falealili
+16606,Masonry,Residential,254.2,1,Siumu
+16611,Masonry,Outbuilding,47.7,1,Safata
+16611,Masonry,Residential,97.7,1,Anoamaa East
+16622,Masonry,Residential,143.2,1,Aleipata Itupa i Luga
+16622,Masonry,Residential,157.4,1,Anoamaa East
+16622,Masonry,Residential,166.8,1,Aleipata Itupa i Lalo
+16631,Masonry,Residential,121.8,1,Safata
+16643,Masonry,Residential,116.7,1,Vaa o Fonoti
+16645,Masonry,Residential,169.9,1,Siumu
+16647,Masonry,Outbuilding,20.6,1,Aleipata Itupa i Lalo
+16647,Masonry,Residential,250.8,1,Vaa o Fonoti
+16650,Masonry,Outbuilding,50.8,1,Vaa o Fonoti
+16653,Masonry,Residential,227.6,1,Falealili
+16656,Masonry,Residential,144.8,1,Siumu
+16659,Masonry,Hotel,53.3,2,Lotofaga
+16660,Masonry,Residential,118.1,1,Vaa o Fonoti
+16670,Masonry,Residential,148.5,1,Siumu
+16670,Masonry,Residential,224.6,1,Falealili
+16672,Timber,Tourist Fale,169.0,1,Siumu
+16678,Masonry,Residential,93.9,1,Falealili
+16679,Masonry,Outbuilding,18.9,1,Aleipata Itupa i Lalo
+16679,Masonry,Residential,199.2,1,Siumu
+16680,Masonry,Commercial,53.5,1,Siumu
+16680,Masonry,Residential,142.2,1,Falealili
+16682,Masonry,Residential,127.1,1,Vaa o Fonoti
+16687,Timber,Hotel,181.1,1,Siumu
+16696,Masonry,Residential,138.3,1,Siumu
+16697,Masonry,Outbuilding,92.8,1,Siumu
+16701,Masonry,Residential,220.7,1,Siumu
+16712,Masonry,Residential,197.3,1,Aleipata Itupa i Luga
+16714,Masonry,Residential,5.0,1,Aleipata Itupa i Lalo
+16720,Masonry,Community,83.3,1,Aleipata Itupa i Luga
+16720,Masonry,Religious,402.4,1,Aleipata Itupa i Lalo
+16722,Masonry,Outbuilding,11.2,1,Falealili
+16726,Masonry,Outbuilding,61.1,1,Safata
+16727,Masonry,Residential,194.4,1,Siumu
+16729,Masonry,Residential,68.2,1,Aleipata Itupa i Lalo
+16738,Masonry,Residential,186.4,1,Siumu
+16738,Masonry,Residential,327.4,1,Vaa o Fonoti
+16738,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+16742,Masonry,Outbuilding,44.9,1,Vaa o Fonoti
+16753,Masonry,Residential,76.1,1,Falealili
+16754,Masonry,Outbuilding,33.5,1,Siumu
+16755,Masonry,Residential,56.8,1,Aleipata Itupa i Lalo
+16765,Masonry,Residential,142.9,1,Siumu
+16765,Masonry,Residential,228.5,1,Safata
+16766,Masonry,Hotel,86.8,2,Lepa
+16770,Masonry,Residential,117.8,1,Lepa
+16771,Masonry,Residential,178.5,1,Aleipata Itupa i Luga
+16781,Masonry,Community,575.6,1,Falealili
+16784,Masonry,Outbuilding,87.9,1,Safata
+16785,Masonry,Education,745.1,1,Falealili
+16787,Masonry,Outbuilding,29.6,1,Siumu
+16789,Masonry,Outbuilding,103.9,1,Siumu
+16795,Masonry,Hotel,782.6,2,Siumu
+16802,Masonry,Residential,98.7,1,Safata
+16807,Masonry,Residential,90.1,1,Aleipata Itupa i Luga
+16809,Masonry,Residential,110.1,1,Falealili
+16813,Masonry,Residential,110.1,1,Safata
+16814,Masonry,Outbuilding,109.5,1,Falealili
+16820,Masonry,Outbuilding,33.9,1,Siumu
+16820,Masonry,Residential,93.9,1,Falealili
+16821,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+16823,Masonry,Residential,198.0,1,Lepa
+16829,Masonry,Outbuilding,25.9,1,Siumu
+16829,Timber,Fale,54.8,1,Aleipata Itupa i Lalo
+16830,Masonry,Residential,327.5,1,Siumu
+16831,Masonry,Outbuilding,52.3,1,Siumu
+16837,Masonry,Outbuilding,75.6,1,Aleipata Itupa i Lalo
+16838,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+16839,Masonry,Residential,194.9,1,Safata
+16843,Masonry,Religious,84.9,1,Vaa o Fonoti
+16849,Masonry,Fale,87.0,1,Falealili
+16850,Masonry,Residential,206.6,1,Aleipata Itupa i Luga
+16850,Masonry,Residential,216.1,1,Aleipata Itupa i Luga
+16855,Masonry,Residential,184.0,1,Safata
+16857,Masonry,Outbuilding,21.1,1,Aleipata Itupa i Lalo
+16858,Masonry,Outbuilding,79.0,1,Siumu
+16875,Masonry,Residential,147.5,1,Falealili
+16904,Masonry,Outbuilding,26.3,1,Vaa o Fonoti
+16905,Masonry,Residential,232.6,1,Safata
+16914,Masonry,Residential,316.6,1,Siumu
+16930,Masonry,Residential,133.5,1,Safata
+16931,Masonry,Residential,85.1,1,Vaa o Fonoti
+16932,Masonry,Community,627.3,1,Falealili
+16932,Masonry,Residential,147.5,1,Falealili
+16934,Masonry,Residential,75.5,1,Lepa
+16951,Masonry,Outbuilding,64.9,1,Siumu
+16957,Masonry,Outbuilding,118.3,1,Safata
+16967,Masonry,Outbuilding,72.6,1,Safata
+16971,Masonry,Residential,98.5,1,Siumu
+16971,Timber,Outbuilding,13.8,1,Aleipata Itupa i Lalo
+16973,Masonry,Residential,99.4,1,Falealili
+16993,Masonry,Outbuilding,58.9,1,Vaa o Fonoti
+16995,Masonry,Outbuilding,52.9,1,Lepa
+16998,Masonry,Residential,91.4,1,Lepa
+17001,Timber,Outbuilding,32.5,1,Falealili
+17005,Masonry,Outbuilding,28.6,1,Falealili
+17006,Masonry,Fale,53.6,1,Aleipata Itupa i Lalo
+17020,Timber,Fale,47.8,1,Falealili
+17021,Timber,Outbuilding,19.7,1,Falealili
+17025,Masonry,Residential,136.3,1,Vaa o Fonoti
+17030,Timber,Outbuilding,63.6,1,Lepa
+17032,Masonry,Outbuilding,14.7,1,Falealili
+17033,Masonry,Residential,223.6,1,Falealili
+17034,Masonry,Outbuilding,78.6,1,Aleipata Itupa i Lalo
+17046,Masonry,Outbuilding,20.5,1,Falealili
+17046,Timber,Tourist Fale,12.2,1,Siumu
+17047,Masonry,Hotel,101.1,3,Lotofaga
+17059,Masonry,Outbuilding,51.2,1,Siumu
+17071,Masonry,Residential,145.4,1,Vaa o Fonoti
+17075,Masonry,Outbuilding,36.1,1,Falealili
+17084,Masonry,Residential,150.3,1,Safata
+17087,Masonry,Commercial,65.8,1,Siumu
+17091,Masonry,Residential,159.5,1,Siumu
+17098,Masonry,Outbuilding,35.6,1,Aleipata Itupa i Luga
+17105,Timber,Outbuilding,10.0,1,Aleipata Itupa i Luga
+17107,Masonry,Fale,145.7,1,Aleipata Itupa i Luga
+17110,Masonry,Residential,368.2,1,Aleipata Itupa i Luga
+17115,Masonry,Residential,107.6,1,Siumu
+17115,Masonry,Residential,257.1,1,Safata
+17130,Masonry,Outbuilding,32.8,1,Lotofaga
+17134,Masonry,Residential,109.0,1,Safata
+17137,Masonry,Outbuilding,57.8,1,Falealili
+17137,Masonry,Residential,148.2,1,Safata
+17145,Timber,Fale,83.4,1,Aleipata Itupa i Lalo
+17146,Masonry,Residential,212.9,1,Lotofaga
+17155,Masonry,Residential,130.6,1,Falealili
+17156,Masonry,Outbuilding,19.6,1,Vaa o Fonoti
+17159,Masonry,Hotel,46.5,2,Lotofaga
+17163,Masonry,Hotel,524.6,3,Aleipata Itupa i Luga
+17170,Masonry,Outbuilding,50.0,1,Aleipata Itupa i Luga
+17174,Masonry,Outbuilding,83.6,1,Lotofaga
+17176,Masonry,Residential,291.0,1,Siumu
+17183,Masonry,Residential,132.0,1,Falealili
+17187,Masonry,Outbuilding,79.5,1,Safata
+17191,Masonry,Outbuilding,73.3,1,Aleipata Itupa i Lalo
+17196,Masonry,Residential,147.2,1,Aleipata Itupa i Lalo
+17197,Masonry,Outbuilding,23.8,1,Anoamaa East
+17209,Timber,Residential,235.0,1,Aleipata Itupa i Lalo
+17211,Masonry,Religious,478.4,1,Aleipata Itupa i Luga
+17211,Masonry,Residential,310.0,1,Aleipata Itupa i Lalo
+17212,Masonry,Residential,341.3,1,Lotofaga
+17215,Reinforced Concrete,Residential,299.5,1,Siumu
+17216,Masonry,Residential,79.2,1,Siumu
+17220,Masonry,Residential,1049.0,1,Siumu
+17220,Masonry,Residential,88.5,1,Lotofaga
+17228,Masonry,Residential,146.5,1,Aleipata Itupa i Lalo
+17229,Masonry,Hotel,451.0,1,Siumu
+17239,Masonry,Residential,157.3,1,Falealili
+17244,Masonry,Residential,121.2,1,Falealili
+17248,Masonry,Residential,377.9,1,Safata
+17258,Masonry,Residential,167.1,1,Falealili
+17261,Masonry,Commercial,65.2,2,Siumu
+17261,Masonry,Outbuilding,34.5,1,Vaa o Fonoti
+17261,Timber,Tourist Fale,115.7,1,Siumu
+17263,Timber,Hotel,216.9,2,Siumu
+17267,Masonry,Residential,108.6,1,Vaa o Fonoti
+17272,Masonry,Residential,41.1,1,Falealili
+17274,Masonry,Fale,90.1,1,Safata
+17279,Timber,Tourist Fale,23.0,1,Falealili
+17282,Masonry,Residential,121.7,1,Falealili
+17299,Masonry,Residential,127.9,1,Aleipata Itupa i Luga
+17299,Masonry,Residential,231.1,1,Siumu
+17300,Masonry,Outbuilding,21.1,1,Falealili
+17305,Masonry,Outbuilding,146.8,1,Siumu
+17307,Masonry,Outbuilding,76.3,1,Safata
+17308,Masonry,Community - not verified,273.0,1,Safata
+17309,Masonry,Outbuilding,35.3,1,Vaa o Fonoti
+17311,Masonry,Residential,330.1,1,Siumu
+17316,Timber,Tourist Fale,11.1,1,Lepa
+17321,Masonry,Residential,115.8,1,Aleipata Itupa i Lalo
+17328,Masonry,Outbuilding,26.8,1,Lepa
+17333,Timber,Tourist Fale,19.9,1,Falealili
+17335,Timber,Hotel,20.2,3,Falealili
+17339,Masonry,Residential,163.9,1,Safata
+17341,Masonry,Residential,71.3,1,Falealili
+17342,Timber,Tourist Fale,11.1,1,Lepa
+17345,Masonry,Residential,167.0,1,Aleipata Itupa i Lalo
+17348,Masonry,Residential,105.1,1,Aleipata Itupa i Luga
+17356,Masonry,Residential,75.3,1,Falealili
+17363,Masonry,Outbuilding,94.1,1,Safata
+17367,Masonry,Residential,194.9,1,Safata
+17371,Masonry,Outbuilding,57.6,1,Falealili
+17383,Masonry,Outbuilding,19.6,1,Anoamaa East
+17383,Masonry,Outbuilding,97.2,1,Lepa
+17384,Timber,Outbuilding,27.2,1,Aleipata Itupa i Lalo
+17393,Masonry,Residential,93.4,1,Siumu
+17400,Masonry,Residential,130.0,1,Safata
+17400,Masonry,Residential,163.9,1,Aleipata Itupa i Luga
+17408,Masonry,Outbuilding,29.4,1,Falealili
+17408,Masonry,Outbuilding,97.9,1,Safata
+17411,Timber,Outbuilding,83.0,1,Aleipata Itupa i Lalo
+17421,Masonry,Residential,113.8,1,Aleipata Itupa i Lalo
+17421,Masonry,Residential,389.1,1,Siumu
+17424,Masonry,Outbuilding,48.4,1,Vaa o Fonoti
+17430,Masonry,Outbuilding,11.1,1,Lepa
+17435,Masonry,Hotel,129.7,1,Aleipata Itupa i Luga
+17435,Masonry,Residential,101.5,1,Falealili
+17441,Timber,Outbuilding,58.6,1,Lotofaga
+17452,Masonry,Residential,282.3,1,Aleipata Itupa i Lalo
+17457,Masonry,Outbuilding,38.3,1,Safata
+17466,Masonry,Residential,427.9,1,Vaa o Fonoti
+17473,Masonry,Residential,42.5,1,Vaa o Fonoti
+17475,Masonry,Outbuilding,19.5,1,Aleipata Itupa i Lalo
+17496,Masonry,Outbuilding,67.0,1,Falealili
+17497,Masonry,Residential,140.3,1,Vaa o Fonoti
+17506,Masonry,Residential,166.1,1,Aleipata Itupa i Luga
+17520,Masonry,Outbuilding,107.7,1,Safata
+17523,Masonry,Residential,181.1,1,Lepa
+17530,Timber,Hotel,18.8,2,Lepa
+17535,Masonry,Outbuilding,62.7,1,Siumu
+17539,Masonry,Fale,81.0,1,Safata
+17540,Masonry,Outbuilding,36.9,1,Lepa
+17543,Timber,Tourist Fale,17.0,1,Aleipata Itupa i Luga
+17548,Masonry,Residential,119.0,1,Vaa o Fonoti
+17551,Masonry,Residential,99.3,1,Lepa
+17561,Timber,Tourist Fale,11.1,1,Lepa
+17590,Timber,Tourist Fale,34.7,1,Lepa
+17609,Masonry,Residential,140.7,1,Siumu
+17610,Timber,Fale,20.2,1,Falealili
+17614,Masonry,Outbuilding,65.6,1,Siumu
+17627,Masonry,Outbuilding,105.5,1,Siumu
+17628,Masonry,Residential,510.2,1,Vaa o Fonoti
+17630,Masonry,Residential,235.0,1,Safata
+17647,Masonry,Residential,171.0,1,Falealili
+17654,Masonry,Residential,204.8,1,Anoamaa East
+17655,Masonry,Outbuilding,136.0,1,Siumu
+17658,Masonry,Outbuilding,58.3,1,Siumu
+17661,Masonry,Outbuilding,101.0,1,Safata
+17675,Masonry,Residential,639.4,1,Siumu
+17675,Timber,Outbuilding,18.4,1,Aleipata Itupa i Lalo
+17677,Masonry,Residential,278.4,1,Safata
+17689,Masonry,Residential,166.9,1,Safata
+17694,Masonry,Residential,60.1,1,Aleipata Itupa i Luga
+17703,Masonry,Residential,242.6,1,Falealili
+17707,Masonry,Outbuilding,36.8,1,Vaa o Fonoti
+17721,Masonry,Residential,323.3,1,Falealili
+17725,Masonry,Residential,139.2,1,Vaa o Fonoti
+17729,Masonry,Residential,157.4,1,Safata
+17735,Masonry,Outbuilding,61.2,1,Siumu
+17735,Masonry,Outbuilding,75.0,1,Safata
+17738,Timber,Outbuilding,9.2,1,Aleipata Itupa i Lalo
+17742,Masonry,Outbuilding,24.2,1,Safata
+17747,Timber,Outbuilding,70.7,1,Aleipata Itupa i Lalo
+17751,Masonry,Hotel,242.5,1,Siumu
+17775,Steel,Industrial,206.3,1,
+17781,Timber,Hotel,75.3,2,Falealili
+17785,Masonry,Outbuilding,43.3,1,Siumu
+17790,Masonry,Residential,91.6,1,Aleipata Itupa i Lalo
+17794,Masonry,Outbuilding,36.6,1,Safata
+17795,Masonry,Commercial,64.9,2,Siumu
+17798,Masonry,Residential,66.1,1,Aleipata Itupa i Lalo
+17799,Masonry,Residential,195.6,1,Falealili
+17804,Masonry,Outbuilding,57.2,1,Siumu
+17808,Masonry,Residential,76.9,1,Falealili
+17818,Masonry,Residential,258.1,1,Aleipata Itupa i Lalo
+17820,Masonry,Residential,254.9,1,Siumu
+17830,Masonry,Residential,323.0,1,Aleipata Itupa i Lalo
+17832,Masonry,Outbuilding,73.0,1,Falealili
+17836,Masonry,Outbuilding,62.1,1,Siumu
+17841,Masonry,Residential,167.5,1,Aleipata Itupa i Lalo
+17848,Masonry,Residential,271.8,1,Vaa o Fonoti
+17864,Masonry,Residential,120.1,1,Safata
+17864,Masonry,Residential,99.0,1,Lotofaga
+17865,Masonry,Residential,600.7,1,Siumu
+17869,Masonry,Education,1057.1,1,Falealili
+17874,Masonry,Outbuilding,27.0,1,Vaa o Fonoti
+17886,Masonry,Religious,641.9,1,Aleipata Itupa i Lalo
+17891,Masonry,Residential,97.8,1,Falealili
+17900,Masonry,Residential,195.8,1,Falealili
+17901,Masonry,Outbuilding,109.3,1,Siumu
+17906,Masonry,Hotel,151.6,2,Aleipata Itupa i Luga
+17910,Masonry,Residential,109.1,1,Anoamaa East
+17911,Masonry,Hotel,47.9,3,Aleipata Itupa i Luga
+17914,Masonry,Residential,112.2,1,Lotofaga
+17915,Masonry,Residential,136.1,1,Safata
+17919,Masonry,Outbuilding,52.5,1,Vaa o Fonoti
+17920,Masonry,Fale,85.7,1,Aleipata Itupa i Luga
+17920,Timber,Outbuilding,42.3,1,Aleipata Itupa i Lalo
+17921,Masonry,Residential,85.8,1,Aleipata Itupa i Luga
+17939,Masonry,Outbuilding,63.9,1,Safata
+17940,Timber,Tourist Fale,11.1,1,Lepa
+17942,Masonry,Outbuilding,31.7,1,Falealili
+17945,Masonry,Outbuilding,107.7,1,Falealili
+17946,Masonry,Residential,208.6,1,Falealili
+17952,Masonry,Residential,150.7,1,Anoamaa East
+17954,Timber,Fale,167.1,1,Falealili
+17968,Masonry,Residential,189.0,1,Siumu
+17976,Masonry,Outbuilding,109.3,1,Siumu
+17979,Masonry,Residential,173.5,1,Falealili
+17981,Masonry,Outbuilding,82.3,1,Safata
+17981,Timber,Tourist Fale,20.7,1,Lepa
+17983,Masonry,Residential,179.5,1,Falealili
+17991,Masonry,Outbuilding,141.9,1,Siumu
+17992,Timber,Outbuilding,23.7,1,Falealili
+18013,Masonry,Outbuilding,41.3,1,Safata
+18016,Masonry,Hotel,53.7,2,Falealili
+18036,Masonry,Residential,860.3,1,Aleipata Itupa i Lalo
+18039,Masonry,Commercial,76.0,3,Siumu
+18060,Reinforced Concrete,Religious,584.5,1,Safata
+18064,Masonry,Outbuilding,31.6,1,Safata
+18068,Masonry,Outbuilding,56.2,1,Anoamaa East
+18070,Timber,Fale,32.0,1,Falealili
+18074,Timber,Hotel,18.8,2,Lepa
+18077,Masonry,Fale,138.8,1,Siumu
+18088,Masonry,Residential,97.4,1,Vaa o Fonoti
+18091,Masonry,Outbuilding,51.6,1,Aleipata Itupa i Lalo
+18091,Masonry,Residential,278.5,1,Aleipata Itupa i Luga
+18092,Timber,Outbuilding,47.3,1,Aleipata Itupa i Luga
+18093,Masonry,Outbuilding,69.3,1,Siumu
+18098,Timber,Tourist Fale,18.7,1,Aleipata Itupa i Luga
+18107,Masonry,Hotel,114.9,3,Lepa
+18110,Masonry,Residential,282.6,1,Aleipata Itupa i Lalo
+18111,Masonry,Residential,149.6,1,Siumu
+18112,Masonry,Residential,233.7,1,Aleipata Itupa i Luga
+18120,Masonry,Outbuilding,13.6,1,Vaa o Fonoti
+18124,Masonry,Community,942.0,1,Falealili
+18133,Timber,Tourist Fale,18.8,1,Lepa
+18134,Masonry,Residential,130.7,1,Safata
+18140,Steel,Industrial,51.6,1,
+18142,Masonry,Hotel,51.6,2,Falealili
+18150,Masonry,Residential,268.8,1,Aleipata Itupa i Lalo
+18157,Masonry,Outbuilding,58.5,1,Siumu
+18158,Masonry,Residential,152.7,1,Safata
+18172,Masonry,Fale,101.0,1,Lepa
+18173,Masonry,Residential,276.6,1,Safata
+18183,Masonry,Residential,155.2,1,Safata
+18185,Masonry,Residential,92.3,1,Lepa
+18190,Masonry,Outbuilding,33.0,1,Falealili
+18198,Masonry,Residential,168.3,1,Aleipata Itupa i Lalo
+18200,Masonry,Hotel,59.6,2,Lotofaga
+18201,Masonry,Residential,79.0,1,Vaa o Fonoti
+18236,Masonry,Residential,165.7,1,Aleipata Itupa i Lalo
+18239,Masonry,Residential,152.0,1,Siumu
+18240,Masonry,Residential,145.5,1,Falealili
+18251,Masonry,Outbuilding,16.9,1,Vaa o Fonoti
+18254,Masonry,Outbuilding,39.3,1,Falealili
+18259,Timber,Outbuilding,17.5,1,Falealili
+18261,Masonry,Residential,123.4,1,Safata
+18268,Masonry,Outbuilding,102.3,1,Safata
+18269,Masonry,Hotel,31.8,1,Aleipata Itupa i Luga
+18276,Masonry,Outbuilding,31.9,1,Falealili
+18277,Masonry,Residential,121.4,1,Siumu
+18284,Timber,Residential,87.6,1,Aleipata Itupa i Lalo
+18287,Masonry,Residential,169.1,1,Vaa o Fonoti
+18294,Masonry,Hotel,48.1,2,Aleipata Itupa i Luga
+18308,Masonry,Residential,188.2,1,Aleipata Itupa i Lalo
+18316,Masonry,Residential,99.3,1,Safata
+18319,Masonry,Residential,157.9,1,Safata
+18319,Masonry,Residential,193.3,1,Siumu
+18322,Masonry,Residential,223.3,1,Aleipata Itupa i Lalo
+18325,Masonry,Residential,345.2,1,Falealili
+18334,Masonry,Outbuilding,30.3,1,Safata
+18334,Masonry,Residential,109.4,1,Aleipata Itupa i Luga
+18334,Masonry,Residential,118.7,1,Falealili
+18336,Masonry,Outbuilding,151.5,1,Vaa o Fonoti
+18346,Timber,Hotel,20.2,2,Falealili
+18351,Masonry,Residential,252.3,1,Falealili
+18351,Masonry,Residential,258.2,1,Safata
+18356,Masonry,Residential,32.1,1,Falealili
+18357,Masonry,Residential,159.2,1,Siumu
+18366,Masonry,Outbuilding,59.2,1,Vaa o Fonoti
+18371,Timber,Outbuilding,55.6,1,Aleipata Itupa i Lalo
+18379,Timber,Hotel,99.6,1,
+18383,Masonry,Outbuilding,124.2,1,Safata
+18386,Masonry,Residential,166.3,1,Safata
+18389,Masonry,Residential,63.1,1,Vaa o Fonoti
+18413,Timber,Outbuilding,17.9,1,Falealili
+18417,Masonry,Residential,123.0,1,Safata
+18420,Masonry,Residential,80.8,1,Falealili
+18422,Masonry,Residential,89.5,1,Siumu
+18423,Masonry,Residential,127.4,1,Safata
+18430,Timber,Outbuilding,22.2,1,Aleipata Itupa i Lalo
+18439,Masonry,Residential,277.8,1,Safata
+18454,Masonry,Residential,174.6,1,Safata
+18456,Masonry,Fale,57.5,1,Aleipata Itupa i Lalo
+18458,Masonry,Religious - not verified,249.9,1,Siumu
+18459,Masonry,Fale,37.9,1,Vaa o Fonoti
+18459,Masonry,Outbuilding,25.5,1,Vaa o Fonoti
+18463,Masonry,Residential,104.5,1,Anoamaa East
+18465,Masonry,Residential,783.6,1,Siumu
+18482,Masonry,Residential,235.8,1,Vaa o Fonoti
+18492,Masonry,Residential,77.4,1,Lepa
+18511,Masonry,Residential,51.0,1,Vaa o Fonoti
+18519,Masonry,Outbuilding,50.6,1,Safata
+18520,Masonry,Outbuilding,20.9,1,Vaa o Fonoti
+18531,Timber,Outbuilding,18.7,1,Aleipata Itupa i Luga
+18532,Masonry,Residential,70.4,1,Vaa o Fonoti
+18537,Masonry,Outbuilding,30.4,1,Falealili
+18549,Masonry,Residential,146.7,1,Aleipata Itupa i Lalo
+18552,Masonry,Residential,212.2,1,Falealili
+18557,Masonry,Outbuilding,66.1,1,Safata
+18559,Masonry,Residential,176.6,1,Safata
+18567,Timber,Fale,34.5,1,Aleipata Itupa i Luga
+18572,Masonry,Residential,164.1,1,Falealili
+18573,Masonry,Outbuilding,35.3,1,Safata
+18577,Masonry,Fale,81.2,1,Aleipata Itupa i Lalo
+18587,Masonry,Residential,312.2,1,Aleipata Itupa i Lalo
+18588,Masonry,Residential,199.5,1,Falealili
+18589,Timber,Outbuilding,28.4,1,Aleipata Itupa i Luga
+18594,Timber,Fale,23.2,1,Lepa
+18596,Masonry,Religious,1300.9,1,Aleipata Itupa i Lalo
+18601,Masonry,Fale,78.6,1,Safata
+18605,Masonry,Outbuilding,160.7,1,Falealili
+18612,Masonry,Outbuilding,58.7,1,Falealili
+18614,Masonry,Hotel,74.1,2,Lotofaga
+18619,Masonry,Hotel,79.1,1,Lotofaga
+18637,Timber,Fale,40.9,1,Aleipata Itupa i Lalo
+18644,Masonry,Residential,144.1,1,Anoamaa East
+18645,Masonry,Residential,127.3,1,Siumu
+18647,Masonry,Residential,274.3,1,Safata
+18649,Masonry,Hotel,34.1,2,Safata
+18651,Masonry,Residential,176.0,1,Falealili
+18657,Masonry,Outbuilding,68.5,1,Siumu
+18657,Masonry,Outbuilding,74.4,1,Siumu
+18659,Masonry,Residential,259.8,1,Falealili
+18662,Masonry,Religious,116.9,1,Lepa
+18662,Masonry,Residential,476.7,1,Aleipata Itupa i Lalo
+18667,Masonry,Residential,305.1,1,Siumu
+18672,Masonry,Outbuilding,108.2,1,Siumu
+18673,Masonry,Residential,44.2,1,Falealili
+18679,Masonry,Outbuilding,21.5,1,Vaa o Fonoti
+18684,Masonry,Residential,136.4,1,Falealili
+18691,Masonry,Outbuilding,30.7,1,Lotofaga
+18693,Masonry,Outbuilding,89.7,1,Falealili
+18701,Timber,Hotel,23.0,1,Falealili
+18702,Masonry,Residential,161.2,1,Siumu
+18709,Timber,Outbuilding,19.1,1,Falealili
+18713,Masonry,Residential,85.8,1,Aleipata Itupa i Lalo
+18721,Masonry,Outbuilding,271.3,1,Safata
+18724,Masonry,Hotel,27.4,1,Lepa
+18731,Masonry,Outbuilding,45.6,1,Falealili
+18736,Masonry,Outbuilding,72.2,1,Falealili
+18738,Masonry,Residential,114.6,1,Falealili
+18753,Masonry,Residential,188.5,1,Siumu
+18759,Masonry,Outbuilding,93.9,1,Siumu
+18768,Masonry,Residential,120.5,1,Vaa o Fonoti
+18770,Timber,Outbuilding,27.0,1,Falealili
+18772,Masonry,Residential,52.5,1,Falealili
+18772,Masonry,Residential,76.4,1,Aleipata Itupa i Luga
+18777,Masonry,Residential,161.7,1,Lepa
+18786,Masonry,Residential,147.4,1,Lepa
+18789,Timber,Outbuilding,45.8,1,Aleipata Itupa i Luga
+18795,Masonry,Fale,64.3,1,Falealili
+18798,Masonry,Outbuilding,96.0,1,Siumu
+18799,Masonry,Residential,102.4,1,Vaa o Fonoti
+18799,Reinforced Concrete,Religious,583.7,1,Siumu
+18800,Masonry,Outbuilding,52.3,1,Siumu
+18802,Masonry,Outbuilding,16.3,1,Falealili
+18803,Masonry,Residential,311.1,1,Safata
+18805,Masonry,Outbuilding,78.7,1,Safata
+18808,Masonry,Residential,89.6,1,Lepa
+18810,Timber,Outbuilding,28.5,1,Aleipata Itupa i Lalo
+18812,Masonry,Residential,142.4,1,Lepa
+18817,Timber,Hotel,98.6,3,Falealili
+18828,Timber,Tourist Fale,496.8,1,Siumu
+18843,Masonry,Residential,155.7,1,Vaa o Fonoti
+18844,Masonry,Outbuilding,73.0,1,Siumu
+18851,Masonry,Residential,123.6,1,Falealili
+18853,Masonry,Commercial,63.8,1,Siumu
+18855,Masonry,Outbuilding,53.0,1,Aleipata Itupa i Lalo
+18880,Masonry,Outbuilding,274.4,1,Safata
+18885,Masonry,Residential,159.9,1,Aleipata Itupa i Luga
+18886,Masonry,Residential,179.5,1,Falealili
+18891,Masonry,Outbuilding,64.7,1,Siumu
+18897,Timber,Tourist Fale,8.0,1,Siumu
+18899,Masonry,Residential,131.5,1,Aleipata Itupa i Lalo
+18907,Masonry,Residential,145.6,1,Siumu
+18928,Masonry,Residential,218.9,1,Siumu
+18930,Masonry,Outbuilding,36.9,1,Falealili
+18932,Masonry,Residential,187.4,1,Siumu
+18936,Timber,Hotel,50.1,2,Lotofaga
+18938,Masonry,Outbuilding,185.2,1,Falealili
+18940,Masonry,Residential,254.3,1,Siumu
+18943,Masonry,Outbuilding,41.9,1,Falealili
+18944,Masonry,Residential,214.1,1,Safata
+18950,Masonry,Religious,399.6,1,Vaa o Fonoti
+18954,Masonry,Residential,189.0,1,Siumu
+18957,Masonry,Residential,175.2,1,Siumu
+18966,Masonry,Outbuilding,17.9,1,Aleipata Itupa i Luga
+18969,Masonry,Residential,147.0,1,Falealili
+18969,Masonry,Residential,183.2,1,Safata
+18973,Masonry,Residential,172.9,1,Aleipata Itupa i Luga
+18976,Masonry,Residential,116.6,1,Lepa
+18979,Masonry,Outbuilding,28.2,1,Falealili
+18987,Masonry,Outbuilding,13.1,1,Aleipata Itupa i Lalo
+18988,Masonry,Residential,231.4,1,Falealili
+18995,Masonry,Outbuilding,38.9,1,Falealili
+19002,Masonry,Residential,123.7,1,Siumu
+19007,Masonry,Residential,194.6,1,Lepa
+19009,Masonry,Residential,245.2,1,Falealili
+19011,Masonry,Residential,167.9,1,Falealili
+19011,Masonry,Tourist Fale,30.8,1,Safata
+19037,Masonry,Residential,202.8,1,Falealili
+19042,Masonry,Residential,93.3,1,Lotofaga
+19072,Timber,Residential,113.7,1,Falealili
+19078,Masonry,Community,85.7,1,Aleipata Itupa i Luga
+19079,Masonry,Community - not verified,382.2,1,Aleipata Itupa i Lalo
+19081,Masonry,Outbuilding,29.9,1,Safata
+19091,Masonry,Outbuilding,40.6,1,Safata
+19091,Masonry,Residential,148.0,1,Safata
+19093,Masonry,Residential,205.9,1,Aleipata Itupa i Luga
+19096,Masonry,Outbuilding,53.1,1,Aleipata Itupa i Lalo
+19098,Masonry,Outbuilding,82.8,1,Siumu
+19108,Masonry,Residential,344.6,1,Aleipata Itupa i Lalo
+19113,Masonry,Residential,73.4,1,Falealili
+19116,Masonry,Residential,113.3,1,Aleipata Itupa i Lalo
+19118,Masonry,Residential,63.3,1,Falealili
+19118,Masonry,Residential,83.5,1,Falealili
+19143,Masonry,Fale,20.7,1,Aleipata Itupa i Lalo
+19147,Masonry,Outbuilding,51.6,1,Falealili
+19149,Masonry,Outbuilding,11.7,1,Aleipata Itupa i Lalo
+19155,Timber,Tourist Fale,10.3,1,Siumu
+19162,Masonry,Outbuilding,126.4,1,Siumu
+19163,Masonry,Residential,136.7,1,Siumu
+19169,Masonry,Religious,550.5,1,Aleipata Itupa i Lalo
+19173,Masonry,Outbuilding,44.2,1,Safata
+19176,Masonry,Outbuilding,73.2,1,Aleipata Itupa i Lalo
+19181,Masonry,Outbuilding,247.4,1,Siumu
+19191,Masonry,Residential,153.3,1,Safata
+19195,Timber,Outbuilding,18.0,1,Aleipata Itupa i Lalo
+19204,Masonry,Outbuilding,142.5,1,Falealili
+19208,Masonry,Residential,433.3,1,Siumu
+19210,Timber,Outbuilding,32.9,1,Vaa o Fonoti
+19227,Masonry,Community,515.1,1,Falealili
+19228,Masonry,Outbuilding,119.1,1,Safata
+19228,Masonry,Outbuilding,33.6,1,Falealili
+19228,Masonry,Residential,273.0,1,Safata
+19247,Masonry,Outbuilding,52.4,1,Safata
+19261,Masonry,Residential,101.2,1,Falealili
+19265,Masonry,Residential,37.7,1,Vaa o Fonoti
+19266,Masonry,Residential,101.5,1,Falealili
+19271,Masonry,Religious,1034.8,1,Falealili
+19279,Masonry,Outbuilding,43.2,1,Aleipata Itupa i Lalo
+19279,Timber,Outbuilding,20.2,1,Aleipata Itupa i Lalo
+19281,Masonry,Residential,175.6,1,Falealili
+19283,Masonry,Outbuilding,114.3,1,Siumu
+19295,Masonry,Residential,130.4,1,Vaa o Fonoti
+19307,Masonry,Residential,293.7,1,Siumu
+19310,Masonry,Outbuilding,28.1,1,Falealili
+19320,Masonry,Outbuilding,102.1,1,Siumu
+19321,Masonry,Residential,131.8,1,Safata
+19332,Timber,Residential,151.7,1,Lotofaga
+19335,Masonry,Residential,292.1,1,Safata
+19338,Masonry,Outbuilding,50.6,1,Falealili
+19338,Masonry,Outbuilding,56.9,1,Vaa o Fonoti
+19340,Masonry,Residential,175.8,1,Aleipata Itupa i Lalo
+19350,Masonry,Residential,126.5,1,Falealili
+19361,Masonry,Outbuilding,49.9,1,Aleipata Itupa i Lalo
+19361,Masonry,Residential,258.7,1,Safata
+19368,Masonry,Residential,155.2,1,Aleipata Itupa i Lalo
+19369,Masonry,Residential,329.7,1,Aleipata Itupa i Luga
+19382,Timber,Hotel,50.4,2,Falealili
+19387,Masonry,Residential,345.5,1,Aleipata Itupa i Lalo
+19392,Masonry,Outbuilding,40.5,1,Vaa o Fonoti
+19393,Masonry,Education,129.4,1,Aleipata Itupa i Lalo
+19396,Masonry,Residential,259.7,1,Safata
+19400,Masonry,Residential,122.0,1,Siumu
+19405,Masonry,Residential,93.3,1,Falealili
+19411,Masonry,Hotel,193.8,3,Siumu
+19416,Reinforced_Concrete,Religious,780.6,1,Falealili
+19419,Masonry,Residential,514.9,1,Safata
+19432,Masonry,Residential,253.9,1,Safata
+19440,Timber,Outbuilding,13.8,1,Aleipata Itupa i Lalo
+19445,Masonry,Outbuilding,37.2,1,Aleipata Itupa i Lalo
+19457,Timber,Tourist Fale,19.9,1,Lepa
+19461,Masonry,Religious,240.5,1,Anoamaa East
+19473,Masonry,Outbuilding,37.2,1,Vaa o Fonoti
+19474,Masonry,Residential,216.2,1,Aleipata Itupa i Luga
+19476,Masonry,Hotel,57.0,2,Falealili
+19479,Masonry,Residential,224.5,1,Aleipata Itupa i Luga
+19480,Masonry,Residential,240.4,1,Siumu
+19485,Masonry,Residential,343.0,1,Falealili
+19486,Masonry,Outbuilding,56.7,1,Safata
+19488,Masonry,Residential,125.7,1,Vaa o Fonoti
+19489,Masonry,Outbuilding,23.4,1,Lepa
+19492,Masonry,Outbuilding,37.6,1,Aleipata Itupa i Luga
+19497,Masonry,Residential,95.7,1,Falealili
+19500,Masonry,Residential,61.5,1,Vaa o Fonoti
+19500,Timber,Outbuilding,23.0,1,Falealili
+19504,Masonry,Hotel,566.0,2,Lotofaga
+19507,Masonry,Residential,248.0,1,Safata
+19512,Timber,Residential,243.2,1,Safata
+19520,Masonry,Residential,102.9,1,Aleipata Itupa i Lalo
+19526,Masonry,Outbuilding,31.9,1,Falealili
+19527,Masonry,Outbuilding,41.0,1,Safata
+19527,Masonry,Residential,126.7,1,Aleipata Itupa i Lalo
+19530,Masonry,Commercial,56.6,1,Siumu
+19531,Masonry,Outbuilding,87.6,1,Safata
+19532,Masonry,Outbuilding,106.4,1,Siumu
+19539,Masonry,Residential,85.4,1,Aleipata Itupa i Lalo
+19544,Masonry,Outbuilding,14.6,1,Falealili
+19551,Masonry,Hotel,332.3,3,Lepa
+19554,Masonry,Outbuilding,46.8,1,Safata
+19574,Masonry,Outbuilding,61.9,1,Safata
+19581,Masonry,Outbuilding,38.5,1,Vaa o Fonoti
+19585,Masonry,Hotel,17.0,3,Falealili
+19592,Masonry,Residential,125.6,1,Safata
+19614,Masonry,Residential,103.1,1,Falealili
+19616,Masonry,Outbuilding,96.3,1,Safata
+19616,Masonry,Residential,229.0,1,Aleipata Itupa i Luga
+19618,Masonry,Outbuilding,17.6,1,Aleipata Itupa i Lalo
+19619,Masonry,Residential,125.6,1,Aleipata Itupa i Luga
+19628,Masonry,Residential,128.5,1,Siumu
+19632,Masonry,Residential,187.4,1,Falealili
+19634,Masonry,Commercial,57.6,3,Siumu
+19641,Masonry,Residential,180.7,1,Safata
+19643,Masonry,Outbuilding,91.7,1,Siumu
+19645,Masonry,Outbuilding,50.7,1,Vaa o Fonoti
+19647,Timber,Outbuilding,38.6,1,Vaa o Fonoti
+19666,Masonry,Commercial,545.0,1,Aleipata Itupa i Luga
+19681,Masonry,Outbuilding,70.4,1,Falealili
+19696,Masonry,Outbuilding,103.3,1,Falealili
+19700,Masonry,Outbuilding,61.5,1,Lotofaga
+19703,Masonry,Outbuilding,41.9,1,Siumu
+19706,Masonry,Outbuilding,33.1,1,Falealili
+19707,Masonry,Outbuilding,126.4,1,Siumu
+19707,Masonry,Residential,188.1,1,Aleipata Itupa i Luga
+19712,Masonry,Outbuilding,17.0,1,Falealili
+19716,Masonry,Residential,490.2,1,Aleipata Itupa i Luga
+19730,Masonry,Outbuilding,25.4,1,Falealili
+19749,Timber,Hotel,23.0,2,Falealili
+19751,Masonry,Residential,205.5,1,Falealili
+19756,Masonry,Outbuilding,102.0,1,Siumu
+19758,Masonry,Residential,110.0,1,Siumu
+19776,Masonry,Residential,90.9,1,Aleipata Itupa i Luga
+19780,Masonry,Outbuilding,54.1,1,Safata
+19786,Masonry,Outbuilding,24.7,1,Aleipata Itupa i Luga
+19786,Timber,Residential,87.4,1,Aleipata Itupa i Luga
+19789,Masonry,Residential,77.9,1,Aleipata Itupa i Lalo
+19793,Masonry,Outbuilding,39.0,1,Safata
+19795,Masonry,Residential,365.9,1,Lotofaga
+19809,Masonry,Residential,95.0,1,Siumu
+19810,Masonry,Residential,128.1,1,Aleipata Itupa i Lalo
+19812,Masonry,Outbuilding,51.4,1,Aleipata Itupa i Lalo
+19819,Masonry,Residential,154.5,1,Aleipata Itupa i Lalo
+19821,Masonry,Community,93.7,1,Aleipata Itupa i Luga
+19826,Masonry,Residential,247.0,1,Siumu
+19831,Masonry,Residential,268.6,1,Siumu
+19835,Timber,Outbuilding,34.1,1,Aleipata Itupa i Lalo
+19836,Masonry,Residential,304.7,1,Siumu
+19837,Masonry,Residential,166.2,1,Falealili
+19842,Timber,Outbuilding,16.3,1,Falealili
+19847,Masonry,Hotel,80.3,3,Lotofaga
+19849,Masonry,Residential,169.0,1,Aleipata Itupa i Lalo
+19853,Masonry,Residential,103.4,1,Vaa o Fonoti
+19855,Masonry,Residential,226.4,1,Safata
+19860,Masonry,Outbuilding,52.5,1,Falealili
+19860,Masonry,Outbuilding,68.8,1,Lepa
+19860,Masonry,Residential,194.4,1,Safata
+19864,Masonry,Outbuilding,105.1,1,Safata
+19872,Masonry,Outbuilding,94.6,1,Vaa o Fonoti
+19873,Masonry,Residential,155.4,1,Lepa
+19876,Masonry,Hotel,31.8,2,Aleipata Itupa i Luga
+19879,Masonry,Residential,269.7,1,Lepa
+19882,Masonry,Residential,427.1,1,Siumu
+19889,Masonry,Outbuilding,38.2,1,Aleipata Itupa i Luga
+19894,Masonry,Commercial,58.4,2,Siumu
+19898,Masonry,Outbuilding,47.1,1,Anoamaa East
+19921,Masonry,Outbuilding,9.8,1,Falealili
+19932,Masonry,Outbuilding,87.7,1,Safata
+19932,Masonry,Residential,217.4,1,Falealili
+19934,Masonry,Residential,258.1,1,Aleipata Itupa i Lalo
+19941,Masonry,Community,443.4,1,Falealili
+19942,Masonry,Outbuilding,68.5,1,Vaa o Fonoti
+19946,Masonry,Outbuilding,102.2,1,Safata
+19948,Masonry,Residential,108.2,1,Falealili
+19960,Masonry,Outbuilding,75.7,1,Falealili
+19962,Masonry,Outbuilding,34.1,1,Aleipata Itupa i Lalo
+19964,Masonry,Residential,125.6,1,Lepa
+19965,Masonry,Residential,204.3,1,Aleipata Itupa i Lalo
+19973,Masonry,Tourist Fale,30.1,1,Safata
+19978,Masonry,Residential,228.2,1,Vaa o Fonoti
+19980,Masonry,Outbuilding,69.7,1,Safata
+19980,Timber,Hotel,20.2,2,Falealili
+19991,Masonry,Residential,127.5,1,Safata
+19999,Masonry,Outbuilding,49.9,1,Siumu

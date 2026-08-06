@@ -1,0 +1,21 @@
+in
+ ->
+group(by: region,
+     select: {
+          *,
+          $aggregate as aggregated,
+          bucket_range(pick: hazard,
+                       select: {
+                          $aggregate as aggregated,
+                       },
+                       range: $report_depths) as Depth
+     })
+ -> select({ region.*, aggregated.*, Depth }) as regional_total
+
+regional_total
+ -> sort([Region], direction: ['ASC'])
+ -> save(name: 'regional-summary', format: 'csv')
+
+regional_total
+ -> save(name: 'regional-exposure', format: 'geojson')
+

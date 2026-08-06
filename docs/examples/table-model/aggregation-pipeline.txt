@@ -1,0 +1,19 @@
+input($relation)
+ ->
+filter($filter)
+ ->
+select({ *, sample_closest(*, to_coverage(bookmark($aggregation_layer)), $buffer_distance) as region })
+ ->
+select({
+          exposure: $exposure_attributes,
+          hazard: $hazard_attributes,
+          region: region
+       })
+ ->
+select({ *, $function as consequence })
+ ->
+group(by: $aggregate_by,
+      select: {
+        *,
+        $aggregate_function
+      })  as event_impact

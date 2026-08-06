@@ -1,0 +1,9 @@
+input($relation)
+ ->
+select({
+          exposure: $exposure_attributes,
+          hazard: $hazard_attributes
+       })
+ ->
+select({ *, $function as consequence }) as event_loss_table
+

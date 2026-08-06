@@ -1,0 +1,4 @@
+input(value: { range(1, 4) as count })
+-> unnest(count)
+-> select({ 'Hello, world x' + str(count) as greeting })
+

@@ -1,0 +1,8 @@
+in
+ ->
+select({ *, sample_closest(geometry: exposure, coverage: bookmark($hazard)) as hazard})
+ ->
+select({ *, if_null(hazard > $min_depth, false) as exposed })
+ ->
+select({ *, if(exposed, float($exposed_value), 0.0) as exposed_value }) as out
+

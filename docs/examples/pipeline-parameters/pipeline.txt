@@ -1,0 +1,66 @@
+# load the hazard coverages.
+# hazards.csv actually contains the filepaths of the actual hazard input data to use.
+# This allows us to combine multiple hazard events into the one model
+input('data/hazards.csv', name: 'event')
+  ->
+# here we load each hazard file as a dynamic bookmark (the bookmark ID is the filename).
+select({
+         *,
+         bookmark(event.filename, { }, type: 'coverage(floating)') as coverage
+       })
+  ->
+# we end up with 3 rows of hazard coverages - these represent our hazard event data,
+# which we will then join to our 'buildings' exposure-layer
+join.rhs
+
+
+input('buildings', name: 'building')
+  ->
+# Cross-join, so we match every building to every hazard event
+join(on: true).lhs
+  ->
+select({
+         *,
+         sample_closest(building, coverage) as hazard
+       })
+  ->
+# Here our model parameters get passed to our function as the 3rd argument - an 'options' struct
+select({
+         *,
+         kaiju_stomp(building, hazard, {
+                        steel_resilience: $steel_resilience,
+                        stone_resilience: $stone_resilience,
+                        concrete_resilience: $concrete_resilience
+                    }) as consequence
+       })
+  ->
+# save the raw-results of *only* the damaged buildings
+filter(consequence.damage > 0) as results
+  ->
+select({
+         event.id as event_id,
+         building.name as building_name,
+         building.construction as building_construction,
+         hazard,
+         consequence,
+       })
+  ->
+sort('event_id')
+  ->
+save('results.csv')
+
+# save a second output where we group the damage by event ID
+results
+  ->
+# here we 'bucket' the results based on the building construction type.
+# This gives us a per-event breakdown based on the construction material·
+group(by: event.id,
+      select: {
+                event.id as event_id,
+                bucket(pick: bucket -> bucket = building.construction,
+                       select: { sum(consequence.damage) as total },
+                       buckets: { stone: 'stone', steel: 'steel', concrete: 'concrete' }) as damage
+      }) as by_construction
+                       
+      
+

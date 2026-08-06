@@ -1,0 +1,18 @@
+input($exposure_layer, name: 'exposure')
+  ->
+# load the atmospheric data as a nearest neighbour coverage
+select({
+  *,
+  to_coverage(
+    bookmark('atmospheric'),
+    options: {index: 'nearest_neighbour', nearest_neighbour_max_distance: $nn_cutoff}
+  ) as nn_coverage
+})
+  ->
+# sample to find the nearest atmospheric data to our exposure-layer element-at-risk
+select({
+  exposure,
+  sample_centroid(exposure, nn_coverage) as sampled
+})
+  ->
+save('results')

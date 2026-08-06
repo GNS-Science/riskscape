@@ -1,0 +1,25 @@
+input('sea-temperature-pivot')
+  ->
+# now turn the readings into a coverage that we can sample
+group(select: {
+  to_coverage(*,
+    options: {index: 'nearest_neighbour', nearest_neighbour_max_distance: $nn_cutoff}
+  ) as nn_coverage
+})
+  ->
+# join the coverage to the exposure-layer
+exposure_and_sea_temp.rhs
+
+
+input($exposure_layer, name: 'exposure')
+  ->
+join(on: true) as exposure_and_sea_temp
+  ->
+select({
+  exposure,
+  sample_centroid(exposure, nn_coverage).readings as readings
+})
+  ->
+unnest(readings)
+  ->
+save('results')

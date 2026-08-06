@@ -1,0 +1,33 @@
+input(relation: 'Buildings_SE_Upolu.shp', name: 'exposure') as exposures_input
+ -> select({exposure}) as exposures
+ -> join(rhs: <- hazards) as exposures_join_hazards
+ -> select({*, sample_closest(geometry: exposure, coverage: hazard) as hazard}) as "sample_hazard_layer"
+ -> join(rhs: <- areas) as exposures_join_areas
+ -> select({*, sample_closest(geometry: exposure, coverage: area, buffer-distance: 1000) as area})
+ -> select({*, probability: map(hazard, hv -> Samoa_Building_Fragility(exposure, hv))})
+ # randomly assign a damage state based on the probabilities, i.e. likelihood of being in
+ # one damage state and not others
+ -> select({*, if(is_null(hazard), '0: Not damaged',
+                            random_choice(['0: Not damaged', '1: Light', '2: Minor', '3: Moderate', '4: Severe', '5: Collapse'],
+                              weights: [1.0 - probability.DS_1,
+                                        probability.DS_1 - probability.DS_2,
+                                        probability.DS_2 - probability.DS_3,
+                                        probability.DS_3 - probability.DS_4,
+                                        probability.DS_4 - probability.DS_5,
+                                        probability.DS_5])) as DamageState})
+ -> select({*}) as event_impact_table
+
+input(value: bookmark('MaxEnv_All_Scenarios_50m.tif'), name: 'hazard') as hazards_input
+ -> select({hazard as hazard}) as hazards
+
+input(relation: 'Samoa_constituencies.shp', name: 'area') as areas_input
+ -> group({to_coverage(area) as area}) as areas
+
+event_impact_table
+ -> select({*}) as "report_event-impact"
+ -> group(by: {area.Region as Region}, select: {Region, count(hazard) as Number_Exposed, count(exposure) as Total_buildings, bucket(pick: b -> b = DamageState, select: {count(*)}, buckets: {None: '0: Not damaged', Light: '1: Light', Minor: '2: Minor', Moderate: '3: Moderate', Severe: '4: Severe', Collapse: '5: Collapse'}) as Damage})
+ -> sort([Region], direction: ['ASC'])
+ -> save(name: 'summary', format: 'csv') as save_summary
+ 
+ event_impact_table
+ -> save(name: 'event-impact') as save_event_impact

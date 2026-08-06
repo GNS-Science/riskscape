@@ -1,0 +1,19 @@
+input(relation: 'data/Buildings_SE_Upolu.shp', name: 'exposure') as exposures_input
+ -> select({exposure}) as exposures
+ -> join(on: true) as exposures_join_hazards
+ -> select({*, sample_intersections(geometry: exposure, coverage: hazard) as hazard_sampled}) as "sample_hazard_layer"
+ -> select({*, map(hazard_sampled, h -> h.sampled) as hazard})
+ -> select({*, map(hazard_sampled, geom -> measure(geom) / measure(exposure)) as exposed_ratio})
+ -> select({*}) as sampled
+ -> select({*, hazard: mean(hazard)})
+ -> select({*, consequence: map(hazard, hv -> Samoa_Building_Fragility_DS5(exposure, hv))})
+ -> select({*}) as raw_results
+ -> select({*}) as event_impact_table
+input(value: bookmark('data/MaxEnv_All_Scenarios_10m.tif'), name: 'hazard') as hazards_input
+ -> select({hazard as hazard}) as hazards
+ -> exposures_join_hazards.rhs
+event_impact_table
+ -> select({*}) as "report_event-impact"
+ -> filter(hazard > 0)
+ -> group(by: {'Total' as Results}, select: {Results, count(exposure) as Number_Exposed, percentiles(consequence, [25, 50, 75]) as DS5_Percentile})
+ -> save(name: 'event-impact') as "save_event-impact"

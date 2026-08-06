@@ -1,0 +1,53 @@
+input('data/Buildings_SE_Upolu.shp', name: 'exposure')
+  ->
+select({
+        *,
+        bookmark('data/MaxEnv_All_Scenarios_50m.tif') as hazard_coverage
+       })
+  ->
+select({
+        *,
+        sample_centroid(exposure, hazard_coverage) as hazard
+       })
+  ->
+select({
+        *,
+        to_coverage(bookmark('data/Samoa_constituencies.shp')) as area_coverage
+       })
+  ->
+select({
+        *,
+        # Make sure that every building gets matched to a region
+        sample_closest(exposure, area_coverage, buffer-distance: 5000) as area
+       })
+  ->
+select({
+        *,
+        # Change the `consequence` to either 'Exposed' or 'Not Exposed' in the results
+        if(is_null(hazard), 'Not exposed', 'Exposed') as consequence
+       })
+  ->
+select({
+        exposure,
+        hazard,
+        area.Region,
+        consequence
+       }) as event_impact_table
+  ->
+# Add a group step so that the results are grouped by consequence and construction type
+group(by: { consequence, exposure.Cons_Frame },
+      select: {
+          consequence,
+          Cons_Frame,
+          # Use `count(*)` to count the number of buildings in each group
+          count(*) as "Number of buildings",
+          # Include the median hazard depth for each group
+          round(median(hazard) * 100) as Median_depth_cm
+      })
+  ->
+# Add a sort step so that the 'Exposed' results are all grouped together
+sort(by: consequence)
+  ->
+# change the filename that the results are saved in to be regional-exposure.csv
+save('regional-exposure.csv')
+

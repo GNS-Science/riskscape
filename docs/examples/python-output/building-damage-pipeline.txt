@@ -1,0 +1,58 @@
+input(relation: 'data/Buildings_SE_Upolu.shp', name: 'exposure', limit: $input_exposures_rows) as exposures_input
+ -> select({exposure, $choropleth }) # suppress surplus parameter warning
+ -> select({exposure}) as exposures
+ -> join(on: true) as exposures_join_hazards
+ -> select({*, sample_closest(geometry: exposure, coverage: hazard) as hazard}) as "sample_hazard_layer"
+ -> join(on: true) as exposures_join_areas
+ -> select({*, sample_closest(geometry: exposure, coverage: area, buffer-distance: 1000) as area})
+ -> select({*, probability: map(hazard, hv -> Samoa_Building_Fragility(exposure, hv))})
+ # randomly assign a damage state based on the probabilities, i.e. likelihood of being in
+ # one damage state and not others
+ -> select({*, if_then_else(is_null(hazard), '0: Not damaged',
+                            random_choice(['0: Not damaged', '1: Light', '2: Minor', '3: Moderate', '4: Severe', '5: Collapse'],
+                              weights: [1.0 - probability.DS_1,
+                                        probability.DS_1 - probability.DS_2,
+                                        probability.DS_2 - probability.DS_3,
+                                        probability.DS_3 - probability.DS_4,
+                                        probability.DS_4 - probability.DS_5,
+                                        probability.DS_5])) as DamageState})
+ -> select({*}) as event_impact_table
+
+input(value: bookmark('data/MaxEnv_All_Scenarios_50m.tif'), name: 'hazard') as hazards_input
+ -> select({hazard as hazard}) as hazards
+ -> exposures_join_hazards.rhs
+
+input(relation: 'data/Samoa_constituencies.shp', name: 'area') as areas_input
+ -> group({to_coverage(area) as area}) as areas
+ -> exposures_join_areas.rhs
+
+event_impact_table
+ -> select({*}) as "report_event-impact"
+ -> group(by: { area.Region, area.the_geom as geometry },
+          select: {
+                *,
+                {
+                    count(hazard) as Exposed,
+                    count(exposure) as Total_buildings,
+                    count(DamageState != '0: Not damaged') as Damaged,
+                    mean(hazard) as Mean_Depth,
+                } as Stats,
+                bucket(pick: b -> b = DamageState,
+                       select: {count(*)},
+                       buckets: {None: '0: Not damaged', Light: '1: Light', Minor: '2: Minor', Moderate: '3: Moderate', Severe: '4: Severe', Collapsed: '5: Collapse'}
+                      ) as Damage
+          })
+ -> select({
+             Region, geometry, Stats.*,
+             # Change Damage.<state>.count to <state>
+             map_struct(Damage, el -> el.count).*
+           }) as regional_impact
+ -> sort([Region], direction: ['ASC'])
+ -> save(name: 'summary', format: 'csv') as save_summary
+
+ event_impact_table
+ -> save(name: 'event-impact') as save_event_impact
+
+regional_impact
+ -> save(name: 'regional-impact', format: 'geojson') as save_regional_impact
+

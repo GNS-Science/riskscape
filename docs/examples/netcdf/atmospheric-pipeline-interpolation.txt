@@ -1,0 +1,54 @@
+input($exposure_layer, name: 'exposure')
+  ->
+# load the atmospheric data as a nearest neighbour coverage
+select({
+  *,
+  to_coverage(
+    bookmark('atmospheric'),
+    options: {index: 'nearest_neighbour', nearest_neighbour_max_distance: $nn_cutoff}
+  ) as nn_coverage
+})
+  ->
+select({
+  *,
+  # Apply a mapping to values from the coverage so that the samples include only the `tas`
+  # value - this makes it simpler to interpolate
+  map_coverage(nn_coverage, val -> val.tas) as nn_coverage
+})  
+  ->
+# sample the 3 closest values to our element-at-risk
+select({
+  *,
+  sample_n_closest(exposure, nn_coverage, 3) as samples
+})
+->
+# Triangulate them based on the element's location.  `triangulate` uses barycentric
+# coordinate maths to weight the values from the 3 samples 'fairly'
+select({
+  exposure,
+  # include the raw sampled values for comparison
+  map_struct(
+    list_to_columns(samples, { prefix: 'sample_', number: 3 }),
+    v -> round(v.sampled, 3)
+  ).*,
+  # perform triangulation
+  round(triangulate(exposure, samples), 3) as triangulated,
+  # and show it next to the centroid - again, for ease of comparison
+  round(sample_centroid(exposure, nn_coverage), 3) as closest,
+
+})
+  ->
+  sort(exposure.name) as sorted
+  ->
+save('results', format: 'geopackage')
+
+
+sorted
+->
+select({
+  exposure.name as name,
+  remove_attr(*, 'exposure').*
+})
+->
+save('results-table', format: 'csv')
+

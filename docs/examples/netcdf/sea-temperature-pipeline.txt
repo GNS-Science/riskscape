@@ -1,0 +1,33 @@
+input('sea-temperature')
+  ->
+# group the sea temperature readings by their spatial location (geom) so that
+# we end up with a list of readings. Each list item corresponds to a time entry
+group(by: geom,
+      select: {
+        geom,
+        to_list(*) as readings
+})
+  ->
+# now turn the readings into a coverage that we can sample
+group(select: {
+  to_coverage(*,
+    options: {index: 'nearest_neighbour', nearest_neighbour_max_distance: $nn_cutoff}
+  ) as nn_coverage
+})
+  ->
+# join the coverage to the exposure-layer
+exposure_and_sea_temp.rhs
+
+
+input($exposure_layer, name: 'exposure')
+  ->
+join(on: true) as exposure_and_sea_temp
+  ->
+select({
+  exposure,
+  sample_centroid(exposure, nn_coverage).readings as readings
+})
+  ->
+unnest(readings)
+  ->
+save('results')

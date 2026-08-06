@@ -1,0 +1,23 @@
+input('atmospheric')
+  ->
+group(select: {
+  to_coverage(*,
+    options: {index: 'nearest_neighbour', nearest_neighbour_max_distance: $nn_cutoff}
+  ) as nn_coverage
+})
+  ->
+# join this coverage to our exposure-layer
+exposures_atmospheric_join.rhs
+
+
+input($exposure_layer, name: 'exposure')
+  ->
+join(on:true) as exposures_atmospheric_join
+  ->
+# sample to find the nearest atmospheric data to our exposure-layer element-at-risk
+select({
+  exposure,
+  sample_centroid(exposure, nn_coverage) as sampled
+})
+  ->
+save('results')

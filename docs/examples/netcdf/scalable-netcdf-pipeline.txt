@@ -1,0 +1,37 @@
+input($exposure_layer, name: 'exposure')
+  ->
+# build a site-mesh nearest neighbour coverage for the NetCDF data
+select({
+    *,
+    to_coverage(bookmark('site-mesh'),
+        options: {index: 'nearest_neighbour', nearest_neighbour_max_distance: $nn_cutoff}
+    ) as site_mesh_coverage
+})
+  ->
+# match each exposure-layer element-at-risk to the nearest site-mesh point
+select({
+    exposure,
+    sample_centroid(exposure, site_mesh_coverage) as sampled
+})
+  ->
+# group together any exposures that correspond to the same point in the site-mesh
+group(by: sampled.geom,
+    select: {
+        sampled.geom as exposure_site,
+        to_list(exposure) as exposures
+})
+  ->
+# join the exposure-layer to the NetCDF data
+exposure_and_sea_temp.rhs
+
+
+# 'main' pipeline that loads the NetCDF data
+input('sea-temperature', name: 'sea_temp')
+  ->
+# match our NetCDF data to our exposure-layer
+# (we've already matched the exposure data to a site in our NetCDF data, so we know the geometry will match exactly)
+join(on: sea_temp.geom = exposure_site) as exposure_and_sea_temp
+  ->
+unnest(exposures)
+  ->
+save('results')

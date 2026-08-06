@@ -1,0 +1,4 @@
+in -> select({ *, range(1, number + 1) as count })
+-> unnest(count)
+-> select({ 'Hello, ' + who + ' x' + str(count) as greeting })
+
