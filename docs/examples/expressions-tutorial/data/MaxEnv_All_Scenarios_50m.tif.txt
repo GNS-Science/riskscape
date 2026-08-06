@@ -1,0 +1,30 @@
+
+  Axis-order  : long,lat / X,Y / Easting,Northing
+  Coverage    : GridTypedCoverage[type=Floating, coverage=SparseTiffCoverage["MaxEnv_All_Scenarios_50m", GeneralBounds[(420000.0, 8443000.0), (458080.0, 8454040.0)], DefaultProjectedCRS["WGS 84 / UTM zone 2S"]]
+│   RenderedSampleDimension("GRAY_INDEX":[-99999.0 ... -99999.0])
+│     ‣ Category("No data":[-99999.0 ... -99999.0])
+└ Image=RenderedOp["ImageRead"]
+]
+  CRS code    : EPSG:32702
+  CRS (full)  : PROJCS["WGS 84 / UTM zone 2S", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", -171.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9996], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 10000000.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","32702"]]
+  Bounds      : EPSG:32702 [420000.0 : 458080.0 East, 8443000.0 : 8454040.0 North] (original)
+  Bounds      : EPSG:4326 [-171.7411 : -171.3882 East, -14.0835 : -13.9829 North]

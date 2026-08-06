@@ -1,0 +1,20 @@
+
+  Attributes  :
+    the_geom[MultiPolygon[crs=EPSG:4326]]
+    fid[Integer]
+    NAME_1[Text]
+    Region[Text]
+  Axis-order  : long,lat / X,Y / Easting,Northing
+  CRS code    : EPSG:4326
+  CRS (full)  : GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+  Summarizing...
+  Row count   : 43
+  Bounds      : EPSG:4326 [-172.8041 : -171.3977 East, -14.0772 : -13.4398 North] (original)

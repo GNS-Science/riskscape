@@ -1,0 +1,16 @@
+
+  Attributes  :
+    the_geom[Geom]
+    fid[Text]
+    Region[Text]
+  Axis-order  : N/A
+  CRS code    : Generic cartesian 2D
+  CRS (full)  : LOCAL_CS["Generic cartesian 2D", 
+  LOCAL_DATUM["Unknown", 0], 
+  UNIT["m", 1.0], 
+  AXIS["x", EAST], 
+  AXIS["y", NORTH]]
+  Summarizing...
+  Row count   : 44
+  Bounds      : Generic cartesian 2D [-172.8041 : -171.3975 East, -14.0775 : -13.4378 North] (original)
+  Bounds      : EPSG:4326 [-172.8041 : -171.3975 East, -14.0775 : -13.4378 North]
