@@ -11,8 +11,6 @@ https://engine-docs.sites.riskscape.nz/case-studies/devora.html
 ## Quickstart
 
 To run these models requires:
-- The beta plugin is enabled
-https://engine-docs.sites.riskscape.nz/reference/config/settings.html#plugins
 - RiskScape is setup to use CPython
 https://engine-docs.sites.riskscape.nz/reference/python/cpython.html#configuring-cpython-support-in-riskscape
 - A Koordinates secret is configured in order to use the LINZ layers

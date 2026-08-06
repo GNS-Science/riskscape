@@ -1,15 +1,8 @@
 # input the exposure layer
-subpipeline('input-exposures.txt', {
-    exposures: $exposures,
-    segment_m: $segment_m,
-    exposure_filter: $exposure_filter
-})
+subpipeline('input-exposures.txt')
  ->
 # add in the hazard event data
-subpipeline('hazard-scenario.txt', {
-    scenario: $scenario,
-    grid_resolution: $grid_resolution
-})
+subpipeline('hazard-scenario.txt')
  ->
 # spatially match the exposure against the combined volcanic hazard-layer
 # for each event in the eruption sequence
@@ -26,6 +19,6 @@ select({
        }) as event_impact
  ->
 # save the model results
-subpipeline('report-results.txt', { impact_state_type: $impact_state_type }) as results
+subpipeline('report-results.txt') as results
 
 
