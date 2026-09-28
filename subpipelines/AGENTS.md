@@ -32,6 +32,20 @@ of these files first before fetching them from GitHub.
 | Example models | https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/main/subpipelines/examples/project.ini |
 | Built-in functions reference | https://engine-docs.sites.riskscape.nz/reference/functions.html#built-in-functions |
 
+A markdown guide to the subpipeline library is also available via the below links.
+This contains the same descriptions as in the above INI files, however, parameters and
+their descriptions are listed for each subpipeline.
+
+| File | URL |
+|------|-----|
+| Library index | https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/main/subpipelines/docs/README.md |
+| Input subpipelines | https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/main/subpipelines/docs/input.md |
+| Sampling subpipelines | https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/main/subpipelines/docs/sampling.md |
+| Analysis subpipelines | https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/main/subpipelines/docs/analysis.md |
+| Reporting subpipelines | https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/main/subpipelines/docs/reporting.md |
+| Probabilistic subpipelines | https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/main/subpipelines/docs/probabilistic.md |
+| Geoprocessing subpipelines | https://raw.githubusercontent.com/GNS-Science/riskscape/refs/heads/main/subpipelines/docs/geoprocessing.md |
+
 ## Project import
 
 The `[project]` section must import the subpipeline library. This should be at the top of the `project.ini` file:

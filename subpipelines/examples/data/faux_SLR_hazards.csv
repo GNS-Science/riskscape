@@ -1,0 +1,4 @@
+filepath,SLR,notes
+data/MaxEnv_All_Scenarios_10m.tif,0.0,"These SLR datasets are made-up"
+data/MaxEnv_All_Scenarios_10m.tif,0.1,"It provides an example of how a climate-change pipeline would work"
+data/MaxEnv_All_Scenarios_50m.tif,0.2,"But it lacks realistic climate-change hazard data"

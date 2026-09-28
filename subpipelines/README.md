@@ -25,6 +25,9 @@ such as `probabilistic.ini`, have been used for highly-specific modelling functi
 that falls outside the generic model workflow. Importing the `project.ini`
 will import all subpipelines from these INI files.
 
+You can use [docs/README.md](docs/README.md) to read more about each sub-pipeline does
+and the parameters it accepts. 
+
 The `examples/` sub-directory contains working model examples that use
 the subpipeline library to construct models. Look at `examples/project.ini`
 for an idea of how to organize the subpipelines into models. These example models

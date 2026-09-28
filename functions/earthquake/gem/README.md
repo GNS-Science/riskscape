@@ -24,12 +24,15 @@ The functions only determine the vulnerability component, *not* fragility. In or
 excessive noise of low LRs, by default any LR less than 1e-06 is treated as LR=0, i.e. no damage.
 This can be customized by passing an optional `min_LR` argument to the Python code.
 
+Note that the RiskScape function uses the `v2026.0.0` version (i.e. 'tag' in GitHub)
+of the GEM Global Vulnerability Model.
+
 ## Type information
 
 In order to use a GEM vulnerability function, you need an ID that describes the building type,
 such as 'CR/LWAL+CDH+DUM/H1/RES'. This is based on a set of building characteristics.
-The RiskScape functions use a `GEM_building` type to map between attributes in the building
-input data and a suitable ID supported by the GEM vulnerability model.
+The NZ RiskScape functions use a `GEM_building` type to map between attributes in the building
+input data and a suitable ID supported by the GEM vulnerability model for NZ.
 These building attributes are:
 
 - material: 'W' for wood, 'CR' for reinforced concrete, etc
@@ -47,6 +50,15 @@ all regions.
 The Python code provides some helper code to find the most appropriate ID that is supported by
 the underlying vulnerability model. However, you should check that this behaviour is appropriate for
 the region and risk analysis you are using.
+
+For the exact taxonomy that a country uses, refer to the `Exposure_Summary_Taxonomy.csv` file for
+the country in the [GEM Global Exposure Model](https://github.com/gem/global_exposure_model).
+Note that the United States uses the HAZUS taxonomy rather than the GEM taxonomy values
+(both are lised in the [Exposure_Summary_Taxonomy.csv](https://github.com/gem/global_exposure_model/blob/main/North_America/United_States/summaries/Exposure_Summary_Taxonomy.csv)).
+
+The example RiskScape function for US buildings (`GEM_Vulnerability_US_SA0_3()`) is slightly
+different, in that you need to calculate the specific HAZUS building code *before* you call the function.
+Whereas the NZ functions will try to pick a suitable curve based on the `GEM_building` type.
 
 ## Licensing
 

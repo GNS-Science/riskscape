@@ -1,0 +1,7 @@
+filepath,return_period,scenario,notes
+data/MaxEnv_All_Scenarios_10m.tif,100,A,"These return-periods are made-up"
+data/MaxEnv_All_Scenarios_50m.tif,150,A,"It provides an example of how a probabilistic pipeline would work"
+data/MaxEnv_All_Scenarios_50m.tif,250,A,"But it lacks realistic probabilistic hazard data"
+data/MaxEnv_All_Scenarios_10m.tif,100,B,"These return-periods are made-up"
+data/MaxEnv_All_Scenarios_10m.tif,150,B,"It provides an example of how a probabilistic pipeline would work"
+data/MaxEnv_All_Scenarios_50m.tif,250,B,"But it lacks realistic probabilistic hazard data"
